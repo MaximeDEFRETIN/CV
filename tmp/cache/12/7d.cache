@@ -1,0 +1,36 @@
+a:2:{s:9:"nom_cache";s:38:"127de95bf1fd24749ee89e3abcabec38.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_1776ba38c3fc41bd7d9c1c4e5c752a0a";s:6:"source";s:28:"squelettes/inc-rss-item.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"127de95bf1fd24749ee89e3abcabec38.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:2147:"
+	<item xml:lang="fr">
+		<title>Pr&#233;parateur de commande, Atlantysse</title>
+		<link>http://www.w-l.fr/experiences/article/preparateur-de-commande-atlantysse</link>
+		<guid isPermaLink="true">http://www.w-l.fr/experiences/article/preparateur-de-commande-atlantysse</guid>
+		<dc:date>2019-12-09T13:24:13Z</dc:date>
+		<dc:format>text/html</dc:format>
+		<dc:language>fr</dc:language>
+		<dc:creator>Maxime</dc:creator>
+
+
+
+		<description>&lt;p&gt;Il s'agit de ma premi&#232;re exp&#233;rience en tant que pr&#233;parateur de commande, en juillet 2011, gr&#226;ce &#224; Atlantysse.&lt;/p&gt;
+
+-
+&lt;a href="http://www.w-l.fr/experiences/" rel="directory"&gt;Exp&#233;riences&lt;/a&gt;
+
+
+		</description>
+
+
+ <content:encoded>&lt;div class='rss_chapo'&gt;&lt;p&gt;Atlantysse est une entreprise ayant pour activit&#233; la vente des produits d'hygi&#232;nes et d'entretiens aussi bien aux professionnels qu'aux particuliers.&lt;/p&gt;
+&lt;p&gt;J'ai acquis une premi&#232;re exp&#233;rience en tant que pr&#233;parateur de commande en juillet 2011 gr&#226;ce &#224; Atlantysse. J'ai acquis quelques bases de ce m&#233;tier lors de cette exp&#233;rience.&lt;/p&gt;&lt;/div&gt;
+		&lt;div class='rss_texte'&gt;&lt;p&gt;Apr&#232;s avoir re&#231;u la marchandise command&#233;e, je devais ranger chacun des produits en tenant compte du fait que certain d'entre eux pouvait entra&#238;ner une r&#233;action chimique si il sont mis en contact.&lt;/p&gt;
+&lt;p&gt;Je pr&#233;parais &#233;galement les commandes qui devaient &#234;tre livr&#233;. Je les chargeais ensuite dans le camion suivant l'ordre de livraison. Les derni&#232;res commandes &#224; livrer &#233;taient ranger dans le fond du camions, quand les premi&#232;res commandes &#224; livrer sont mis &#224; l'arri&#232;re du camion pour &#234;tre facilement r&#233;cup&#233;rable une fois arriv&#233; chez le client.&lt;br class='autobr' /&gt;
+J'assistais aux livraisons en d&#233;chargeant les commandes une fois arriv&#233; chez le client.&lt;/p&gt;
+&lt;p&gt;Je me servais d'un diable et d'un transpalette pour faire les t&#226;ches.&lt;/p&gt;&lt;/div&gt;
+		
+		</content:encoded>
+
+
+		
+
+	</item>
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:10:"id_article";s:2:"16";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-18 12:11:37";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:11:37";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584529896;s:2:"gz";b:0;s:3:"sig";i:2007056191;}}

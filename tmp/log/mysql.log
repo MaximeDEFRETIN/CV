@@ -1,0 +1,714 @@
+2019-12-04 09:53:25 127.0.0.1 (pid 1063) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry '3-article/bibliotheque-des-malades' for key 'PRIMARY'
+in /var/www/CV/plugins-dist/urls_etendues/action/editer_url.php L155 [sql_insertq(),url_insert(),declarer_url_arbo(),_generer_url_arbo(),urls_arbo_dist(),generer_url_entite(),BOUCLE_arthtml_d63d27e1216aa6c9003b8f15632e183d(),html_d63d27e1216aa6c9003b8f15632e183d(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),email_notification_article(),notifications_instituerarticle_dist(),inc_notifications_dist(),article_instituer(),objet_instituer(),formulaires_instituer_objet_traiter_dist(),traiter_formulaires_dynamiques()]
+INSERT INTO spip_urls (url,type,id_objet,id_parent,langue,perma,segments) VALUES ('article/bibliotheque-des-malades','article',7,3,'',0,2)
+2019-12-04 10:07:08 127.0.0.1 (pid 4787) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry '3-article/l-association-gaia-sensibilise-les-personne-a' for key 'PRIMARY'
+in /var/www/CV/plugins-dist/urls_etendues/action/editer_url.php L155 [sql_insertq(),url_insert(),declarer_url_arbo(),_generer_url_arbo(),urls_arbo_dist(),generer_url_entite(),BOUCLE_arthtml_d63d27e1216aa6c9003b8f15632e183d(),html_d63d27e1216aa6c9003b8f15632e183d(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),email_notification_article(),notifications_instituerarticle_dist(),inc_notifications_dist(),article_instituer(),objet_instituer(),formulaires_instituer_objet_traiter_dist(),traiter_formulaires_dynamiques()]
+INSERT INTO spip_urls (url,type,id_objet,id_parent,langue,perma,segments) VALUES ('article/l-association-gaia-sensibilise-les-personne-a','article',9,3,'',0,2)
+2019-12-09 14:24:31 127.0.0.1 (pid 1134) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry '1-article/preparateur-de-commande-atlantysse' for key 'PRIMARY'
+in /var/www/CV/plugins-dist/urls_etendues/action/editer_url.php L155 [sql_insertq(),url_insert(),declarer_url_arbo(),_generer_url_arbo(),urls_arbo_dist(),generer_url_entite(),BOUCLE_arthtml_d63d27e1216aa6c9003b8f15632e183d(),html_d63d27e1216aa6c9003b8f15632e183d(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),email_notification_article(),notifications_instituerarticle_dist(),inc_notifications_dist(),article_instituer(),objet_instituer(),formulaires_instituer_objet_traiter_dist(),traiter_formulaires_dynamiques()]
+INSERT INTO spip_urls (url,type,id_objet,id_parent,langue,perma,segments) VALUES ('article/preparateur-de-commande-atlantysse','article',17,1,'',0,2)
+2019-12-09 14:24:49 127.0.0.1 (pid 3651) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry '1-article/preparateur-de-commande-atlantysse' for key 'PRIMARY'
+in /var/www/CV/plugins-dist/urls_etendues/action/editer_url.php L155 [sql_insertq(),url_insert(),declarer_url_arbo(),_generer_url_arbo(),urls_arbo_dist(),generer_url_entite(),BOUCLE_arthtml_d63d27e1216aa6c9003b8f15632e183d(),html_d63d27e1216aa6c9003b8f15632e183d(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),email_notification_article(),notifications_instituerarticle_dist(),inc_notifications_dist(),article_instituer(),objet_instituer(),formulaires_instituer_objet_traiter_dist(),traiter_formulaires_dynamiques()]
+INSERT INTO spip_urls (url,type,id_objet,id_parent,langue,perma,segments) VALUES ('article/preparateur-de-commande-atlantysse','article',18,1,'',0,2)
+2020-02-27 10:06:46 2a01:e0a:4d2:2970:68c8:904e:d25b:8259 (pid 6843) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry '0-rubrique-cachee' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins-dist/urls_etendues/action/editer_url.php L155 [sql_insertq(),url_insert(),declarer_url_arbo(),declarer_url_arbo_rec(),declarer_url_arbo(),_generer_url_arbo(),urls_arbo_dist(),generer_url_entite(),BOUCLE_arthtml_d63d27e1216aa6c9003b8f15632e183d(),html_d63d27e1216aa6c9003b8f15632e183d(),public_parametrer_dist(),public_produire_page_dist(),inclure_page(),evaluer_fond(),recuperer_fond(),email_notification_article(),notifications_instituerarticle_dist(),inc_notifications_dist(),article_instituer(),article_modifier(),objet_modifier(),install_contenus(),serie_alter(),maj_while(),maj_plugin(),escal_upgrade(),spip_plugin_install(),plugins_installer_dist(),installer_plugin(),do_install(),do_action(),one_action(),action_actionner_dist(),traiter_appels_actions()]
+INSERT INTO spip_urls (url,type,id_objet,id_parent,langue,perma,segments) VALUES ('rubrique-cachee','rubrique',6,0,'',0,1)
+2020-02-27 10:06:46 2a01:e0a:4d2:2970:68c8:904e:d25b:8259 (pid 6843) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'escal_base_version_maj_1.0.13' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/ecrire/inc/meta.php L229 [sql_insert(),ecrire_meta(),serie_alter(),maj_while(),maj_plugin(),escal_upgrade(),spip_plugin_install(),plugins_installer_dist(),installer_plugin(),do_install(),do_action(),one_action(),action_actionner_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur) VALUES ('escal_base_version_maj_1.0.13','1')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://WWW.EVELOME.FR/LOCAL/CO-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://WWW.EVELOME.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://NATATION-PRIVAS.FR/LOCA-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://NATATION-PRIVAS.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://QUEL-ASSUREUR.COM/LOCA-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://QUEL-ASSUREUR.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'PANIERS_COMMANDES_QUANTITES_DE-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('PANIERS_COMMANDES_QUANTITES_DECIMAL','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://SPIP.FLO.MARSNET.ORG/LO-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://SPIP.FLO.MARSNET.ORG/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.LOGIS-ARIEGE.COM/L-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.LOGIS-ARIEGE.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://100ACHTZIG-GRAD.DE/SIT-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://100ACHTZIG-GRAD.DE/SITES/HUNDERTACHTZIGGRAD/LOCAL/CONFIG','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.SUD-RECHERCHE.ORG/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.SUD-RECHERCHE.ORG/SPIPPROD/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.LOGIS-ARIEGE.CO-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.LOGIS-ARIEGE.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.NEXSENS.FR/LOCA-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.NEXSENS.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.APETITPAS.FR/SITES-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.APETITPAS.FR/SITES/WWW.APETITPAS.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.TFCM.FR/LOCAL/C-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.TFCM.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://ESCAPEGAME.ENEPE.FR/LOC-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://ESCAPEGAME.ENEPE.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://RMS.AC-MONTPELLIER.FR/R-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://RMS.AC-MONTPELLIER.FR/RMS4/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://AURIGA-VERLAG.COM/SITE-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://AURIGA-VERLAG.COM/SITES/AURIGA/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://SYLVIEDOUEZY.COM/LOCAL/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://SYLVIEDOUEZY.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.EGLISEDELAPETITEFO-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.EGLISEDELAPETITEFOLIE.COM/SITES/WWW.EGLISEDELAPETITE','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://SERVICEPUBLIC.GOUV.SN/E-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://SERVICEPUBLIC.GOUV.SN/E-CITOYEN/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://WWW.ALEXIS-BORDES.COM/L-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://WWW.ALEXIS-BORDES.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://BEHINDERTENBEIRAT-WALD-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://BEHINDERTENBEIRAT-WALDKIRCH.DE/SITES/WALDKIRCH/LOCAL/CON','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:37 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://TBOUFFAND.FREE.FR/SPIP/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://TBOUFFAND.FREE.FR/SPIP/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:38 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://WWW.IPHC.CNRS.FR/LOCAL/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://WWW.IPHC.CNRS.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:38 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://ANDREAS-VENZKE.DE/SITES-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://ANDREAS-VENZKE.DE/SITES/VENZKE/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:38 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.BODIGERFLEURS.COM/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.BODIGERFLEURS.COM/SITES/WWW.BODIGERFLEURS.COM/LOCAL/','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:38 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://API.77.SNUIPP.FR/LOCAL/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://API.77.SNUIPP.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:38 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://KUGELBLITZ-KINDERRAEDE-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://KUGELBLITZ-KINDERRAEDER.DE/SITES/KUGELBLITZ/LOCAL/CONFIG','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:38 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.COMASETJOURET.F-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.COMASETJOURET.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:38 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.PYRENEESLOCATIO-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.PYRENEESLOCATION.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:38 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://STORYTELLING.NETZSACHEN-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://STORYTELLING.NETZSACHEN.DE/SITES/STORYTELLING/LOCAL/CONFI','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:38 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://SAMOENS.OAK-WEBDESIGN.C-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://SAMOENS.OAK-WEBDESIGN.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:38 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.CRFORMATION.FR/LOC-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.CRFORMATION.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-05 12:08:38 157.55.39.19 (pid 30217) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://DEV.SOPHIE-PASCUAL.FR/S-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://DEV.SOPHIE-PASCUAL.FR/SITES/SOPHIE-PASCUAL.FR/LOCAL/CONFI','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:25 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://SAMOENS.OAK-WEBDESIGN.C-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://SAMOENS.OAK-WEBDESIGN.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:25 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://API.77.SNUIPP.FR/LOCAL/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://API.77.SNUIPP.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:25 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.CRFORMATION.FR/LOC-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.CRFORMATION.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:25 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://WWW.ALEXIS-BORDES.COM/L-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://WWW.ALEXIS-BORDES.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:25 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://ANDREAS-VENZKE.DE/SITES-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://ANDREAS-VENZKE.DE/SITES/VENZKE/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:25 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://ESCAPEGAME.ENEPE.FR/LOC-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://ESCAPEGAME.ENEPE.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:25 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.NEXSENS.FR/LOCA-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.NEXSENS.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:25 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://WWW.EVELOME.FR/LOCAL/CO-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://WWW.EVELOME.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:25 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.EGLISEDELAPETITEFO-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.EGLISEDELAPETITEFOLIE.COM/SITES/WWW.EGLISEDELAPETITE','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:25 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://SERVICEPUBLIC.GOUV.SN/E-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://SERVICEPUBLIC.GOUV.SN/E-CITOYEN/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:25 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.LOGIS-ARIEGE.COM/L-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.LOGIS-ARIEGE.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:25 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://100ACHTZIG-GRAD.DE/SIT-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://100ACHTZIG-GRAD.DE/SITES/HUNDERTACHTZIGGRAD/LOCAL/CONFIG','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:25 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://NATATION-PRIVAS.FR/LOCA-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://NATATION-PRIVAS.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:25 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://TBOUFFAND.FREE.FR/SPIP/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://TBOUFFAND.FREE.FR/SPIP/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:25 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://STORYTELLING.NETZSACHEN-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://STORYTELLING.NETZSACHEN.DE/SITES/STORYTELLING/LOCAL/CONFI','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:25 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.SUD-RECHERCHE.ORG/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.SUD-RECHERCHE.ORG/SPIPPROD/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:25 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.APETITPAS.FR/SITES-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.APETITPAS.FR/SITES/WWW.APETITPAS.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:26 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://WWW.IPHC.CNRS.FR/LOCAL/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://WWW.IPHC.CNRS.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:26 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://AURIGA-VERLAG.COM/SITE-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://AURIGA-VERLAG.COM/SITES/AURIGA/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:26 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://QUEL-ASSUREUR.COM/LOCA-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://QUEL-ASSUREUR.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:26 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://DEV.SOPHIE-PASCUAL.FR/S-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://DEV.SOPHIE-PASCUAL.FR/SITES/SOPHIE-PASCUAL.FR/LOCAL/CONFI','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:26 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.INTRANET-CDB.FR/LO-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.INTRANET-CDB.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:26 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.TFCM.FR/LOCAL/C-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.TFCM.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:26 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://BEHINDERTENBEIRAT-WALD-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://BEHINDERTENBEIRAT-WALDKIRCH.DE/SITES/WALDKIRCH/LOCAL/CON','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:26 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://RMS.AC-MONTPELLIER.FR/R-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://RMS.AC-MONTPELLIER.FR/RMS4/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:26 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'PANIERS_COMMANDES_QUANTITES_DE-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('PANIERS_COMMANDES_QUANTITES_DECIMAL','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:26 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.BODIGERFLEURS.COM/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.BODIGERFLEURS.COM/SITES/WWW.BODIGERFLEURS.COM/LOCAL/','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:26 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://KUGELBLITZ-KINDERRAEDE-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://KUGELBLITZ-KINDERRAEDER.DE/SITES/KUGELBLITZ/LOCAL/CONFIG','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:26 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.COMASETJOURET.F-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.COMASETJOURET.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:26 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.LOGIS-ARIEGE.CO-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.LOGIS-ARIEGE.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:26 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://SYLVIEDOUEZY.COM/LOCAL/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://SYLVIEDOUEZY.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:26 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://SPIP.FLO.MARSNET.ORG/LO-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://SPIP.FLO.MARSNET.ORG/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-12 13:38:26 54.36.148.188 (pid 14855) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.PYRENEESLOCATIO-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.PYRENEESLOCATION.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:36 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://ANDREAS-VENZKE.DE/SITES-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://ANDREAS-VENZKE.DE/SITES/VENZKE/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:36 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.NEXSENS.FR/LOCA-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.NEXSENS.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:36 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://QUEL-ASSUREUR.COM/LOCA-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://QUEL-ASSUREUR.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:36 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://KUGELBLITZ-KINDERRAEDE-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://KUGELBLITZ-KINDERRAEDER.DE/SITES/KUGELBLITZ/LOCAL/CONFIG','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:36 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://BEHINDERTENBEIRAT-WALD-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://BEHINDERTENBEIRAT-WALDKIRCH.DE/SITES/WALDKIRCH/LOCAL/CON','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:36 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.CRFORMATION.FR/LOC-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.CRFORMATION.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:36 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://ROCKINVFX.COM/LOCAL/CO-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://ROCKINVFX.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:36 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://NATATION-PRIVAS.FR/LOCA-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://NATATION-PRIVAS.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://WWW.EVELOME.FR/LOCAL/CO-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://WWW.EVELOME.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.BODIGERFLEURS.COM/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.BODIGERFLEURS.COM/SITES/WWW.BODIGERFLEURS.COM/LOCAL/','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.EGLISEDELAPETITEFO-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.EGLISEDELAPETITEFOLIE.COM/SITES/WWW.EGLISEDELAPETITE','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://DEV.SOPHIE-PASCUAL.FR/S-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://DEV.SOPHIE-PASCUAL.FR/SITES/SOPHIE-PASCUAL.FR/LOCAL/CONFI','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://STORYTELLING.NETZSACHEN-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://STORYTELLING.NETZSACHEN.DE/SITES/STORYTELLING/LOCAL/CONFI','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://WWW.IPHC.CNRS.FR/LOCAL/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://WWW.IPHC.CNRS.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://ESCAPEGAME.ENEPE.FR/LOC-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://ESCAPEGAME.ENEPE.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.PYRENEESLOCATIO-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.PYRENEESLOCATION.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://AURIGA-VERLAG.COM/SITE-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://AURIGA-VERLAG.COM/SITES/AURIGA/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.LOGIS-ARIEGE.CO-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.LOGIS-ARIEGE.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://WWW.CYCLELAB.EU/LOCAL/C-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://WWW.CYCLELAB.EU/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.TFCM.FR/LOCAL/C-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.TFCM.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://RMS.AC-MONTPELLIER.FR/R-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://RMS.AC-MONTPELLIER.FR/RMS4/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://WWW.ALEXIS-BORDES.COM/L-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://WWW.ALEXIS-BORDES.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.APETITPAS.FR/SITES-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.APETITPAS.FR/SITES/WWW.APETITPAS.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://100ACHTZIG-GRAD.DE/SIT-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://100ACHTZIG-GRAD.DE/SITES/HUNDERTACHTZIGGRAD/LOCAL/CONFIG','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.LOGIS-ARIEGE.COM/L-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.LOGIS-ARIEGE.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.COMASETJOURET.F-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.COMASETJOURET.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://SYLVIEDOUEZY.COM/LOCAL/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://SYLVIEDOUEZY.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.SUD-RECHERCHE.ORG/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.SUD-RECHERCHE.ORG/SPIPPROD/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://TBOUFFAND.FREE.FR/SPIP/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://TBOUFFAND.FREE.FR/SPIP/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://SERVICEPUBLIC.GOUV.SN/E-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://SERVICEPUBLIC.GOUV.SN/E-CITOYEN/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://SPIP.FLO.MARSNET.ORG/LO-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://SPIP.FLO.MARSNET.ORG/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://SAMOENS.OAK-WEBDESIGN.C-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://SAMOENS.OAK-WEBDESIGN.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://API.77.SNUIPP.FR/LOCAL/-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://API.77.SNUIPP.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-19 15:46:37 2a01:e0a:4d2:2970:904b:f615:aacf:ffb0 (pid 4130) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'PANIERS_COMMANDES_QUANTITES_DE-3.2' for key 'PRIMARY'
+in /home/wlfrbmgsgp/www/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('PANIERS_COMMANDES_QUANTITES_DECIMAL','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://WWW.IPHC.CNRS.FR/LOCAL/-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://WWW.IPHC.CNRS.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.BODIGERFLEURS.COM/-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.BODIGERFLEURS.COM/SITES/WWW.BODIGERFLEURS.COM/LOCAL/','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.NEXSENS.FR/LOCA-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.NEXSENS.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://DEV.SOPHIE-PASCUAL.FR/S-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://DEV.SOPHIE-PASCUAL.FR/SITES/SOPHIE-PASCUAL.FR/LOCAL/CONFI','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://SYLVIEDOUEZY.COM/LOCAL/-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://SYLVIEDOUEZY.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://SPIP.FLO.MARSNET.ORG/LO-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://SPIP.FLO.MARSNET.ORG/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.TFCM.FR/LOCAL/C-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.TFCM.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.PYRENEESLOCATIO-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.PYRENEESLOCATION.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://ESCAPEGAME.ENEPE.FR/LOC-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://ESCAPEGAME.ENEPE.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://AURIGA-VERLAG.COM/SITE-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://AURIGA-VERLAG.COM/SITES/AURIGA/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://STORYTELLING.NETZSACHEN-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://STORYTELLING.NETZSACHEN.DE/SITES/STORYTELLING/LOCAL/CONFI','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://WWW.ALEXIS-BORDES.COM/L-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://WWW.ALEXIS-BORDES.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.LOGIS-ARIEGE.CO-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.LOGIS-ARIEGE.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://WWW.EVELOME.FR/LOCAL/CO-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://WWW.EVELOME.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.EGLISEDELAPETITEFO-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.EGLISEDELAPETITEFOLIE.COM/SITES/WWW.EGLISEDELAPETITE','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://ANDREAS-VENZKE.DE/SITES-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://ANDREAS-VENZKE.DE/SITES/VENZKE/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.APETITPAS.FR/SITES-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.APETITPAS.FR/SITES/WWW.APETITPAS.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://100ACHTZIG-GRAD.DE/SIT-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://100ACHTZIG-GRAD.DE/SITES/HUNDERTACHTZIGGRAD/LOCAL/CONFIG','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:05 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://NATATION-PRIVAS.FR/LOCA-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://NATATION-PRIVAS.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:06 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.CRFORMATION.FR/LOC-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.CRFORMATION.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:06 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.LOGIS-ARIEGE.COM/L-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.LOGIS-ARIEGE.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:06 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://API.77.SNUIPP.FR/LOCAL/-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://API.77.SNUIPP.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:06 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://PREPROD.COMASETJOURET.F-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://PREPROD.COMASETJOURET.FR/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:06 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://WWW.SUD-RECHERCHE.ORG/-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://WWW.SUD-RECHERCHE.ORG/SPIPPROD/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:06 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://SAMOENS.OAK-WEBDESIGN.C-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://SAMOENS.OAK-WEBDESIGN.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:06 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://SERVICEPUBLIC.GOUV.SN/E-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://SERVICEPUBLIC.GOUV.SN/E-CITOYEN/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:06 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://TBOUFFAND.FREE.FR/SPIP/-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://TBOUFFAND.FREE.FR/SPIP/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:06 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTP://RMS.AC-MONTPELLIER.FR/R-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTP://RMS.AC-MONTPELLIER.FR/RMS4/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:06 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://QUEL-ASSUREUR.COM/LOCA-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://QUEL-ASSUREUR.COM/LOCAL/CONFIG.TXT','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:06 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://KUGELBLITZ-KINDERRAEDE-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://KUGELBLITZ-KINDERRAEDER.DE/SITES/KUGELBLITZ/LOCAL/CONFIG','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:06 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'PANIERS_COMMANDES_QUANTITES_DE-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('PANIERS_COMMANDES_QUANTITES_DECIMAL','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:07:06 127.0.0.1 (pid 13223) :Pub:ERREUR: Erreur 1062 de mysql: Duplicate entry 'HTTPS://BEHINDERTENBEIRAT-WALD-3.2' for key 'PRIMARY'
+in /var/www/CV/plugins/auto/svpstats/v0.3.2/inc/svp_statistiquer.php L88 [sql_insertq(),svp_actualiser_stats(),genie_svp_actualiser_stats_dist(),queue_start_job(),queue_schedule(),inc_genie_dist(),cron(),action_cron(),traiter_appels_actions(),include()]
+INSERT INTO spip_plugins_stats (prefixe,branche_spip,nbr_sites,popularite,historique) VALUES ('HTTPS://BEHINDERTENBEIRAT-WALDKIRCH.DE/SITES/WALDKIRCH/LOCAL/CON','3.2',1,'0','a:1:{s:5:\"03-20\";s:1:\"1\";}')
+2020-03-22 17:24:53 127.0.0.1 (pid 13225) :Pri:ERREUR: Erreur 1146 de mysql: Table 'CV.spip_evenements' doesn't exist
+in /var/www/CV/ecrire/base/dump.php L367 [sql_delete(),base_vider_tables_destination_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+DELETE FROM `CV`.spip_evenements
+2020-03-22 17:24:53 127.0.0.1 (pid 13225) :Pri:ERREUR: Erreur 1146 de mysql: Table 'CV.spip_evenements_participants' doesn't exist
+in /var/www/CV/ecrire/base/dump.php L367 [sql_delete(),base_vider_tables_destination_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+DELETE FROM `CV`.spip_evenements_participants
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1146 de mysql: Table 'CV.spip_evenements' doesn't exist
+in /var/www/CV/ecrire/base/dump.php L367 [sql_delete(),base_vider_tables_destination_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+DELETE FROM `CV`.spip_evenements
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1146 de mysql: Table 'CV.spip_evenements_participants' doesn't exist
+in /var/www/CV/ecrire/base/dump.php L367 [sql_delete(),base_vider_tables_destination_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+DELETE FROM `CV`.spip_evenements_participants
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'pcre_u' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('pcre_u','u','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'charset' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('charset','utf-8','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'email_webmaster' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('email_webmaster','maxime.defretin@laposte.net','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'nom_site' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('nom_site','Maxime Defretin','oui','2019-12-01 22:54:10')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'slogan_site' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('slogan_site','C.V. numérique','oui','2019-12-01 22:54:10')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'descriptif_site' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('descriptif_site','Bienvenue !','oui','2020-01-30 15:06:51')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'activer_logos' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('activer_logos','oui','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'activer_logos_survol' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('activer_logos_survol','non','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'articles_surtitre' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('articles_surtitre','oui','oui','2019-12-01 13:18:54')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'articles_soustitre' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('articles_soustitre','oui','oui','2019-12-01 13:18:54')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'articles_descriptif' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('articles_descriptif','oui','oui','2019-12-01 13:18:54')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'articles_chapeau' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('articles_chapeau','oui','oui','2019-12-01 13:18:54')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'articles_texte' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('articles_texte','oui','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'articles_ps' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('articles_ps','oui','oui','2019-12-01 13:18:54')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'articles_redac' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('articles_redac','oui','oui','2019-12-01 13:18:54')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'post_dates' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('post_dates','oui','oui','2020-02-10 18:19:04')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'articles_urlref' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('articles_urlref','oui','oui','2019-12-01 13:18:54')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'articles_redirection' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('articles_redirection','oui','oui','2019-12-01 13:18:54')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'articles_modif' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('articles_modif','non','oui','2019-12-01 13:24:33')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'rubriques_descriptif' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('rubriques_descriptif','oui','oui','2019-12-01 13:19:01')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'rubriques_texte' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('rubriques_texte','oui','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'accepter_inscriptions' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('accepter_inscriptions','non','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'accepter_visiteurs' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('accepter_visiteurs','non','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'prevenir_auteurs' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('prevenir_auteurs','non','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'suivi_edito' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('suivi_edito','non','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'adresse_suivi' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('adresse_suivi','','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'adresse_suivi_inscription' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('adresse_suivi_inscription','','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'adresse_neuf' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('adresse_neuf','','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'jours_neuf' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('jours_neuf','','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'quoi_de_neuf' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('quoi_de_neuf','non','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'preview' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('preview',',0minirezo,1comite,','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'syndication_integrale' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('syndication_integrale','oui','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'dir_img' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('dir_img','IMG/','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'multi_rubriques' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('multi_rubriques','non','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'multi_secteurs' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('multi_secteurs','non','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'gerer_trad' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('gerer_trad','non','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'langues_multilingue' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('langues_multilingue','','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'version_html_max' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('version_html_max','html5','oui','2019-12-01 13:24:49')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'type_urls' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('type_urls','arbo','oui','2019-12-01 13:17:28')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'email_envoi' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('email_envoi','maxime.defretin@laposte.net','oui','2020-02-27 09:58:23')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'auto_compress_http' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('auto_compress_http','non','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'mots_cles_forums' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('mots_cles_forums','non','oui','2019-12-01 13:19:56')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'forums_titre' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('forums_titre','oui','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'forums_texte' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('forums_texte','oui','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'forums_urlref' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('forums_urlref','non','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'forums_afficher_barre' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('forums_afficher_barre','oui','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'forums_forcer_previsu' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('forums_forcer_previsu','oui','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'formats_documents_forum' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('formats_documents_forum','','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'forums_publics' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('forums_publics','posteriori','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'forum_prive' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('forum_prive','oui','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'forum_prive_objets' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('forum_prive_objets','oui','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'forum_prive_admin' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('forum_prive_admin','non','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'articles_mots' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('articles_mots','oui','oui','2019-12-01 13:19:49')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'config_precise_groupes' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('config_precise_groupes','oui','oui','2019-12-01 13:19:49')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'messagerie_agenda' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('messagerie_agenda','oui','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'barre_outils_public' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('barre_outils_public','oui','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'objets_versions' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('objets_versions','a:8:{i:0;s:13:\"spip_articles\";i:1;s:12:\"spip_auteurs\";i:2;s:14:\"spip_rubriques\";i:3;s:9:\"spip_mots\";i:4;s:17:\"spip_groupes_mots\";i:5;s:11:\"spip_syndic\";i:6;s:11:\"spip_breves\";i:7;s:14:\"spip_documents\";}','oui','2020-02-05 17:12:23')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'activer_sites' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('activer_sites','oui','oui','2019-12-01 13:20:02')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'proposer_sites' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('proposer_sites','0','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'activer_syndic' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('activer_syndic','oui','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'moderation_sites' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('moderation_sites','non','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'activer_statistiques' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('activer_statistiques','oui','oui','2019-12-01 13:25:15')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'activer_captures_referers' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('activer_captures_referers','oui','oui','2019-12-01 13:25:15')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'activer_referers' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('activer_referers','oui','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'activer_breves' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('activer_breves','oui','oui','2019-12-01 13:22:04')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'auto_compress_js' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('auto_compress_js','oui','oui','2020-03-02 15:03:16')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'auto_compress_css' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('auto_compress_css','oui','oui','2020-03-02 15:03:16')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'url_statique_ressources' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('url_statique_ressources','','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'documents_objets' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('documents_objets','spip_articles,spip_auteurs,spip_breves,spip_depots,spip_groupes_mots,spip_messages,spip_mots,spip_rubriques,spip_syndic,','oui','2020-02-27 09:53:56')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'documents_date' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('documents_date','oui','oui','2020-02-05 17:10:41')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'langues_utilisees' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('langues_utilisees','fr','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'mediabox' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('mediabox','a:16:{s:6:\"active\";s:3:\"oui\";s:21:\"traiter_toutes_images\";s:3:\"oui\";s:17:\"selecteur_galerie\";s:123:\"#documents_portfolio a[type=\'image/jpeg\'],#documents_portfolio a[type=\'image/png\'],#documents_portfolio a[type=\'image/gif\']\";s:16:\"selecteur_commun\";s:9:\".mediabox\";s:10:\"splash_url\";s:0:\"\";s:12:\"splash_width\";s:5:\"600px\";s:13:\"splash_height\";s:3:\"90%\";s:4:\"skin\";s:13:\"black-striped\";s:10:\"transition\";s:7:\"elastic\";s:5:\"speed\";s:3:\"200\";s:8:\"maxWidth\";s:3:\"90%\";s:9:\"maxHeight\";s:3:\"90%\";s:8:\"minWidth\";s:5:\"400px\";s:9:\"minHeight\";s:0:\"\";s:15:\"slideshow_speed\";s:4:\"2500\";s:7:\"opacite\";s:3:\"0.9\";}','oui','2020-02-06 16:23:02')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'plugins_interessants' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('plugins_interessants','a:47:{s:22:\"auto/spip_bonux/v3.5.4\";i:30;s:13:\"urls_etendues\";i:30;s:9:\"vertebres\";i:30;s:9:\"textwheel\";i:30;s:12:\"statistiques\";i:30;s:3:\"svp\";i:30;s:4:\"mots\";i:30;s:10:\"organiseur\";i:30;s:9:\"petitions\";i:30;s:4:\"plan\";i:30;s:11:\"porte_plume\";i:30;s:9:\"revisions\";i:30;s:8:\"safehtml\";i:30;s:5:\"sites\";i:30;s:23:\"squelettes_par_rubrique\";i:30;s:6:\"medias\";i:30;s:8:\"mediabox\";i:30;s:9:\"jquery_ui\";i:30;s:4:\"dump\";i:30;s:14:\"filtres_images\";i:30;s:5:\"forum\";i:30;s:11:\"compresseur\";i:30;s:4:\"aide\";i:30;s:10:\"archiviste\";i:30;s:6:\"breves\";i:30;s:9:\"compagnon\";i:30;s:20:\"auto/saisies/v3.31.3\";i:10;s:25:\"auto/spip_proprio/v1.70.5\";i:30;s:22:\"auto/info_spip/v0.11.1\";i:30;s:20:\"auto/saisies/v3.31.4\";i:12;s:16:\"auto/yaml/v1.5.4\";i:30;s:20:\"auto/saisies/v3.32.1\";i:14;s:17:\"auto/metasplus_v2\";i:30;s:20:\"auto/saisies/v3.33.0\";i:15;s:20:\"auto/saisies/v3.33.1\";i:22;s:20:\"auto/article_accueil\";i:15;s:20:\"auto/svpstats/v0.3.2\";i:30;s:26:\"auto/calendriermini/v2.4.1\";i:21;s:19:\"auto/agenda/v3.39.4\";i:18;s:13:\"auto/escal_V4\";i:19;s:20:\"auto/saisies/v3.34.0\";i:24;s:21:\"auto/corbeille/v3.1.2\";i:30;s:20:\"auto/saisies/v3.36.0\";i:30;s:19:\"auto/simplog/v1.4.4\";i:30;s:17:\"auto/pages/v1.4.0\";i:30;s:27:\"auto/article_accueil/v1.2.2\";i:29;s:20:\"auto/saisies/v3.36.2\";i:30;}','oui','2020-03-16 16:16:47')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'plugin_attente' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('plugin_attente','a:0:{}','oui','2019-12-01 13:12:12')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'compagnon' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('compagnon','a:2:{s:6:\"config\";a:1:{s:7:\"activer\";s:3:\"oui\";}i:1;a:4:{s:18:\"accueil_configurer\";i:1;s:7:\"accueil\";i:1;s:19:\"accueil_publication\";i:1;s:17:\"article_redaction\";i:1;}}','oui','2019-12-03 19:12:53')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'compagnon_base_version' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('compagnon_base_version','1.0.0','oui','2019-12-01 13:12:13')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'forum_base_version' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('forum_base_version','1.2.2','oui','2019-12-01 13:12:13')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'mots_base_version' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('mots_base_version','2.1.1','oui','2019-12-01 13:12:13')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'organiseur_base_version' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('organiseur_base_version','1.1.2','oui','2019-12-01 13:12:13')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'petitions_base_version' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('petitions_base_version','1.1.6','oui','2019-12-01 13:12:13')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'revisions_base_version' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('revisions_base_version','1.2.0','oui','2019-12-01 13:12:13')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'sites_base_version' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('sites_base_version','1.1.1','oui','2019-12-01 13:12:13')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'stats_base_version' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('stats_base_version','1.0.1','oui','2019-12-01 13:12:13')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'svp_base_version' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('svp_base_version','0.5.1','oui','2019-12-01 13:12:13')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'urls_base_version' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('urls_base_version','2.0.1','oui','2019-12-01 13:12:13')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'breves_base_version' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('breves_base_version','1.0.0','oui','2019-12-01 13:12:13')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'medias_base_version' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('medias_base_version','1.3.5','oui','2019-12-01 13:12:13')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'cache_signature' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('cache_signature','b6ee97d46f49e46ae7cd29f8897d1b78bd971478ef1073656c6773fd3a185c4e','oui','2019-12-01 13:12:24')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'derniere_modif_breve' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('derniere_modif_breve','1581354874','oui','2020-02-10 18:14:34')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'derniere_modif_document' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('derniere_modif_document','1581353644','oui','2020-02-10 17:54:04')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'metasplus' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('metasplus','a:4:{s:10:\"dublincore\";s:2:\"on\";s:9:\"opengraph\";s:2:\"on\";s:7:\"twitter\";s:2:\"on\";s:11:\"id_doc_logo\";s:0:\"\";}','oui','2020-02-21 10:00:51')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'metasplus_base_version' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('metasplus_base_version','1.0.0','oui','2020-02-21 09:13:21')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'svp' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('svp','a:5:{s:12:\"mode_runtime\";s:3:\"oui\";s:14:\"mode_pas_a_pas\";s:3:\"oui\";s:16:\"mode_log_verbeux\";s:3:\"oui\";s:35:\"autoriser_activer_paquets_obsoletes\";s:3:\"oui\";s:14:\"depot_editable\";s:3:\"oui\";}','oui','2020-02-21 09:33:03')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'svpstats_base_version' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('svpstats_base_version','0.2','oui','2020-02-27 10:06:38')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'pages_base_version' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('pages_base_version','1.0.1','oui','2020-03-08 11:02:20')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'agenda_base_version' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('agenda_base_version','0.28.0','oui','2020-02-27 10:06:43')
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur 1062 de mysql: Duplicate entry 'agenda' for key 'PRIMARY'
+in /var/www/CV/ecrire/base/dump.php L730 [sql_insertq(),base_inserer_copie(),base_copier_tables(),base_restaurer_dist(),inc_admin_dist(),action_restaurer_dist(),traiter_appels_actions()]
+INSERT INTO spip_meta (nom,valeur,impt,maj) VALUES ('agenda','a:1:{s:14:\"synchro_statut\";s:1:\"1\";}','oui','2020-02-27 10:06:43')

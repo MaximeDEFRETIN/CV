@@ -1,0 +1,34 @@
+a:2:{s:9:"nom_cache";s:38:"f2cf523dd964d07f6a447ae2e72b6e1c.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_1776ba38c3fc41bd7d9c1c4e5c752a0a";s:6:"source";s:28:"squelettes/inc-rss-item.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"f2cf523dd964d07f6a447ae2e72b6e1c.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:1409:"
+	<item xml:lang="fr">
+		<title>Assistant, Film AA Production</title>
+		<link>http://www.w-l.fr/experiences/article/assistant-film-a-production</link>
+		<guid isPermaLink="true">http://www.w-l.fr/experiences/article/assistant-film-a-production</guid>
+		<dc:date>2020-01-17T18:33:25Z</dc:date>
+		<dc:format>text/html</dc:format>
+		<dc:language>fr</dc:language>
+		<dc:creator>Maxime</dc:creator>
+
+
+
+		<description>&lt;p&gt;Dans cette article j'&#233;voque d'un stage d'assistant que j'ai effectu&#233; pour effectu&#233; une reconversion professionnelle.&lt;/p&gt;
+
+-
+&lt;a href="http://www.w-l.fr/experiences/" rel="directory"&gt;Exp&#233;riences&lt;/a&gt;
+
+
+		</description>
+
+
+ <content:encoded>&lt;div class='rss_chapo'&gt;&lt;p&gt;Film AA Production est un vid&#233;ate ind&#233;pendante. Il est bas&#233; &#224; Chauny (02300).&lt;/p&gt;
+&lt;p&gt;Ce stage avait pour but de me permettre de mieux conna&#238;tre les m&#233;tiers li&#233;s &#224; l'audiovisuel. J'ai pu voir ce que demandais la cr&#233;ation de contenu audiovisuel.&lt;/p&gt;&lt;/div&gt;
+		&lt;div class='rss_texte'&gt;&lt;p&gt;J'ai particip&#233; &#224; la mise en place d'une sc&#232;ne avec un fond vert, et j'ai vu comment on y int&#232;gre des effets sp&#233;ciaux en post-production.&lt;br class='autobr' /&gt;
+Je v&#233;rifiais aussi que le mat&#233;riel fonctionne bien.&lt;/p&gt;&lt;/div&gt;
+		
+		</content:encoded>
+
+
+		
+
+	</item>
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:10:"id_article";s:2:"22";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-18 12:11:36";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:11:36";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584529896;s:2:"gz";b:0;s:3:"sig";i:-233545677;}}

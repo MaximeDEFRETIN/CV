@@ -1,0 +1,19 @@
+a:2:{s:9:"nom_cache";s:38:"f41b0aaa5ef70e3037b805a8a4ec3f28.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_c88fbc563b4831a60156697f7bff3489";s:6:"source";s:26:"squelettes/robots.txt.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"f41b0aaa5ef70e3037b805a8a4ec3f28.cache";}s:7:"entetes";a:2:{s:12:"Content-Type";s:25:"text/plain; charset=utf-8";s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:387:"# robots.txt
+# @url: http://CV
+# @generator: SPIP 3.2.5 [24404]
+# @template: squelettes/robots.txt.html
+
+User-agent: *
+Allow:    /local/cache-css/
+Allow:    /local/cache-js/
+Disallow: /local/
+Disallow: /ecrire/
+Disallow: /plugins-dist/
+Disallow: /lib/
+Disallow: /plugins/
+Disallow: /prive/
+Disallow: /squelettes-dist/
+Disallow: /squelettes/
+Crawl-delay: 1
+
+Sitemap: http://CV/sitemap.xml";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:4:"page";s:10:"robots.txt";s:4:"date";s:19:"2020-03-05 12:13:25";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-05 12:13:25";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1583406801;s:2:"gz";b:0;s:3:"sig";i:1779945499;}}

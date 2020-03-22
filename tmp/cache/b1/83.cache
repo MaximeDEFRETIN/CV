@@ -1,0 +1,32 @@
+a:2:{s:9:"nom_cache";s:38:"b183b50a70221406358346889c571002.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_2be67023a1e5a34a606375b6d4d8476a";s:6:"source";s:33:"squelettes/formulaires/oubli.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"b183b50a70221406358346889c571002.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:3600;}s:5:"duree";i:0;s:5:"texte";s:1325:"<div class="formulaire_spip formulaire_oubli">
+
+
+ 
+<form id="oubli_form" action="/spip.php?page=spip_pass&amp;lang=fr" method="post">
+    
+    <div><input name="page" value="spip_pass" type="hidden"
+/><input name="lang" value="fr" type="hidden"
+/><input name='formulaire_action' type='hidden'
+		value='oubli' /><input name='formulaire_action_args' type='hidden'
+		value='si2GC+TSfC8S8ZKrIfIzwF8Zv9TokX3sioz+xIO0M/4vrR6q+g8G6qFPlXYQaFk7z0DFMy9q5oePvmM=' /></div>
+    <fieldset>
+        <legend>Nouveau mot de passe</legend>
+        <p>Pour modifier votre mot de passe, merci d’indiquer l’adresse email associée à votre compte.</p>
+        <div class="editer-groupe">
+            <div class="editer saisie_oubli obligatoire">
+                <label for="oubli">Votre adresse email</label>
+                
+                <input type="email" class="text email" autofocus="autofocus" required="required" name='oubli' id='oubli' value="" autocapitalize="off" autocorrect="off" />
+            </div>
+        </div>
+    </fieldset>
+    
+    <p style="display: none;">
+        <label for="nobot">Veuillez laisser ce champ vide :</label>
+        <input type="text" class="text" name="nobot" id="nobot" value="" size="10" />
+    </p>
+    <p class="boutons"><input type="submit" class="submit" value="OK" /></p>
+</form>
+
+</div>
+";s:5:"notes";s:0:"";s:8:"contexte";a:14:{s:5:"oubli";s:0:"";s:5:"nobot";s:0:"";s:10:"_pipelines";a:1:{s:15:"formulaire_fond";a:3:{s:4:"form";s:5:"oubli";s:4:"args";a:0:{}s:13:"je_suis_poste";b:0;}}s:15:"formulaire_args";s:80:"si2GC+TSfC8S8ZKrIfIzwF8Zv9TokX3sioz+xIO0M/4vrR6q+g8G6qFPlXYQaFk7z0DFMy9q5oePvmM=";s:7:"erreurs";a:0:{}s:6:"action";s:36:"/spip.php?page=spip_pass&amp;lang=fr";s:4:"form";s:5:"oubli";s:2:"id";s:3:"new";s:8:"editable";s:1:" ";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-18 12:12:32";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:12:32";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584529951;s:2:"gz";b:0;s:3:"sig";i:-124394264;}}

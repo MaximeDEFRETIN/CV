@@ -1,0 +1,4 @@
+2019-12-02 18:38:02 127.0.0.1 (pid 1198) :Pri:!INFO: Supprimer les referers d'articles qui n'existent pas dans spip_articles.
+2019-12-02 18:38:02 127.0.0.1 (pid 1198) :Pri:!INFO: Fin de la suppression : 0 lignes supprimées
+2019-12-02 18:38:05 127.0.0.1 (pid 1198) :Pri:!INFO: Supprimer les visites d'articles qui n'existent pas dans spip_articles.
+2019-12-02 18:38:05 127.0.0.1 (pid 1198) :Pri:!INFO: Fin de la suppression : 0 lignes supprimées

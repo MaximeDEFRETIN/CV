@@ -1,0 +1,33 @@
+a:2:{s:9:"nom_cache";s:38:"d9fed3a85d202fee23048fc9db95d36d.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_1776ba38c3fc41bd7d9c1c4e5c752a0a";s:6:"source";s:28:"squelettes/inc-rss-item.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"d9fed3a85d202fee23048fc9db95d36d.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:1401:"
+	<item xml:lang="fr">
+		<title>Assistant en comptabilit&#233;, Cin&#233;ode</title>
+		<link>http://w-l.fr/experiences/article/assistant-en-comptabilite-cineode</link>
+		<guid isPermaLink="true">http://w-l.fr/experiences/article/assistant-en-comptabilite-cineode</guid>
+		<dc:date>2019-12-09T14:35:52Z</dc:date>
+		<dc:format>text/html</dc:format>
+		<dc:language>fr</dc:language>
+		<dc:creator>Maxime</dc:creator>
+
+
+
+		<description>&lt;p&gt;J'y d&#233;cris le stage que j'ai effectu&#233; au sein de Cin&#233;ode en tant qu'assistant en comptabilit&#233;.&lt;/p&gt;
+
+-
+&lt;a href="http://w-l.fr/experiences/" rel="directory"&gt;Exp&#233;riences&lt;/a&gt;
+
+
+		</description>
+
+
+ <content:encoded>&lt;div class='rss_chapo'&gt;&lt;p&gt;Cin&#233;ode est une entreprise bas&#233; &#224; Chauny et qui d&#233;tient plusieurs cin&#233;mas dans diff&#233;rentes villes de l'Aisne. Elle g&#232;re &#233;galement la programmation d'autres salles de cin&#233;ma.&lt;/p&gt;&lt;/div&gt;
+		&lt;div class='rss_texte'&gt;&lt;p&gt;Je comptais la somme d'argent gagn&#233;e gr&#226;ce aux entr&#233;es journali&#232;res. Puis je le mettais sous pli, en ayant indiquais la somme et son d&#233;tail, pour qu'il soit encaiss&#233;.&lt;br class='autobr' /&gt;
+Parfois je lan&#231;ais les films &#224; l'heure &#224; laquelle ils ont &#233;t&#233; programm&#233;.&lt;/p&gt;&lt;/div&gt;
+		
+		</content:encoded>
+
+
+		
+
+	</item>
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:10:"id_article";s:2:"20";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-15 02:07:18";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-15 02:07:18";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584234438;s:2:"gz";b:0;s:3:"sig";i:461819324;}}

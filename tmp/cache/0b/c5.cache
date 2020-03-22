@@ -1,0 +1,98 @@
+a:2:{s:9:"nom_cache";s:38:"0bc51cd2aee5cf67abba6d50c29d7425.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_acfb689da8b7f0df9e71fabce85f186f";s:6:"source";s:23:"squelettes/article.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"0bc51cd2aee5cf67abba6d50c29d7425.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:7200:"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie7"> <![endif]-->
+<!--[if IE 8 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie8"> <![endif]-->
+<!--[if IE 9 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js"> <!--<![endif]-->
+<head>
+    <script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);/*]]>*/</script>
+    <title>Association Bibliothèque des Malades - Maxime Defretin</title>
+    <meta name="description" content="Au sein de l&#039;association Biblioth&#232;que des Malades, j&#039;ai pr&#234;t&#233; BD, magasines et livres aux patients et au personnel qui le souhaitais dans diff&#233;rents services de l&#039;h&#244;pital." />
+    <link rel="canonical" href="http://www.w-l.fr/benevolats/article/bibliotheque-des-malades-7" />
+    <?php echo recuperer_fond( 'inclure/head', array('lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',13,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+</head>
+<body class="pas_surlignable page_article">
+    <div class="page">
+        <?php echo recuperer_fond( 'inclure/header', array('lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',17,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+        <?php echo recuperer_fond( 'inclure/nav', array_merge(array (
+  'id_rubrique' => '3',
+  'id_article' => '7',
+  'date' => '2020-03-18 12:12:04',
+  'date_default' => true,
+  'date_redac' => '2020-03-18 12:12:04',
+  'date_redac_default' => true,
+),array('lang' => 'fr')), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',18,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+        <div class="main">
+            
+            <div class="wrapper hfeed">
+                <div class="content hentry" id="content">
+                    <p class="arbo"><a href="https://w-l.fr/">Accueil</a> &gt; <a href="benevolats/">Bénévolats</a> &gt; <strong class="on">Association Bibliothèque des Malades</strong></p>
+                    <div class="cartouche clearfix">
+                        <p class="surtitre">08/03/2016 - 05/07/2016</p>
+                        <h1 class="surlignable entry-title">Association Bibliothèque des Malades</h1>
+                        <p class="soustitre">à Chauny (02300)</p>
+                        <p class="info-publi"><abbr class="published" title="2019-12-04T09:08:00Z">mercredi 4 décembre 2019</abbr><span class="sep">, </span><span class="auteurs">par  <span class="vcard author"><a class="url fn spip_in" href="auteur/maxime">Maxime</a></span></span></p>
+                        
+                        </div>
+                    <div class="chapo surlignable"><p>Au sein de l&#8217;association Bibliothèque des Malades, j&#8217;ai prêté BD, magasines et livres aux patients et au personnel qui le souhaitais dans différents services de l&#8217;hôpital.</p></div>
+                    <div class="texte surlignable clearfix"><p>Lorsque je passais dans un service, avec un autre bénévole, je prêtais des livres, des BD et des magasines. Je récupérais aussi ceux rendus par les patients et le personnel médicale. Et je notais le numéro, le nom, la personne qui fait l&#8217;emprunt et le type d&#8217;œuvre empruntée.</p>
+<p>La surface des livres, des BD et des magasines récupérés sont ensuite désinfectés avec une solution hydro-alcolique.</p>
+<p>Je notais également le nombre de BD, de livre et de magasine prétés à chaque passage que j&#8217;effectuais dans un service.</p></div>
+                    
+                    
+                    
+                    
+                </div><!--.content-->
+            </div><!--.wrapper-->
+            <div class="under">
+                <?php echo recuperer_fond( 'inclure/navsub', array('id_rubrique' => '3',
+	'lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',42,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+                 
+                
+                    <div class="menu">
+                        <h2>Dans la même rubrique</h2>
+                        <ul>
+                            
+                                <li><a href="benevolats/article/restos-du-coeur-centre-de-chauny">Restos du Coeur - Centre de Chauny</a></li>
+                            
+                                <li><a href="benevolats/article/croix-rouge-francaise-unite-locale-chauny-tergnier-la-fere">Croix rouge française - Unité locale Chauny-Tergnier-La Fère</a></li>
+                            
+                                <li><a href="benevolats/article/bibliotheque-des-malades">Association Bibliothèque des Malades</a></li>
+                            
+                                <li><a href="benevolats/article/l-association-gaia-sensibilise-les-personne-a">Festival des Vers Solidaires, Association Gaïa</a></li>
+                            
+                                <li><a href="benevolats/article/festival-pic-arts-association-gaia">Festival Pic&#8217;Arts, Association Gaïa</a></li>
+                            
+                                <li><a href="benevolats/article/au-sein-de-l-association-bibliotheque-des">Association Bibliothèque des Malades</a></li>
+                            
+                                <li><a href="benevolats/article/festival-pic-arts-association-pic-arts">Festival Pic&#8217;Arts, Association Pic&#8217;Arts</a></li>
+                            
+                                <li><a href="benevolats/article/bibliotheque-des-malades-7" class="on">Association Bibliothèque des Malades</a></li>
+                            
+                                <li><a href="benevolats/article/l-association-gaia-sensibilise-les-personne-a-9">Festival des Vers Solidaires, Association Gaïa</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                
+                </div><!--.aside-->
+        </div><!--.main-->
+        <?php echo recuperer_fond( 'inclure/footer', array_merge(array (
+  'id_rubrique' => '3',
+  'id_article' => '7',
+  'date' => '2020-03-18 12:12:04',
+  'date_default' => true,
+  'date_redac' => '2020-03-18 12:12:04',
+  'date_redac_default' => true,
+),array('self' => '/benevolats/article/bibliotheque-des-malades-7',
+	'lang' => 'fr')), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',58,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+    </div><!--.page-->
+</body>
+</html>
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:11:"id_rubrique";s:1:"3";s:10:"id_article";s:1:"7";s:4:"date";s:19:"2020-03-18 12:12:04";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:12:04";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584529924;s:2:"gz";b:0;s:3:"sig";i:6599022;}}

@@ -1,0 +1,15 @@
+a:2:{s:9:"nom_cache";s:38:"86adaefb3ead8fae50e1094762bf8be6.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_2dae1dbdb06a4a67fa166168d5ffd839";s:6:"source";s:30:"squelettes/inclure/footer.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:2:{s:5:"cache";s:38:"6113c9f5b381d9c10b1ccbeff5762643.cache";s:7:"session";s:0:"";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:870:"<footer class="footer clearfix">
+    <p class="colophon">
+         2019 - 2020 Maxime Defretin
+        <br /><a rel="contents" href="spip.php?page=plan" class="first">Plan du site</a>
+          | <a href="spip.php?page=login&amp;url=spip.php%3Fpage%3Dcontact" rel="nofollow" class='login_modal'>Se connecter</a> | 
+        <a rel="nofollow" href="spip.php?page=contact">Contact</a> |
+        <a href="spip.php?page=backend" rel="alternate" title="Syndiquer tout le site" class="last">RSS&nbsp;2.0</a>
+    </p>
+    <?php 
+include_once("./" . _DIR_RACINE . "ecrire/balise/formulaire_.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_FORMULAIRE__dyn('FORMULAIRE_RECHERCHE'), array('squelettes/inclure/footer.html', 'html_2dae1dbdb06a4a67fa166168d5ffd839', '', 8, 'fr'));
+if ($lang_select) lang_select();
+?>
+</footer>";s:5:"notes";s:0:"";s:8:"contexte";a:7:{s:4:"page";s:7:"contact";s:4:"date";s:19:"2020-03-08 05:36:12";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-08 05:36:12";s:18:"date_redac_default";b:1;s:4:"self";s:21:"spip.php?page=contact";s:4:"lang";s:2:"fr";}s:12:"lastmodified";i:1583642172;s:2:"gz";b:0;s:3:"sig";i:-1309472554;}}

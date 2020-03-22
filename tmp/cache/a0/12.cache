@@ -1,0 +1,36 @@
+a:2:{s:9:"nom_cache";s:38:"a0129659f0cd88c366e300b9e5a5ebcc.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_1776ba38c3fc41bd7d9c1c4e5c752a0a";s:6:"source";s:28:"squelettes/inc-rss-item.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"a0129659f0cd88c366e300b9e5a5ebcc.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:1909:"
+	<item xml:lang="fr">
+		<title>Pr&#233;parateur de commande, Atlantysse</title>
+		<link>https://w-l.fr/experiences/article/preparateur-de-commande-atlantysse-17</link>
+		<guid isPermaLink="true">https://w-l.fr/experiences/article/preparateur-de-commande-atlantysse-17</guid>
+		<dc:date>2019-12-09T13:25:00Z</dc:date>
+		<dc:format>text/html</dc:format>
+		<dc:language>fr</dc:language>
+		<dc:creator>Maxime</dc:creator>
+
+
+
+		<description>&lt;p&gt;Cette article concerne mon exp&#233;rience en tant que pr&#233;parateur de commande chez Atlantysse. Elle a eu lien en juillet 2012.&lt;/p&gt;
+
+-
+&lt;a href="https://w-l.fr/experiences/" rel="directory"&gt;Exp&#233;riences&lt;/a&gt;
+
+
+		</description>
+
+
+ <content:encoded>&lt;div class='rss_chapo'&gt;&lt;p&gt;L'activit&#233; d'Atlantysse consiste &#224; vendre des produits d'hygi&#232;nes et d'entretiens aux professionnels, et aux particuliers.&lt;/p&gt;
+&lt;p&gt;Cette exp&#233;rience en tant que pr&#233;parateur de commande a renforc&#233; celle que j'avais d&#233;j&#224; acquis pr&#233;c&#233;demment.&lt;/p&gt;&lt;/div&gt;
+		&lt;div class='rss_texte'&gt;&lt;p&gt;Je rangeais chaque produit command&#233; en faisant attention &#224; ce que certains d'entre eux ne puissent pas cr&#233;er de r&#233;action chimique en &#233;tant en contact.&lt;/p&gt;
+&lt;p&gt;Je pr&#233;parais les commandes &#224; envoyer et les chargeaient dans un camion suivant l'ordre de livraison. La derni&#232;re commande livr&#233;e &#233;tait rang&#233;e dans le fond du camion tandis que la premi&#232;re &#233;tait rang&#233; pr&#233;s de la porte du camion pour &#234;tre directement accessible.&lt;br class='autobr' /&gt;
+Lors des livraisons, j'aidais &#224; d&#233;charger les produits command&#233;s par les clients.&lt;/p&gt;
+&lt;p&gt;Je me servais d'un diable et d'un transpalette pour faire les t&#226;ches.&lt;/p&gt;&lt;/div&gt;
+		
+		</content:encoded>
+
+
+		
+
+	</item>
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:10:"id_article";s:2:"17";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-18 12:13:09";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:13:09";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584529989;s:2:"gz";b:0;s:3:"sig";i:-1687041174;}}

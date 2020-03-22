@@ -1,0 +1,14 @@
+a:2:{s:9:"nom_cache";s:38:"fe2134fd7c05e9daabe402e5607947ce.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_2b86667419653cd84b50e539bba36c01";s:6:"source";s:53:"plugins/auto/metasplus_v2/inclure/metasplus/dist.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:2:{s:5:"cache";s:38:"99f41d0233b71138f1f81b1a347e7fc4.cache";s:7:"session";s:0:"";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:774:"<?php echo recuperer_fond( 'inclure/metasplus/inc-dist', array('titre' => 'Préparateur de commande, Atlantysse – Maxime Defretin',
+	'desc' => '&lt;p&gt;Il s&#8217;agit de ma première expérience en tant que préparateur de commande, en juillet 2011, grâce à Atlantysse.&lt;/p&gt;',
+	'url' => 'experiences/article/preparateur-de-commande-atlantysse',
+	'date' => '2020-03-18 12:12:25',
+	'maj' => '2019-12-09 14:35:15',
+	'langue' => 'fr',
+	'territoire' => '',
+	'og-type' => 'article',
+	'dc-type' => 'Text',
+	'logos' => '',
+	'auteurs' => array('0'=>'Maxime'),
+	'mots' => array(),
+	'lang' => 'fr'), array("compil"=>array('plugins/auto/metasplus_v2/inclure/metasplus/dist.html','html_2b86667419653cd84b50e539bba36c01','',177,$GLOBALS['spip_lang'])), _request("connect"));
+?>";s:5:"notes";s:0:"";s:8:"contexte";a:10:{s:9:"type-page";s:7:"article";s:6:"erreur";b:0;s:5:"objet";s:7:"article";s:8:"id_objet";s:2:"16";s:10:"id_article";s:2:"16";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-18 12:12:25";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:12:25";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584529945;s:2:"gz";b:0;s:3:"sig";i:602039319;}}

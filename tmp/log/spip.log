@@ -1,0 +1,138 @@
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_articles' sur serveur ''
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_articles' sur serveur ''
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_articles 24
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_auteurs_liens' sur serveur ''
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_auteurs_liens' sur serveur ''
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_auteurs_liens 26
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_breves' sur serveur ''
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_breves' sur serveur ''
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_depots' sur serveur ''
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_depots' sur serveur ''
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_depots 1
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_depots_plugins' sur serveur ''
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_depots_plugins' sur serveur ''
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_depots_plugins 400
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_depots_plugins 621
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_documents' sur serveur ''
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_documents' sur serveur ''
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_documents 3
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_documents_liens' sur serveur ''
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_documents_liens' sur serveur ''
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_documents_liens 2
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: trouver_table: table inconnue 'dump' 'evenements'
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur mysql 1146
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur mysql 1146
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_evenements' sur serveur ''
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: trouver_table: table inconnue 'dump' 'evenements_participants'
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur mysql 1146
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:ERREUR: Erreur mysql 1146
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_evenements_participants' sur serveur ''
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_forum' sur serveur ''
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_forum' sur serveur ''
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_groupes_mots' sur serveur ''
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_groupes_mots' sur serveur ''
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_jobs' sur serveur ''
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_jobs' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_jobs 11
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_jobs_liens' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_jobs_liens' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_messages' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_messages' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_mots' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_mots' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_mots_liens' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_mots_liens' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_paquets' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_paquets' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_paquets 400
+2020-03-22 17:30:28 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_paquets 694
+2020-03-22 17:30:28 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_petitions' sur serveur ''
+2020-03-22 17:30:28 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_petitions' sur serveur ''
+2020-03-22 17:30:28 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_plugins' sur serveur ''
+2020-03-22 17:30:28 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_plugins' sur serveur ''
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins 400
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins 646
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_plugins_stats' sur serveur ''
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_plugins_stats' sur serveur ''
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 400
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 800
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 1200
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 1600
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 2000
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 2400
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 2800
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 3200
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 3600
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 4000
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 4400
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 4800
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 5200
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 5322
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_referers' sur serveur ''
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_referers' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_referers 29
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_referers_articles' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_referers_articles' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_referers_articles 1
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_rubriques' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_rubriques' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_rubriques 4
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_signatures' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_signatures' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_syndic' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_syndic' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_syndic_articles' sur serveur ''
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 1c55c406155dc89abdd53effe60c0ac5.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 9b04091b60b6afa454c4971223f2b047.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 96fda5ead06ee381a9d1d6de914572fc.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 37727740edd207efca33889d10ec40fb.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 0c378d6011a0be55716b2359a5399dfe.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 9a90b4c47fe4ba5cfcc528a7510c3b71.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache a35b5467b2d6888f2c2c7985e1859242.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache d841d7e278a1e7919e6bf58e12b6d77a.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 80abd82520e7fdbbca886aec4c4e66b3.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 49bb2f7299ab2d34fda7f7bba48df2df.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache c977109410b0891554d729c14e172318.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache c8d45cfe8d1f7ecb54c740d2dff61e73.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache a4fe901b522ad1220c61e068f2e3bd68.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 544b7e083d60082bfe7662d9a2b773bd.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 9c7cba1a11c51f7fcd7661eb45ee8333.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 7b863413b6a56e8b02d228deebe7c18d.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 55706b2f14ba9f1e2504c527b636a64d.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache f06f90f874d2fe6108db559317e61f70.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 6481ab226e8cce2ff355a7ab6ff1ee83.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 8ba06d3dad9fc787f1b0e4d4842dcd48.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 562e519cf36faae7f4c2abae6882f451.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache b8267c15c43c178a8d5dbeb954fd0419.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 6ee77ad32f7a01f9d97dadeca0dc60cd.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache c065b8393b8b8b969446e65e22e4f052.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 93674bd741b375a91cd589b52ad49c3d.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 3a54c4cb82979bbc56d9a2846dbaa4a2.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 8c1afaaf7824cb37a9544923dd42c830.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 84f10c1d55f402c26a597ea5e10bd42b.cache pour 360000 secondes
+2020-03-22 17:30:33 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache ed260ee2c33bcca702cdf277f2d22c95.cache pour 86400 secondes
+2020-03-22 17:30:41 127.0.0.1 (pid 1523) :Pri:!INFO: Creation du cache 87c2afd7fa4ac2fb21897e3cb7327f1e.cache pour 86400 secondes
+2020-03-22 17:30:45 127.0.0.1 (pid 1523) :Pub:!INFO: Creation du cache a89560e708d3f11d86c18d607569bb32.cache pour 3600 secondes
+2020-03-22 17:30:45 127.0.0.1 (pid 1523) :Pub:!INFO: Creation du cache 91338d53a9f38a03555b21c7d3fde85b.cache pour 86400 secondes
+2020-03-22 17:30:46 127.0.0.1 (pid 1523) :Pub:!INFO: Creation du cache b77acfb1137ff83b1fb7207ac42e435d.cache pour 86400 secondes
+2020-03-22 17:30:46 127.0.0.1 (pid 1523) :Pub:!INFO: Creation du cache ae1c7ccfeccf611d3b0b6c9d014f6f23.cache pour 86400 secondes
+2020-03-22 17:31:05 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache 9fc1a87a51bbf09f7eebc6c945a5df76.cache pour 86400 secondes
+2020-03-22 17:31:05 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache b64ff8211964e8b51ccd5aaebb63e7e9.cache pour 86400 secondes
+2020-03-22 17:31:05 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache 5675321f4c54db449c9df285e33fde63.cache pour 604800 secondes
+2020-03-22 17:31:05 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache ad45a4f30fcfa72a3e677cdc821f9738.cache pour 86400 secondes
+2020-03-22 17:31:05 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache a9b2b6dd00f97eb6a20c770b11a73e90.cache pour 86400 secondes
+2020-03-22 17:31:05 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache cb5c8d1d1bd4d47ef0797bdef14784e6.cache pour 86400 secondes
+2020-03-22 17:31:05 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache 663b3b99c871e544e012d36843f22a50.cache pour 86400 secondes
+2020-03-22 17:31:05 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache 9153dd07df54df1c1a0c7f63619e7eab.cache pour 86400 secondes
+2020-03-22 17:31:05 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache a89560e708d3f11d86c18d607569bb32.cache pour 3600 secondes
+2020-03-22 17:31:05 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache 91338d53a9f38a03555b21c7d3fde85b.cache pour 86400 secondes
+2020-03-22 17:31:05 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache b77acfb1137ff83b1fb7207ac42e435d.cache pour 86400 secondes
+2020-03-22 17:31:05 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache 161eeec4ffda2a49bbe4f3984410687d.cache pour 86400 secondes
+2020-03-22 17:31:07 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache 6f5da71e3b983d00137561d844e4e377.cache pour 86400 secondes
+2020-03-22 17:31:07 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache cafd8e5abda7993ba66bf02a25957c46.cache pour 86400 secondes
+2020-03-22 17:31:07 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache 4c0df3ecd7f27fa0dc2d53d2e2d384e4.cache pour 86400 secondes
+2020-03-22 17:31:07 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache ff11d37baad298745331c706bb486ee4.cache pour 86400 secondes
+2020-03-22 17:31:07 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache 683a9f6bab8b8a0c8fac16ada7e56737.cache pour 86400 secondes
+2020-03-22 17:31:07 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache 712d88c10c29403059026b74d720b9da.cache pour 86400 secondes
+2020-03-22 17:31:07 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache 280b5f35fb584fee80fc276d62526bfc.cache pour 86400 secondes
+2020-03-22 17:31:07 127.0.0.1 (pid 13225) :Pub:!INFO: Creation du cache 9f2977cbbd9b0931161d2ee924ead210.cache pour 86400 secondes

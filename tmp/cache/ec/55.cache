@@ -1,0 +1,89 @@
+a:2:{s:9:"nom_cache";s:38:"ec55645e7e240f40e8ffa92dac94825a.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_acfb689da8b7f0df9e71fabce85f186f";s:6:"source";s:23:"squelettes/article.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"ec55645e7e240f40e8ffa92dac94825a.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:6042:"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie7"> <![endif]-->
+<!--[if IE 8 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie8"> <![endif]-->
+<!--[if IE 9 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js"> <!--<![endif]-->
+<head>
+    <script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);/*]]>*/</script>
+    <title>Licence en Sociologie, niveau L1 - Maxime Defretin</title>
+    <meta name="description" content="Avec la licence en socialogie, j&#039;ai eu diff&#233;rents cours de sociologie regroup&#233; en 3 cat&#233;gories. Je n&#039;ai pas obtenu cette licence, j&#039;ai un niveau L1." />
+    <link rel="canonical" href="https://w-l.fr/diplomes-et-formations/article/licence-en-sociologie-niveau-l1" />
+    <?php echo recuperer_fond( 'inclure/head', array('lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',13,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+</head>
+<body class="pas_surlignable page_article">
+    <div class="page">
+        <?php echo recuperer_fond( 'inclure/header', array('lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',17,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+        <?php echo recuperer_fond( 'inclure/nav', array_merge(array (
+  'id_rubrique' => '2',
+  'id_article' => '13',
+  'date' => '2020-03-18 12:14:17',
+  'date_default' => true,
+  'date_redac' => '2020-03-18 12:14:17',
+  'date_redac_default' => true,
+),array('lang' => 'fr')), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',18,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+        <div class="main">
+            
+            <div class="wrapper hfeed">
+                <div class="content hentry" id="content">
+                    <p class="arbo"><a href="https://w-l.fr/">Accueil</a> &gt; <a href="diplomes-et-formations/">Diplômes et formations</a> &gt; <strong class="on">Licence en Sociologie, niveau L1</strong></p>
+                    <div class="cartouche clearfix">
+                        <p class="surtitre">Septembre 2015 à janvier 2016</p>
+                        <h1 class="surlignable entry-title">Licence en Sociologie, niveau L1</h1>
+                        <p class="soustitre">à Amiens (80000)</p>
+                        <p class="info-publi"><abbr class="published" title="2019-12-04T14:56:15Z">mercredi 4 décembre 2019</abbr><span class="sep">, </span><span class="auteurs">par  <span class="vcard author"><a class="url fn spip_in" href="auteur/maxime">Maxime</a></span></span></p>
+                        
+                        </div>
+                    <div class="chapo surlignable"><p>Avec la licence en socialogie, j&#8217;ai eu différents cours de sociologie regroupé en 3 catégories.<br class='autobr' />
+Je n&#8217;ai pas obtenu cette licence, j&#8217;ai un niveau L1.</p></div>
+                    <div class="texte surlignable clearfix"><p>Durant cette licence, j&#8217;ai pu suivre des cours en sociologie, en démographie et en ethnographie.</p></div>
+                    
+                    
+                    
+                    
+                </div><!--.content-->
+            </div><!--.wrapper-->
+            <div class="under">
+                <?php echo recuperer_fond( 'inclure/navsub', array('id_rubrique' => '2',
+	'lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',42,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+                 
+                
+                    <div class="menu">
+                        <h2>Dans la même rubrique</h2>
+                        <ul>
+                            
+                                <li><a href="diplomes-et-formations/article/titre-professionnel-developpeur-web-et-web-mobile">Titre Professionnel &#171;&nbsp;Développeur web et web mobile&nbsp;&#187;</a></li>
+                            
+                                <li><a href="diplomes-et-formations/article/opquast">Opquast</a></li>
+                            
+                                <li><a href="diplomes-et-formations/article/licence-en-sociologie-niveau-l1" class="on">Licence en Sociologie, niveau L1</a></li>
+                            
+                                <li><a href="diplomes-et-formations/article/licence-en-psychologie-niveau-l2">Licence en psychologie, niveau L2</a></li>
+                            
+                                <li><a href="diplomes-et-formations/article/baccalaureat-economique-et-sociale-specialite-mathematiques">Baccalauréat Économique et Sociale, spécialité Mathématiques</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                
+                </div><!--.aside-->
+        </div><!--.main-->
+        <?php echo recuperer_fond( 'inclure/footer', array_merge(array (
+  'id_rubrique' => '2',
+  'id_article' => '13',
+  'date' => '2020-03-18 12:14:17',
+  'date_default' => true,
+  'date_redac' => '2020-03-18 12:14:17',
+  'date_redac_default' => true,
+),array('self' => '/diplomes-et-formations/article/licence-en-sociologie-niveau-l1',
+	'lang' => 'fr')), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',58,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+    </div><!--.page-->
+</body>
+</html>
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:11:"id_rubrique";s:1:"2";s:10:"id_article";s:2:"13";s:4:"date";s:19:"2020-03-18 12:14:17";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:14:17";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584530057;s:2:"gz";b:0;s:3:"sig";i:840289850;}}

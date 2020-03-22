@@ -1,0 +1,75 @@
+a:2:{s:9:"nom_cache";s:38:"395187245c1ad0dacee13b7887916db9.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_1d44e46ad4d702cdc61dc182b9d0ba70";s:6:"source";s:28:"squelettes/inclure/head.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"395187245c1ad0dacee13b7887916db9.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:1655:"
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<link rel="alternate" type="application/rss+xml" title="Syndiquer tout le site" href="spip.php?page=backend" />
+
+   
+<link rel='stylesheet' href='local/cache-css/030adc689178dcc6a4d9f326d0fa35be.css?1582804996' type='text/css' /><?php header('Link: <' . url_de_base() . (_DIR_RACINE ? _DIR_RESTREINT_ABS : '') . 'local/cache-css/030adc689178dcc6a4d9f326d0fa35be.css?1582804996>;rel="stylesheet prefetch"'); ?>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">/* <![CDATA[ */
+var box_settings = {tt_img:true,sel_g:"#documents_portfolio a[type='image/jpeg'],#documents_portfolio a[type='image/png'],#documents_portfolio a[type='image/gif']",sel_c:".mediabox",trans:"elastic",speed:"200",ssSpeed:"2500",maxW:"90%",maxH:"90%",minW:"400px",minH:"",opa:"0.9",str_ssStart:"Diaporama",str_ssStop:"Arrêter",str_cur:"{current}/{total}",str_prev:"Précédent",str_next:"Suivant",str_close:"Fermer",splash_url:""};
+var box_settings_splash_width = "600px";
+var box_settings_splash_height = "90%";
+var box_settings_iframe = true;
+/* ]]> */</script>
+<!-- insert_head_css -->
+
+
+
+
+
+
+
+
+
+
+<script type='text/javascript' src='local/cache-js/b3f2872b815bd6fde0f8b5d718588a2f.js?1582804997'></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- insert_head -->
+	
+	
+
+
+<!-- SpipProprio insert head -->
+<meta name="copyright" content="Maxime Defretin" />
+<meta name="author" content="Maxime Defretin" />
+<meta name="reply-to" content="maxime.defretin@laposte.net" /><!-- END ADX Menu insert head -->
+
+
+
+
+
+
+<meta name="generator" content="SPIP 3.2.7 [24473]" />
+
+
+
+
+
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-22 13:29:06";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-22 13:29:06";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584880144;s:2:"gz";b:0;s:3:"sig";i:-754902929;}}

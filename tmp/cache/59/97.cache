@@ -1,0 +1,15 @@
+a:2:{s:9:"nom_cache";s:38:"5997bdacf735ad6bca84fa81f8dd8745.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_2b86667419653cd84b50e539bba36c01";s:6:"source";s:53:"plugins/auto/metasplus_v2/inclure/metasplus/dist.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:2:{s:5:"cache";s:38:"0f68153b3b68a82fcafedb310d0b894b.cache";s:7:"session";s:8:"b8957673";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:859:"<?php echo recuperer_fond( 'inclure/metasplus/inc-dist', array('titre' => 'Licence en psychologie, niveau L2 – Maxime Defretin',
+	'desc' => '&lt;p&gt;Durant la licence en psychologie, j&#8217;ai suivi différents cours en lien avec la psychologie.&lt;br class=&#039;autobr&#039; /&gt;
+Je n&#8217;ai pas obtenu cette licence, j&#8217;ai un niveau L2.&lt;/p&gt;',
+	'url' => 'diplomes-et-formations/article/licence-en-psychologie-niveau-l2',
+	'date' => '2020-02-28 15:11:33',
+	'maj' => '2019-12-09 11:11:42',
+	'langue' => 'fr',
+	'territoire' => '',
+	'og-type' => 'article',
+	'dc-type' => 'Text',
+	'logos' => '',
+	'auteurs' => array('0'=>'Maxime'),
+	'mots' => array(),
+	'lang' => 'fr'), array("compil"=>array('plugins/auto/metasplus_v2/inclure/metasplus/dist.html','html_2b86667419653cd84b50e539bba36c01','',177,$GLOBALS['spip_lang'])), _request("connect"));
+?>";s:5:"notes";s:0:"";s:8:"contexte";a:10:{s:9:"type-page";s:7:"article";s:6:"erreur";b:0;s:5:"objet";s:7:"article";s:8:"id_objet";s:2:"14";s:10:"id_article";s:2:"14";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-02-28 15:11:33";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-02-28 15:11:33";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1582899093;s:2:"gz";b:0;s:3:"sig";i:1065390035;}}

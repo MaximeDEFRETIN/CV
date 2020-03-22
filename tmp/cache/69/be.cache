@@ -1,0 +1,48 @@
+a:2:{s:9:"nom_cache";s:38:"69be6ea38c9af05c4917a11bbde7e7b0.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_7ecb170505bba13505effb8ef97a498b";s:6:"source";s:57:"plugins/auto/metasplus_v2/inclure/metasplus/inc-dist.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"69be6ea38c9af05c4917a11bbde7e7b0.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:2567:"<!-- Dublin Core -->
+<link rel="schema.DC" href="https://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="https://purl.org/dc/terms/" />
+<meta name="DC.Format" content="text/html" />
+<meta name="DC.Type" content="Text" />
+<meta name="DC.Language" scheme="rfc1766" content="fr" />
+<meta name="DC.Title" lang="fr" content="Croix rouge fran&#231;aise - Unit&#233; locale Chauny-Tergnier-La F&#232;re &#8211; Maxime Defretin" />
+<meta name="DC.Description.Abstract" lang="fr" content="Description des t&#226;ches effectu&#233;es durant le b&#233;n&#233;volat &#224; l&#039;unit&#233; locale Chauny-Tergnier-La F&#232;re de la Croix rouge fran&#231;aise" />
+<meta name="DC.Date" scheme="DCTERMS.W3CDTF" content="2020-03-18" />
+<meta name="DC.Date.Modified" scheme="DCTERMS.W3CDTF" content="2019-12-09" />
+<meta name="DC.Identifier" scheme="URI" content="https://w-l.fr/benevolats/article/croix-rouge-francaise-unite-locale-chauny-tergnier-la-fere" />
+<meta name="DC.Publisher" content="Maxime Defretin" />
+<meta name="DC.Source" scheme="URI" content="https://w-l.fr" />
+
+<meta name="DC.Creator" content="Maxime" />
+
+
+
+
+
+<!-- Open Graph -->
+
+<meta property="og:site_name" content="Maxime Defretin" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Croix rouge fran&#231;aise - Unit&#233; locale Chauny-Tergnier-La F&#232;re &#8211; Maxime Defretin" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:url" content="https://w-l.fr/benevolats/article/croix-rouge-francaise-unite-locale-chauny-tergnier-la-fere" />
+<meta property="og:description" content="Description des t&#226;ches effectu&#233;es durant le b&#233;n&#233;volat &#224; l&#039;unit&#233; locale Chauny-Tergnier-La F&#232;re de la Croix rouge fran&#231;aise" />
+
+
+<meta property="article:published_time" content="2020-03-18" />
+<meta property="article:modified_time" content="2019-12-09" />
+
+<meta property="article:author" content="Maxime" />
+
+
+
+
+
+
+
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Croix rouge fran&#231;aise - Unit&#233; locale Chauny-Tergnier-La F&#232;re &#8211; Maxime Defretin" />
+<meta name="twitter:description" content="Description des t&#226;ches effectu&#233;es durant le b&#233;n&#233;volat &#224; l&#039;unit&#233; locale Chauny-Tergnier-La F&#232;re de la Croix rouge fran&#231;aise" />
+<meta name="twitter:dnt" content="on" />
+<meta name="twitter:url" content="https://w-l.fr/benevolats/article/croix-rouge-francaise-unite-locale-chauny-tergnier-la-fere" />";s:5:"notes";s:0:"";s:8:"contexte";a:15:{s:5:"titre";s:83:"Croix rouge française - Unité locale Chauny-Tergnier-La Fère – Maxime Defretin";s:4:"desc";s:155:"&lt;p&gt;Description des tâches effectuées durant le bénévolat à l&#8217;unité locale Chauny-Tergnier-La Fère de la Croix rouge française&lt;/p&gt;";s:3:"url";s:77:"benevolats/article/croix-rouge-francaise-unite-locale-chauny-tergnier-la-fere";s:4:"date";s:19:"2020-03-18 12:13:58";s:3:"maj";s:19:"2019-12-09 11:21:30";s:6:"langue";s:2:"fr";s:10:"territoire";s:0:"";s:7:"og-type";s:7:"article";s:7:"dc-type";s:4:"Text";s:5:"logos";s:0:"";s:7:"auteurs";a:1:{i:0;s:6:"Maxime";}s:4:"mots";a:0:{}s:4:"lang";s:2:"fr";s:10:"date_redac";s:19:"2020-03-18 12:13:58";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584530038;s:2:"gz";b:0;s:3:"sig";i:2137108302;}}

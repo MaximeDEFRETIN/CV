@@ -1,0 +1,16 @@
+a:2:{s:9:"nom_cache";s:38:"6ddeb78e7cfb7173f291b07b3c62688a.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_79cc7f1a8f36fdf48d08fdaf507ba42b";s:6:"source";s:55:"plugins/auto/metasplus_v2/inclure/metasplus/auteur.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:2:{s:5:"cache";s:38:"d753b1dbc9aae388aa34463c4d26e6f5.cache";s:7:"session";s:0:"";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:580:"
+<?php echo recuperer_fond( 'inclure/metasplus/dist', array_merge(array (
+  'type-page' => 'auteur',
+  'erreur' => false,
+  'objet' => 'auteur',
+  'id_objet' => '1',
+  'id_auteur' => '1',
+  'lang' => 'fr',
+  'date' => '2020-03-18 12:14:53',
+  'date_default' => true,
+  'date_redac' => '2020-03-18 12:14:53',
+  'date_redac_default' => true,
+),array('og-type' => 'profile',
+	'desc' => '',
+	'lang' => 'fr')), array("compil"=>array('plugins/auto/metasplus_v2/inclure/metasplus/auteur.html','html_79cc7f1a8f36fdf48d08fdaf507ba42b','',2,$GLOBALS['spip_lang'])), _request("connect"));
+?>";s:5:"notes";s:0:"";s:8:"contexte";a:10:{s:9:"type-page";s:6:"auteur";s:6:"erreur";b:0;s:5:"objet";s:6:"auteur";s:8:"id_objet";s:1:"1";s:9:"id_auteur";s:1:"1";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-18 12:14:53";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:14:53";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584530093;s:2:"gz";b:0;s:3:"sig";i:937941173;}}

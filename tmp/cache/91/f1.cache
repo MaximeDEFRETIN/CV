@@ -1,0 +1,28 @@
+a:2:{s:9:"nom_cache";s:38:"91f10def0c3faa2a10afc20318272ba8.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_3f6ee6550c9c742833f97888df5e3c00";s:6:"source";s:68:"../plugins/auto/simplog/v1.4.4/prive/style_prive_plugin_simplog.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"91f10def0c3faa2a10afc20318272ba8.cache";}s:7:"entetes";a:5:{s:12:"X-Spip-Cache";s:6:"360000";s:13:"Cache-Control";s:14:"max-age=360000";s:15:"X-Spip-Statique";s:3:"oui";s:12:"Content-Type";s:29:"text/css; charset=iso-8859-15";s:4:"Vary";s:15:"Accept-Encoding";}s:5:"duree";i:360000;s:5:"texte";s:1227:"
+/* La caption du tableau qui porte le nom du log, les actions et les filtres */
+.simplog .caption {padding-bottom: 2em;}
+/* -- le nom du log */
+.simplog .caption .log {font-size: 125%; font-style: bold; text-align: left;}
+/* -- les actions sur le log */
+.simplog .caption .action {text-align: center;}
+.simplog .caption .bouton_action_post .submit {background-color: transparent;}
+.simplog .caption .bouton_action_post button:hover {cursor: pointer;}
+.simplog .caption .action a {padding: 1px 5px; margin-bottom: 3px; margin-top: 3px; background-color: transparent;}
+/* -- les filtres sur les enregistrements du log */
+.simplog .caption .filtre {text-align: right;}
+
+/* Les boutons de sens de tri (thead) et la pagination (thead et tfoot) */
+.simplog .pagination {margin: 0; border: 0; padding: 0.5em; background-color: #ffebcc;}
+.simplog .pagination .on {background-color: #CDA261; font-style: normal;}
+.simplog .pagination .sep,
+.simplog .pagination a {font-style: normal;}
+
+.simplog .navigation,
+.simplog .sens {padding: 0;}
+.simplog .navigation .pagination {text-align: left;}
+.simplog .first_row .navigation {border-right: 0;}
+.simplog .sens .pagination {text-align: right;}
+.simplog .first_row .sens {border-left: 0;}
+
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:25:{s:1:"v";s:5:"22653";s:1:"p";s:4:"21fd";s:6:"themes";s:4:"spip";s:3:"ltr";s:4:"left";s:4:"md5b";s:32:"aca5fc1ff6e003eea9b0940c4e117e24";s:14:"couleur_claire";s:6:"FFDDAA";s:14:"couleur_foncee";s:6:"CDA261";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-08 11:27:00";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-08 11:27:00";s:18:"date_redac_default";b:1;s:6:"claire";s:7:"#FFDDAA";s:6:"foncee";s:7:"#CDA261";s:4:"left";s:4:"left";s:5:"right";s:5:"right";s:3:"rtl";s:0:"";s:3:"dir";s:3:"ltr";s:9:"font-size";s:8:"0.8125em";s:11:"line-height";s:7:"1.385em";s:13:"margin-bottom";s:7:"1.385em";s:11:"text-indent";s:4:"50px";s:11:"font-family";s:28:"Helvetica, Arial, sans-serif";s:16:"background-color";s:7:"#F8F7F3";s:5:"color";s:7:"#000000";}s:12:"lastmodified";i:1583663220;s:2:"gz";b:0;s:3:"sig";i:306407310;}}

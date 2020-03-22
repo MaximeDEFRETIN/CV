@@ -1,0 +1,2049 @@
+2020-02-05 16:10:45 127.0.0.1 (pid 6994) :Pri:!INFO: Copier 31 tables de '' vers 'dump'
+2020-02-05 16:10:48 127.0.0.1 (pid 6994) :Pri:!INFO: creation 'spip_articles' sur serveur 'dump'
+2020-02-05 16:10:49 127.0.0.1 (pid 6994) :Pri:ERREUR: Erreur creation 'spip_articles' sur serveur 'dump'array (
+  'page' => 'article',
+  'texte_retour' => 'icone_retour_article',
+  'texte_modifier' => 'icone_modifier_article',
+  'texte_creer' => 'icone_ecrire_article',
+  'texte_objets' => 'public:articles',
+  'texte_objet' => 'public:article',
+  'texte_signale_edition' => 'texte_travail_article',
+  'info_aucun_objet' => 'info_aucun_article',
+  'info_1_objet' => 'info_1_article',
+  'info_nb_objets' => 'info_nb_articles',
+  'texte_logo_objet' => 'logo_article',
+  'texte_langue_objet' => 'titre_langue_article',
+  'texte_definir_comme_traduction_objet' => 'trad_lier',
+  'titre' => 'titre, lang',
+  'date' => 'date',
+  'principale' => 'oui',
+  'introduction_longueur' => '500',
+  'champs_editables' => 
+  array (
+    0 => 'surtitre',
+    1 => 'titre',
+    2 => 'soustitre',
+    3 => 'descriptif',
+    4 => 'nom_site',
+    5 => 'url_site',
+    6 => 'chapo',
+    7 => 'texte',
+    8 => 'ps',
+    9 => 'virtuel',
+  ),
+  'champs_versionnes' => 
+  array (
+    0 => 'id_rubrique',
+    1 => 'surtitre',
+    2 => 'titre',
+    3 => 'soustitre',
+    4 => 'jointure_auteurs',
+    5 => 'descriptif',
+    6 => 'nom_site',
+    7 => 'url_site',
+    8 => 'chapo',
+    9 => 'texte',
+    10 => 'ps',
+    11 => 'jointure_documents',
+    12 => 'jointure_mots',
+  ),
+  'field' => 
+  array (
+    'id_article' => 'bigint(21) NOT NULL AUTO_INCREMENT',
+    'surtitre' => 'text NOT NULL DEFAULT \'\'',
+    'titre' => 'text NOT NULL DEFAULT \'\'',
+    'soustitre' => 'text NOT NULL DEFAULT \'\'',
+    'id_rubrique' => 'bigint(21) NOT NULL DEFAULT 0',
+    'descriptif' => 'text NOT NULL DEFAULT \'\'',
+    'chapo' => 'mediumtext NOT NULL DEFAULT \'\'',
+    'texte' => 'longtext NOT NULL DEFAULT \'\'',
+    'ps' => 'mediumtext NOT NULL DEFAULT \'\'',
+    'date' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'statut' => 'varchar(10) NOT NULL DEFAULT \'0\'',
+    'id_secteur' => 'bigint(21) NOT NULL DEFAULT 0',
+    'maj' => 'timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()',
+    'export' => 'varchar(10) DEFAULT \'oui\'',
+    'date_redac' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'visites' => 'int(11) NOT NULL DEFAULT 0',
+    'referers' => 'int(11) NOT NULL DEFAULT 0',
+    'popularite' => 'double NOT NULL DEFAULT 0',
+    'accepter_forum' => 'char(3) NOT NULL DEFAULT \'\'',
+    'date_modif' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'lang' => 'varchar(10) NOT NULL DEFAULT \'\'',
+    'langue_choisie' => 'varchar(3) DEFAULT \'non\'',
+    'id_trad' => 'bigint(21) NOT NULL DEFAULT 0',
+    'nom_site' => 'tinytext NOT NULL DEFAULT \'\'',
+    'url_site' => 'text NOT NULL DEFAULT \'\'',
+    'virtuel' => 'text NOT NULL DEFAULT \'\'',
+  ),
+  'key' => 
+  array (
+    'PRIMARY KEY' => 'id_article',
+    'KEY id_rubrique' => 'id_rubrique',
+    'KEY id_secteur' => 'id_secteur',
+    'KEY id_trad' => 'id_trad',
+    'KEY lang' => 'lang',
+    'KEY statut' => 'statut,date',
+  ),
+  'join' => 
+  array (
+    'id_article' => 'id_article',
+    'id_rubrique' => 'id_rubrique',
+  ),
+  'rechercher_champs' => 
+  array (
+    'surtitre' => 5,
+    'titre' => 8,
+    'soustitre' => 5,
+    'chapo' => 3,
+    'texte' => 1,
+    'ps' => 1,
+    'nom_site' => 1,
+    'url_site' => 1,
+    'descriptif' => 4,
+  ),
+  'rechercher_jointures' => 
+  array (
+    'auteur' => 
+    array (
+      'nom' => 10,
+    ),
+    'document' => 
+    array (
+      'titre' => 2,
+      'descriptif' => 1,
+    ),
+    'mot' => 
+    array (
+      'titre' => 3,
+    ),
+  ),
+  'statut' => 
+  array (
+    0 => 
+    array (
+      'champ' => 'statut',
+      'publie' => 'publie',
+      'previsu' => 'publie,prop,prepa/auteur',
+      'post_date' => 'date',
+      'exception' => 
+      array (
+        0 => 'statut',
+        1 => 'tout',
+      ),
+    ),
+  ),
+  'statut_titres' => 
+  array (
+    'prepa' => 'info_article_redaction',
+    'prop' => 'info_article_propose',
+    'publie' => 'info_article_publie',
+    'refuse' => 'info_article_refuse',
+    'poubelle' => 'info_article_supprime',
+  ),
+  'statut_textes_instituer' => 
+  array (
+    'prepa' => 'texte_statut_en_cours_redaction',
+    'prop' => 'texte_statut_propose_evaluation',
+    'publie' => 'texte_statut_publie',
+    'refuse' => 'texte_statut_refuse',
+    'poubelle' => 'texte_statut_poubelle',
+  ),
+  'texte_changer_statut' => 'texte_article_statut',
+  'aide_changer_statut' => 'artstatut',
+  'tables_jointures' => 
+  array (
+    'profondeur' => 'rubriques',
+    'id_auteur' => 'auteurs_liens',
+    0 => 'forums',
+    1 => 'mots_liens',
+    2 => 'mots',
+    3 => 'versions',
+    4 => 'documents_liens',
+    5 => 'petitions',
+    6 => 'signatures',
+  ),
+  'type' => 'article',
+  'type_surnoms' => 
+  array (
+  ),
+  'table_objet' => 'articles',
+  'table_objet_surnoms' => 
+  array (
+  ),
+  'editable' => 'oui',
+  'url_voir' => 'article',
+  'url_edit' => 'article_edit',
+  'icone_objet' => 'article',
+  'texte_creer_associer' => 'article:texte_creer_associer_article',
+  'texte_ajouter' => 'article:texte_ajouter_article',
+  'modeles' => 
+  array (
+    0 => 'article',
+  ),
+  'exist' => true,
+  'table_sql' => 'spip_articles',
+  'table' => 'spip_articles',
+  'connexion' => '',
+  'id_table' => 'articles',
+)
+2020-02-05 16:10:49 127.0.0.1 (pid 6994) :Pri:!INFO: creation 'spip_auteurs_liens' sur serveur 'dump'
+2020-02-05 16:10:51 127.0.0.1 (pid 6994) :Pri:!INFO: recopie spip_auteurs_liens 23
+2020-02-05 16:10:51 127.0.0.1 (pid 6994) :Pri:!INFO: creation 'spip_breves' sur serveur 'dump'
+2020-02-05 16:10:52 127.0.0.1 (pid 6994) :Pri:ERREUR: Erreur creation 'spip_breves' sur serveur 'dump'array (
+  'texte_retour' => 'icone_retour',
+  'texte_objets' => 'breves:breves',
+  'texte_objet' => 'breves:breve',
+  'texte_modifier' => 'breves:icone_modifier_breve',
+  'texte_creer' => 'breves:icone_nouvelle_breve',
+  'info_aucun_objet' => 'breves:info_aucun_breve',
+  'info_1_objet' => 'breves:info_1_breve',
+  'info_nb_objets' => 'breves:info_nb_breves',
+  'texte_logo_objet' => 'breves:logo_breve',
+  'texte_langue_objet' => 'breves:titre_langue_breve',
+  'titre' => 'titre, lang',
+  'date' => 'date_heure',
+  'principale' => 'oui',
+  'introduction_longueur' => '300',
+  'field' => 
+  array (
+    'id_breve' => 'bigint(21) NOT NULL AUTO_INCREMENT',
+    'date_heure' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'titre' => 'text NOT NULL DEFAULT \'\'',
+    'texte' => 'longtext NOT NULL DEFAULT \'\'',
+    'lien_titre' => 'text NOT NULL DEFAULT \'\'',
+    'lien_url' => 'text NOT NULL DEFAULT \'\'',
+    'statut' => 'varchar(6) NOT NULL DEFAULT \'0\'',
+    'id_rubrique' => 'bigint(21) NOT NULL DEFAULT 0',
+    'lang' => 'varchar(10) NOT NULL DEFAULT \'\'',
+    'langue_choisie' => 'varchar(3) DEFAULT \'non\'',
+    'maj' => 'timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()',
+  ),
+  'key' => 
+  array (
+    'PRIMARY KEY' => 'id_breve',
+    'KEY id_rubrique' => 'id_rubrique',
+  ),
+  'join' => 
+  array (
+    'id_breve' => 'id_breve',
+    'id_rubrique' => 'id_rubrique',
+  ),
+  'statut' => 
+  array (
+    0 => 
+    array (
+      'champ' => 'statut',
+      'publie' => 'publie',
+      'previsu' => 'publie,prop',
+      'exception' => 'statut',
+    ),
+  ),
+  'texte_changer_statut' => 'breves:entree_breve_publiee',
+  'aide_changer_statut' => 'brevesstatut',
+  'statut_titres' => 
+  array (
+    'prop' => 'breves:titre_breve_proposee',
+    'publie' => 'breves:titre_breve_publiee',
+    'refuse' => 'breves:titre_breve_refusee',
+  ),
+  'statut_textes_instituer' => 
+  array (
+    'prop' => 'breves:item_breve_proposee',
+    'publie' => 'breves:item_breve_validee',
+    'refuse' => 'breves:item_breve_refusee',
+  ),
+  'rechercher_champs' => 
+  array (
+    'titre' => 8,
+    'texte' => 2,
+    'lien_titre' => 1,
+    'lien_url' => 1,
+  ),
+  'rechercher_jointures' => 
+  array (
+    'document' => 
+    array (
+      'titre' => 2,
+      'descriptif' => 1,
+    ),
+    'mot' => 
+    array (
+      'titre' => 3,
+    ),
+  ),
+  'champs_versionnes' => 
+  array (
+    0 => 'id_rubrique',
+    1 => 'titre',
+    2 => 'lien_titre',
+    3 => 'lien_url',
+    4 => 'texte',
+    5 => 'jointure_mots',
+  ),
+  'type' => 'breve',
+  'type_surnoms' => 
+  array (
+  ),
+  'table_objet' => 'breves',
+  'table_objet_surnoms' => 
+  array (
+  ),
+  'editable' => 'oui',
+  'page' => 'breve',
+  'url_voir' => 'breve',
+  'url_edit' => 'breve_edit',
+  'icone_objet' => 'breve',
+  'texte_creer_associer' => 'breve:texte_creer_associer_breve',
+  'texte_ajouter' => 'breve:texte_ajouter_breve',
+  'texte_definir_comme_traduction_objet' => 'breve:texte_definir_comme_traduction_breve',
+  'champs_editables' => 
+  array (
+  ),
+  'modeles' => 
+  array (
+    0 => 'breve',
+  ),
+  'tables_jointures' => 
+  array (
+    'id_auteur' => 'auteurs_liens',
+    0 => 'forums',
+    1 => 'mots_liens',
+    2 => 'mots',
+    3 => 'versions',
+    4 => 'documents_liens',
+  ),
+  'exist' => true,
+  'table_sql' => 'spip_breves',
+  'table' => 'spip_breves',
+  'connexion' => '',
+  'id_table' => 'breves',
+)
+2020-02-05 16:10:52 127.0.0.1 (pid 6994) :Pri:!INFO: creation 'spip_depots' sur serveur 'dump'
+2020-02-05 16:10:53 127.0.0.1 (pid 6994) :Pri:ERREUR: Erreur creation 'spip_depots' sur serveur 'dump'array (
+  'table_objet' => 'depots',
+  'type' => 'depot',
+  'field' => 
+  array (
+    'id_depot' => 'bigint(21) NOT NULL AUTO_INCREMENT',
+    'titre' => 'text NOT NULL DEFAULT \'\'',
+    'descriptif' => 'text NOT NULL DEFAULT \'\'',
+    'type' => 'varchar(10) NOT NULL DEFAULT \'\'',
+    'url_serveur' => 'varchar(255) NOT NULL DEFAULT \'\'',
+    'url_brouteur' => 'varchar(255) NOT NULL DEFAULT \'\'',
+    'url_archives' => 'varchar(255) NOT NULL DEFAULT \'\'',
+    'url_commits' => 'varchar(255) NOT NULL DEFAULT \'\'',
+    'xml_paquets' => 'varchar(255) NOT NULL DEFAULT \'\'',
+    'sha_paquets' => 'varchar(40) NOT NULL DEFAULT \'\'',
+    'nbr_paquets' => 'int(11) NOT NULL DEFAULT 0',
+    'nbr_plugins' => 'int(11) NOT NULL DEFAULT 0',
+    'nbr_autres' => 'int(11) NOT NULL DEFAULT 0',
+    'maj' => 'timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()',
+  ),
+  'key' => 
+  array (
+    'PRIMARY KEY' => 'id_depot',
+  ),
+  'tables_jointures' => 
+  array (
+    'id_plugin' => 'depots_plugins',
+    'id_auteur' => 'auteurs_liens',
+    0 => 'forums',
+    1 => 'mots_liens',
+    2 => 'mots',
+    3 => 'versions',
+    4 => 'documents_liens',
+  ),
+  'principale' => 'oui',
+  'titre' => 'titre, \'\' AS lang',
+  'page' => 'depot',
+  'url_voir' => 'depot',
+  'url_edit' => 'depot_edit',
+  'editable' => false,
+  'champs_editables' => 
+  array (
+    0 => 'titre',
+    1 => 'descriptif',
+  ),
+  'icone_objet' => 'depot',
+  'texte_retour' => 'icone_retour',
+  'texte_modifier' => 'svp:bouton_modifier_depot',
+  'texte_creer' => '',
+  'texte_creer_associer' => '',
+  'texte_signale_edition' => '',
+  'texte_objet' => 'svp:titre_depot',
+  'texte_objets' => 'svp:titre_depots',
+  'info_aucun_objet' => 'svp:info_aucun_depot',
+  'info_1_objet' => 'svp:info_1_depot',
+  'info_nb_objets' => 'svp:info_nb_depots',
+  'texte_logo_objet' => 'svp:titre_logo_depot',
+  'type_surnoms' => 
+  array (
+  ),
+  'table_objet_surnoms' => 
+  array (
+  ),
+  'texte_ajouter' => 'depot:texte_ajouter_depot',
+  'texte_langue_objet' => 'depot:titre_langue_depot',
+  'texte_definir_comme_traduction_objet' => 'depot:texte_definir_comme_traduction_depot',
+  'champs_versionnes' => 
+  array (
+    0 => 'jointure_mots',
+  ),
+  'rechercher_champs' => 
+  array (
+  ),
+  'rechercher_jointures' => 
+  array (
+    'mot' => 
+    array (
+      'titre' => 3,
+    ),
+  ),
+  'modeles' => 
+  array (
+    0 => 'depot',
+  ),
+  'date' => '',
+  'statut' => '',
+  'exist' => true,
+  'table_sql' => 'spip_depots',
+  'table' => 'spip_depots',
+  'connexion' => '',
+  'id_table' => 'depots',
+)
+2020-02-05 16:10:53 127.0.0.1 (pid 6994) :Pri:!INFO: creation 'spip_depots_plugins' sur serveur 'dump'
+2020-02-05 16:10:54 127.0.0.1 (pid 6994) :Pri:!INFO: recopie spip_depots_plugins 400
+2020-02-05 16:10:56 127.0.0.1 (pid 6994) :Pri:!INFO: recopie spip_depots_plugins 617
+2020-02-05 16:10:56 127.0.0.1 (pid 6994) :Pri:!INFO: creation 'spip_documents' sur serveur 'dump'
+2020-02-05 16:10:57 127.0.0.1 (pid 6994) :Pri:ERREUR: Erreur creation 'spip_documents' sur serveur 'dump'array (
+  'table_objet_surnoms' => 
+  array (
+    0 => 'doc',
+    1 => 'img',
+    2 => 'emb',
+  ),
+  'type_surnoms' => 
+  array (
+  ),
+  'url_voir' => 'document_edit',
+  'url_edit' => 'document_edit',
+  'page' => '',
+  'texte_retour' => 'icone_retour',
+  'texte_objets' => 'medias:objet_documents',
+  'texte_objet' => 'medias:objet_document',
+  'texte_modifier' => 'medias:info_modifier_document',
+  'info_aucun_objet' => 'medias:aucun_document',
+  'info_1_objet' => 'medias:un_document',
+  'info_nb_objets' => 'medias:des_documents',
+  'titre' => 'CASE WHEN length(titre)>0 THEN titre ELSE fichier END as titre, \'\' AS lang',
+  'date' => 'date',
+  'principale' => 'oui',
+  'field' => 
+  array (
+    'id_document' => 'bigint(21) NOT NULL AUTO_INCREMENT',
+    'id_vignette' => 'bigint(21) NOT NULL DEFAULT 0',
+    'extension' => 'varchar(10) NOT NULL DEFAULT \'\'',
+    'titre' => 'text NOT NULL DEFAULT \'\'',
+    'date' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'descriptif' => 'text NOT NULL DEFAULT \'\'',
+    'fichier' => 'text NOT NULL DEFAULT \'\'',
+    'taille' => 'bigint(20) DEFAULT NULL',
+    'largeur' => 'int(11) DEFAULT NULL',
+    'hauteur' => 'int(11) DEFAULT NULL',
+    'duree' => 'int(11) DEFAULT NULL',
+    'media' => 'varchar(10) NOT NULL DEFAULT \'file\'',
+    'mode' => 'varchar(10) NOT NULL DEFAULT \'document\'',
+    'distant' => 'varchar(3) DEFAULT \'non\'',
+    'statut' => 'varchar(10) NOT NULL DEFAULT \'0\'',
+    'credits' => 'text NOT NULL DEFAULT \'\'',
+    'date_publication' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'brise' => 'tinyint(4) DEFAULT 0',
+    'maj' => 'timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()',
+  ),
+  'key' => 
+  array (
+    'PRIMARY KEY' => 'id_document',
+    'KEY id_vignette' => 'id_vignette',
+    'KEY mode' => 'mode',
+    'KEY extension' => 'extension',
+  ),
+  'join' => 
+  array (
+    'id_document' => 'id_document',
+    'extension' => 'extension',
+  ),
+  'statut' => 
+  array (
+    0 => 
+    array (
+      'champ' => 'statut',
+      'publie' => 'publie',
+      'previsu' => 'publie,prop,prepa',
+      'post_date' => 'date_publication',
+      'exception' => 
+      array (
+        0 => 'statut',
+        1 => 'tout',
+      ),
+    ),
+  ),
+  'tables_jointures' => 
+  array (
+    0 => 'types_documents',
+    'id_auteur' => 'auteurs_liens',
+    1 => 'forums',
+    2 => 'mots_liens',
+    3 => 'mots',
+    4 => 'versions',
+    5 => 'documents_liens',
+  ),
+  'rechercher_champs' => 
+  array (
+    'titre' => 3,
+    'descriptif' => 1,
+    'fichier' => 1,
+    'credits' => 1,
+  ),
+  'champs_editables' => 
+  array (
+    0 => 'titre',
+    1 => 'descriptif',
+    2 => 'date',
+    3 => 'taille',
+    4 => 'largeur',
+    5 => 'hauteur',
+    6 => 'duree',
+    7 => 'mode',
+    8 => 'credits',
+    9 => 'fichier',
+    10 => 'distant',
+    11 => 'extension',
+    12 => 'id_vignette',
+    13 => 'media',
+  ),
+  'champs_versionnes' => 
+  array (
+    0 => 'id_vignette',
+    1 => 'titre',
+    2 => 'descriptif',
+    3 => 'taille',
+    4 => 'largeur',
+    5 => 'hauteur',
+    6 => 'duree',
+    7 => 'mode',
+    8 => 'credits',
+    9 => 'fichier',
+    10 => 'distant',
+    11 => 'jointure_mots',
+  ),
+  'modeles' => 
+  array (
+    0 => 'document',
+    1 => 'doc',
+    2 => 'img',
+    3 => 'emb',
+    4 => 'image',
+    5 => 'video',
+    6 => 'text',
+    7 => 'audio',
+    8 => 'application',
+  ),
+  'type' => 'document',
+  'table_objet' => 'documents',
+  'editable' => 'oui',
+  'icone_objet' => 'document',
+  'texte_creer' => 'document:icone_creer_document',
+  'texte_creer_associer' => 'document:texte_creer_associer_document',
+  'texte_ajouter' => 'document:texte_ajouter_document',
+  'texte_logo_objet' => 'document:titre_logo_document',
+  'texte_langue_objet' => 'document:titre_langue_document',
+  'texte_definir_comme_traduction_objet' => 'document:texte_definir_comme_traduction_document',
+  'rechercher_jointures' => 
+  array (
+    'mot' => 
+    array (
+      'titre' => 3,
+    ),
+  ),
+  'exist' => true,
+  'table_sql' => 'spip_documents',
+  'table' => 'spip_documents',
+  'connexion' => '',
+  'id_table' => 'documents',
+)
+2020-02-05 16:10:57 127.0.0.1 (pid 6994) :Pri:!INFO: creation 'spip_documents_liens' sur serveur 'dump'
+2020-02-05 16:10:58 127.0.0.1 (pid 6994) :Pri:!INFO: creation 'spip_forum' sur serveur 'dump'
+2020-02-05 16:10:59 127.0.0.1 (pid 6994) :Pri:ERREUR: Erreur creation 'spip_forum' sur serveur 'dump'array (
+  'table_objet' => 'forums',
+  'type' => 'forum',
+  'url_voir' => 'controler_forum',
+  'url_edit' => 'controler_forum',
+  'editable' => false,
+  'principale' => 'oui',
+  'page' => '',
+  'texte_retour' => 'icone_retour',
+  'texte_objets' => 'forum:forum',
+  'texte_objet' => 'forum:forum',
+  'info_aucun_objet' => 'forum:aucun_message_forum',
+  'info_1_objet' => 'forum:info_1_message_forum',
+  'info_nb_objets' => 'forum:info_nb_messages_forum',
+  'titre' => 'titre, \'\' AS lang',
+  'date' => 'date_heure',
+  'champs_editables' => 
+  array (
+    0 => 'titre',
+    1 => 'texte',
+    2 => 'nom_site',
+    3 => 'url_site',
+  ),
+  'field' => 
+  array (
+    'id_forum' => 'bigint(21) NOT NULL AUTO_INCREMENT',
+    'id_objet' => 'bigint(21) NOT NULL DEFAULT 0',
+    'objet' => 'varchar(25) NOT NULL DEFAULT \'\'',
+    'id_parent' => 'bigint(21) NOT NULL DEFAULT 0',
+    'id_thread' => 'bigint(21) NOT NULL DEFAULT 0',
+    'date_heure' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'date_thread' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'titre' => 'text NOT NULL DEFAULT \'\'',
+    'texte' => 'mediumtext NOT NULL DEFAULT \'\'',
+    'auteur' => 'text NOT NULL DEFAULT \'\'',
+    'email_auteur' => 'text NOT NULL DEFAULT \'\'',
+    'nom_site' => 'text NOT NULL DEFAULT \'\'',
+    'url_site' => 'text NOT NULL DEFAULT \'\'',
+    'statut' => 'varchar(8) NOT NULL DEFAULT \'0\'',
+    'ip' => 'varchar(40) NOT NULL DEFAULT \'\'',
+    'maj' => 'timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()',
+    'id_auteur' => 'bigint(20) NOT NULL DEFAULT 0',
+  ),
+  'key' => 
+  array (
+    'PRIMARY KEY' => 'id_forum',
+    'KEY id_auteur' => 'id_auteur',
+    'KEY id_parent' => 'id_parent',
+    'KEY id_thread' => 'id_thread',
+    'KEY optimal' => 'statut,id_parent,id_objet,objet,date_heure',
+  ),
+  'join' => 
+  array (
+    'id_forum' => 'id_forum',
+    'id_parent' => 'id_parent',
+    'id_objet' => 'id_objet',
+    'objet' => 'objet',
+    'id_auteur' => 'id_auteur',
+  ),
+  'rechercher_champs' => 
+  array (
+    'titre' => 3,
+    'texte' => 1,
+    'auteur' => 2,
+    'email_auteur' => 2,
+    'nom_site' => 1,
+    'url_site' => 1,
+  ),
+  'type_surnoms' => 
+  array (
+  ),
+  'table_objet_surnoms' => 
+  array (
+  ),
+  'icone_objet' => 'forum',
+  'texte_modifier' => 'forum:icone_modifier_forum',
+  'texte_creer' => 'forum:icone_creer_forum',
+  'texte_creer_associer' => 'forum:texte_creer_associer_forum',
+  'texte_ajouter' => 'forum:texte_ajouter_forum',
+  'texte_logo_objet' => 'forum:titre_logo_forum',
+  'texte_langue_objet' => 'forum:titre_langue_forum',
+  'texte_definir_comme_traduction_objet' => 'forum:texte_definir_comme_traduction_forum',
+  'champs_versionnes' => 
+  array (
+    0 => 'jointure_mots',
+  ),
+  'rechercher_jointures' => 
+  array (
+    'mot' => 
+    array (
+      'titre' => 3,
+    ),
+  ),
+  'modeles' => 
+  array (
+    0 => 'forum',
+  ),
+  'tables_jointures' => 
+  array (
+    'id_auteur' => 'auteurs_liens',
+    0 => 'forums',
+    1 => 'mots_liens',
+    2 => 'mots',
+    3 => 'versions',
+    4 => 'documents_liens',
+  ),
+  'statut' => 
+  array (
+    0 => 
+    array (
+      'champ' => 'statut',
+      'publie' => 'publie',
+      'previsu' => 'publie,prop',
+      'exception' => 'statut',
+    ),
+  ),
+  'exist' => true,
+  'table_sql' => 'spip_forum',
+  'table' => 'spip_forum',
+  'connexion' => '',
+  'id_table' => 'forum',
+)
+2020-02-05 16:10:59 127.0.0.1 (pid 6994) :Pri:!INFO: creation 'spip_groupes_mots' sur serveur 'dump'
+2020-02-05 16:11:00 127.0.0.1 (pid 6994) :Pri:ERREUR: Erreur creation 'spip_groupes_mots' sur serveur 'dump'array (
+  'table_objet_surnoms' => 
+  array (
+    0 => 'groupemot',
+    1 => 'groupe_mots',
+    2 => 'groupe_mot',
+    3 => 'groupe',
+  ),
+  'type' => 'groupe_mots',
+  'type_surnoms' => 
+  array (
+    0 => 'groupes_mot',
+    1 => 'groupemot',
+    2 => 'groupe_mot',
+  ),
+  'texte_retour' => 'icone_retour',
+  'texte_objets' => 'mots:titre_groupes_mots',
+  'texte_objet' => 'mots:titre_groupe_mots',
+  'texte_modifier' => 'mots:icone_modif_groupe_mots',
+  'texte_creer' => 'mots:icone_creation_groupe_mots',
+  'texte_logo_objet' => 'mots:logo_groupe',
+  'info_aucun_objet' => 'mots:info_aucun_groupemots',
+  'info_1_objet' => 'mots:info_1_groupemots',
+  'info_nb_objets' => 'mots:info_nb_groupemots',
+  'titre' => 'titre, \'\' AS lang',
+  'date' => 'date',
+  'principale' => 'oui',
+  'page' => '',
+  'field' => 
+  array (
+    'id_groupe' => 'bigint(21) NOT NULL AUTO_INCREMENT',
+    'titre' => 'text NOT NULL DEFAULT \'\'',
+    'descriptif' => 'text NOT NULL DEFAULT \'\'',
+    'texte' => 'longtext NOT NULL DEFAULT \'\'',
+    'unseul' => 'varchar(3) NOT NULL DEFAULT \'\'',
+    'obligatoire' => 'varchar(3) NOT NULL DEFAULT \'\'',
+    'tables_liees' => 'text NOT NULL DEFAULT \'\'',
+    'minirezo' => 'varchar(3) NOT NULL DEFAULT \'\'',
+    'comite' => 'varchar(3) NOT NULL DEFAULT \'\'',
+    'forum' => 'varchar(3) NOT NULL DEFAULT \'\'',
+    'maj' => 'timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()',
+  ),
+  'key' => 
+  array (
+    'PRIMARY KEY' => 'id_groupe',
+  ),
+  'rechercher_champs' => 
+  array (
+    'titre' => 8,
+    'texte' => 1,
+    'descriptif' => 5,
+  ),
+  'tables_jointures' => 
+  array (
+    0 => 'mots',
+    'id_auteur' => 'auteurs_liens',
+    1 => 'forums',
+    2 => 'mots_liens',
+    3 => 'versions',
+    4 => 'documents_liens',
+  ),
+  'champs_versionnes' => 
+  array (
+    0 => 'titre',
+    1 => 'descriptif',
+    2 => 'texte',
+    3 => 'un_seul',
+    4 => 'obligatoire',
+    5 => 'tables_liees',
+    6 => 'minirezo',
+    7 => 'forum',
+    8 => 'comite',
+    9 => 'jointure_mots',
+  ),
+  'table_objet' => 'groupes_mots',
+  'editable' => 'oui',
+  'url_voir' => 'groupe_mots',
+  'url_edit' => 'groupe_mots_edit',
+  'icone_objet' => 'groupe_mots',
+  'texte_creer_associer' => 'groupe_mots:texte_creer_associer_groupe_mots',
+  'texte_ajouter' => 'groupe_mots:texte_ajouter_groupe_mots',
+  'texte_langue_objet' => 'groupe_mots:titre_langue_groupe_mots',
+  'texte_definir_comme_traduction_objet' => 'groupe_mots:texte_definir_comme_traduction_groupe_mots',
+  'champs_editables' => 
+  array (
+  ),
+  'rechercher_jointures' => 
+  array (
+    'mot' => 
+    array (
+      'titre' => 3,
+    ),
+  ),
+  'modeles' => 
+  array (
+    0 => 'groupe_mots',
+  ),
+  'statut' => '',
+  'exist' => true,
+  'table_sql' => 'spip_groupes_mots',
+  'table' => 'spip_groupes_mots',
+  'connexion' => '',
+  'id_table' => 'groupes_mots',
+)
+2020-02-05 16:11:00 127.0.0.1 (pid 6994) :Pri:!INFO: creation 'spip_jobs' sur serveur 'dump'
+2020-02-05 16:11:03 127.0.0.1 (pid 6994) :Pri:!INFO: recopie spip_jobs 10
+2020-02-05 16:11:03 127.0.0.1 (pid 6717) :Pri:!INFO: Copier 31 tables de '' vers 'dump'
+2020-02-05 16:11:03 127.0.0.1 (pid 6717) :Pri:!INFO: creation 'spip_articles' sur serveur 'dump'
+2020-02-05 16:11:04 127.0.0.1 (pid 6717) :Pri:ERREUR: Erreur creation 'spip_articles' sur serveur 'dump'array (
+  'page' => 'article',
+  'texte_retour' => 'icone_retour_article',
+  'texte_modifier' => 'icone_modifier_article',
+  'texte_creer' => 'icone_ecrire_article',
+  'texte_objets' => 'public:articles',
+  'texte_objet' => 'public:article',
+  'texte_signale_edition' => 'texte_travail_article',
+  'info_aucun_objet' => 'info_aucun_article',
+  'info_1_objet' => 'info_1_article',
+  'info_nb_objets' => 'info_nb_articles',
+  'texte_logo_objet' => 'logo_article',
+  'texte_langue_objet' => 'titre_langue_article',
+  'texte_definir_comme_traduction_objet' => 'trad_lier',
+  'titre' => 'titre, lang',
+  'date' => 'date',
+  'principale' => 'oui',
+  'introduction_longueur' => '500',
+  'champs_editables' => 
+  array (
+    0 => 'surtitre',
+    1 => 'titre',
+    2 => 'soustitre',
+    3 => 'descriptif',
+    4 => 'nom_site',
+    5 => 'url_site',
+    6 => 'chapo',
+    7 => 'texte',
+    8 => 'ps',
+    9 => 'virtuel',
+  ),
+  'champs_versionnes' => 
+  array (
+    0 => 'id_rubrique',
+    1 => 'surtitre',
+    2 => 'titre',
+    3 => 'soustitre',
+    4 => 'jointure_auteurs',
+    5 => 'descriptif',
+    6 => 'nom_site',
+    7 => 'url_site',
+    8 => 'chapo',
+    9 => 'texte',
+    10 => 'ps',
+    11 => 'jointure_documents',
+    12 => 'jointure_mots',
+  ),
+  'field' => 
+  array (
+    'id_article' => 'bigint(21) NOT NULL AUTO_INCREMENT',
+    'surtitre' => 'text NOT NULL DEFAULT \'\'',
+    'titre' => 'text NOT NULL DEFAULT \'\'',
+    'soustitre' => 'text NOT NULL DEFAULT \'\'',
+    'id_rubrique' => 'bigint(21) NOT NULL DEFAULT 0',
+    'descriptif' => 'text NOT NULL DEFAULT \'\'',
+    'chapo' => 'mediumtext NOT NULL DEFAULT \'\'',
+    'texte' => 'longtext NOT NULL DEFAULT \'\'',
+    'ps' => 'mediumtext NOT NULL DEFAULT \'\'',
+    'date' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'statut' => 'varchar(10) NOT NULL DEFAULT \'0\'',
+    'id_secteur' => 'bigint(21) NOT NULL DEFAULT 0',
+    'maj' => 'timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()',
+    'export' => 'varchar(10) DEFAULT \'oui\'',
+    'date_redac' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'visites' => 'int(11) NOT NULL DEFAULT 0',
+    'referers' => 'int(11) NOT NULL DEFAULT 0',
+    'popularite' => 'double NOT NULL DEFAULT 0',
+    'accepter_forum' => 'char(3) NOT NULL DEFAULT \'\'',
+    'date_modif' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'lang' => 'varchar(10) NOT NULL DEFAULT \'\'',
+    'langue_choisie' => 'varchar(3) DEFAULT \'non\'',
+    'id_trad' => 'bigint(21) NOT NULL DEFAULT 0',
+    'nom_site' => 'tinytext NOT NULL DEFAULT \'\'',
+    'url_site' => 'text NOT NULL DEFAULT \'\'',
+    'virtuel' => 'text NOT NULL DEFAULT \'\'',
+  ),
+  'key' => 
+  array (
+    'PRIMARY KEY' => 'id_article',
+    'KEY id_rubrique' => 'id_rubrique',
+    'KEY id_secteur' => 'id_secteur',
+    'KEY id_trad' => 'id_trad',
+    'KEY lang' => 'lang',
+    'KEY statut' => 'statut,date',
+  ),
+  'join' => 
+  array (
+    'id_article' => 'id_article',
+    'id_rubrique' => 'id_rubrique',
+  ),
+  'rechercher_champs' => 
+  array (
+    'surtitre' => 5,
+    'titre' => 8,
+    'soustitre' => 5,
+    'chapo' => 3,
+    'texte' => 1,
+    'ps' => 1,
+    'nom_site' => 1,
+    'url_site' => 1,
+    'descriptif' => 4,
+  ),
+  'rechercher_jointures' => 
+  array (
+    'auteur' => 
+    array (
+      'nom' => 10,
+    ),
+    'document' => 
+    array (
+      'titre' => 2,
+      'descriptif' => 1,
+    ),
+    'mot' => 
+    array (
+      'titre' => 3,
+    ),
+  ),
+  'statut' => 
+  array (
+    0 => 
+    array (
+      'champ' => 'statut',
+      'publie' => 'publie',
+      'previsu' => 'publie,prop,prepa/auteur',
+      'post_date' => 'date',
+      'exception' => 
+      array (
+        0 => 'statut',
+        1 => 'tout',
+      ),
+    ),
+  ),
+  'statut_titres' => 
+  array (
+    'prepa' => 'info_article_redaction',
+    'prop' => 'info_article_propose',
+    'publie' => 'info_article_publie',
+    'refuse' => 'info_article_refuse',
+    'poubelle' => 'info_article_supprime',
+  ),
+  'statut_textes_instituer' => 
+  array (
+    'prepa' => 'texte_statut_en_cours_redaction',
+    'prop' => 'texte_statut_propose_evaluation',
+    'publie' => 'texte_statut_publie',
+    'refuse' => 'texte_statut_refuse',
+    'poubelle' => 'texte_statut_poubelle',
+  ),
+  'texte_changer_statut' => 'texte_article_statut',
+  'aide_changer_statut' => 'artstatut',
+  'tables_jointures' => 
+  array (
+    'profondeur' => 'rubriques',
+    'id_auteur' => 'auteurs_liens',
+    0 => 'forums',
+    1 => 'mots_liens',
+    2 => 'mots',
+    3 => 'versions',
+    4 => 'documents_liens',
+    5 => 'petitions',
+    6 => 'signatures',
+  ),
+  'type' => 'article',
+  'type_surnoms' => 
+  array (
+  ),
+  'table_objet' => 'articles',
+  'table_objet_surnoms' => 
+  array (
+  ),
+  'editable' => 'oui',
+  'url_voir' => 'article',
+  'url_edit' => 'article_edit',
+  'icone_objet' => 'article',
+  'texte_creer_associer' => 'article:texte_creer_associer_article',
+  'texte_ajouter' => 'article:texte_ajouter_article',
+  'modeles' => 
+  array (
+    0 => 'article',
+  ),
+  'exist' => true,
+  'table_sql' => 'spip_articles',
+  'table' => 'spip_articles',
+  'connexion' => '',
+  'id_table' => 'articles',
+)
+2020-02-05 16:11:04 127.0.0.1 (pid 6717) :Pri:!INFO: creation 'spip_breves' sur serveur 'dump'
+2020-02-05 16:11:05 127.0.0.1 (pid 6717) :Pri:ERREUR: Erreur creation 'spip_breves' sur serveur 'dump'array (
+  'texte_retour' => 'icone_retour',
+  'texte_objets' => 'breves:breves',
+  'texte_objet' => 'breves:breve',
+  'texte_modifier' => 'breves:icone_modifier_breve',
+  'texte_creer' => 'breves:icone_nouvelle_breve',
+  'info_aucun_objet' => 'breves:info_aucun_breve',
+  'info_1_objet' => 'breves:info_1_breve',
+  'info_nb_objets' => 'breves:info_nb_breves',
+  'texte_logo_objet' => 'breves:logo_breve',
+  'texte_langue_objet' => 'breves:titre_langue_breve',
+  'titre' => 'titre, lang',
+  'date' => 'date_heure',
+  'principale' => 'oui',
+  'introduction_longueur' => '300',
+  'field' => 
+  array (
+    'id_breve' => 'bigint(21) NOT NULL AUTO_INCREMENT',
+    'date_heure' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'titre' => 'text NOT NULL DEFAULT \'\'',
+    'texte' => 'longtext NOT NULL DEFAULT \'\'',
+    'lien_titre' => 'text NOT NULL DEFAULT \'\'',
+    'lien_url' => 'text NOT NULL DEFAULT \'\'',
+    'statut' => 'varchar(6) NOT NULL DEFAULT \'0\'',
+    'id_rubrique' => 'bigint(21) NOT NULL DEFAULT 0',
+    'lang' => 'varchar(10) NOT NULL DEFAULT \'\'',
+    'langue_choisie' => 'varchar(3) DEFAULT \'non\'',
+    'maj' => 'timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()',
+  ),
+  'key' => 
+  array (
+    'PRIMARY KEY' => 'id_breve',
+    'KEY id_rubrique' => 'id_rubrique',
+  ),
+  'join' => 
+  array (
+    'id_breve' => 'id_breve',
+    'id_rubrique' => 'id_rubrique',
+  ),
+  'statut' => 
+  array (
+    0 => 
+    array (
+      'champ' => 'statut',
+      'publie' => 'publie',
+      'previsu' => 'publie,prop',
+      'exception' => 'statut',
+    ),
+  ),
+  'texte_changer_statut' => 'breves:entree_breve_publiee',
+  'aide_changer_statut' => 'brevesstatut',
+  'statut_titres' => 
+  array (
+    'prop' => 'breves:titre_breve_proposee',
+    'publie' => 'breves:titre_breve_publiee',
+    'refuse' => 'breves:titre_breve_refusee',
+  ),
+  'statut_textes_instituer' => 
+  array (
+    'prop' => 'breves:item_breve_proposee',
+    'publie' => 'breves:item_breve_validee',
+    'refuse' => 'breves:item_breve_refusee',
+  ),
+  'rechercher_champs' => 
+  array (
+    'titre' => 8,
+    'texte' => 2,
+    'lien_titre' => 1,
+    'lien_url' => 1,
+  ),
+  'rechercher_jointures' => 
+  array (
+    'document' => 
+    array (
+      'titre' => 2,
+      'descriptif' => 1,
+    ),
+    'mot' => 
+    array (
+      'titre' => 3,
+    ),
+  ),
+  'champs_versionnes' => 
+  array (
+    0 => 'id_rubrique',
+    1 => 'titre',
+    2 => 'lien_titre',
+    3 => 'lien_url',
+    4 => 'texte',
+    5 => 'jointure_mots',
+  ),
+  'type' => 'breve',
+  'type_surnoms' => 
+  array (
+  ),
+  'table_objet' => 'breves',
+  'table_objet_surnoms' => 
+  array (
+  ),
+  'editable' => 'oui',
+  'page' => 'breve',
+  'url_voir' => 'breve',
+  'url_edit' => 'breve_edit',
+  'icone_objet' => 'breve',
+  'texte_creer_associer' => 'breve:texte_creer_associer_breve',
+  'texte_ajouter' => 'breve:texte_ajouter_breve',
+  'texte_definir_comme_traduction_objet' => 'breve:texte_definir_comme_traduction_breve',
+  'champs_editables' => 
+  array (
+  ),
+  'modeles' => 
+  array (
+    0 => 'breve',
+  ),
+  'tables_jointures' => 
+  array (
+    'id_auteur' => 'auteurs_liens',
+    0 => 'forums',
+    1 => 'mots_liens',
+    2 => 'mots',
+    3 => 'versions',
+    4 => 'documents_liens',
+  ),
+  'exist' => true,
+  'table_sql' => 'spip_breves',
+  'table' => 'spip_breves',
+  'connexion' => '',
+  'id_table' => 'breves',
+)
+2020-02-05 16:11:05 127.0.0.1 (pid 6717) :Pri:!INFO: creation 'spip_depots' sur serveur 'dump'
+2020-02-05 16:11:06 127.0.0.1 (pid 6717) :Pri:ERREUR: Erreur creation 'spip_depots' sur serveur 'dump'array (
+  'table_objet' => 'depots',
+  'type' => 'depot',
+  'field' => 
+  array (
+    'id_depot' => 'bigint(21) NOT NULL AUTO_INCREMENT',
+    'titre' => 'text NOT NULL DEFAULT \'\'',
+    'descriptif' => 'text NOT NULL DEFAULT \'\'',
+    'type' => 'varchar(10) NOT NULL DEFAULT \'\'',
+    'url_serveur' => 'varchar(255) NOT NULL DEFAULT \'\'',
+    'url_brouteur' => 'varchar(255) NOT NULL DEFAULT \'\'',
+    'url_archives' => 'varchar(255) NOT NULL DEFAULT \'\'',
+    'url_commits' => 'varchar(255) NOT NULL DEFAULT \'\'',
+    'xml_paquets' => 'varchar(255) NOT NULL DEFAULT \'\'',
+    'sha_paquets' => 'varchar(40) NOT NULL DEFAULT \'\'',
+    'nbr_paquets' => 'int(11) NOT NULL DEFAULT 0',
+    'nbr_plugins' => 'int(11) NOT NULL DEFAULT 0',
+    'nbr_autres' => 'int(11) NOT NULL DEFAULT 0',
+    'maj' => 'timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()',
+  ),
+  'key' => 
+  array (
+    'PRIMARY KEY' => 'id_depot',
+  ),
+  'tables_jointures' => 
+  array (
+    'id_plugin' => 'depots_plugins',
+    'id_auteur' => 'auteurs_liens',
+    0 => 'forums',
+    1 => 'mots_liens',
+    2 => 'mots',
+    3 => 'versions',
+    4 => 'documents_liens',
+  ),
+  'principale' => 'oui',
+  'titre' => 'titre, \'\' AS lang',
+  'page' => 'depot',
+  'url_voir' => 'depot',
+  'url_edit' => 'depot_edit',
+  'editable' => false,
+  'champs_editables' => 
+  array (
+    0 => 'titre',
+    1 => 'descriptif',
+  ),
+  'icone_objet' => 'depot',
+  'texte_retour' => 'icone_retour',
+  'texte_modifier' => 'svp:bouton_modifier_depot',
+  'texte_creer' => '',
+  'texte_creer_associer' => '',
+  'texte_signale_edition' => '',
+  'texte_objet' => 'svp:titre_depot',
+  'texte_objets' => 'svp:titre_depots',
+  'info_aucun_objet' => 'svp:info_aucun_depot',
+  'info_1_objet' => 'svp:info_1_depot',
+  'info_nb_objets' => 'svp:info_nb_depots',
+  'texte_logo_objet' => 'svp:titre_logo_depot',
+  'type_surnoms' => 
+  array (
+  ),
+  'table_objet_surnoms' => 
+  array (
+  ),
+  'texte_ajouter' => 'depot:texte_ajouter_depot',
+  'texte_langue_objet' => 'depot:titre_langue_depot',
+  'texte_definir_comme_traduction_objet' => 'depot:texte_definir_comme_traduction_depot',
+  'champs_versionnes' => 
+  array (
+    0 => 'jointure_mots',
+  ),
+  'rechercher_champs' => 
+  array (
+  ),
+  'rechercher_jointures' => 
+  array (
+    'mot' => 
+    array (
+      'titre' => 3,
+    ),
+  ),
+  'modeles' => 
+  array (
+    0 => 'depot',
+  ),
+  'date' => '',
+  'statut' => '',
+  'exist' => true,
+  'table_sql' => 'spip_depots',
+  'table' => 'spip_depots',
+  'connexion' => '',
+  'id_table' => 'depots',
+)
+2020-02-05 16:11:06 127.0.0.1 (pid 6717) :Pri:!INFO: creation 'spip_documents' sur serveur 'dump'
+2020-02-05 16:11:07 127.0.0.1 (pid 6717) :Pri:ERREUR: Erreur creation 'spip_documents' sur serveur 'dump'array (
+  'table_objet_surnoms' => 
+  array (
+    0 => 'doc',
+    1 => 'img',
+    2 => 'emb',
+  ),
+  'type_surnoms' => 
+  array (
+  ),
+  'url_voir' => 'document_edit',
+  'url_edit' => 'document_edit',
+  'page' => '',
+  'texte_retour' => 'icone_retour',
+  'texte_objets' => 'medias:objet_documents',
+  'texte_objet' => 'medias:objet_document',
+  'texte_modifier' => 'medias:info_modifier_document',
+  'info_aucun_objet' => 'medias:aucun_document',
+  'info_1_objet' => 'medias:un_document',
+  'info_nb_objets' => 'medias:des_documents',
+  'titre' => 'CASE WHEN length(titre)>0 THEN titre ELSE fichier END as titre, \'\' AS lang',
+  'date' => 'date',
+  'principale' => 'oui',
+  'field' => 
+  array (
+    'id_document' => 'bigint(21) NOT NULL AUTO_INCREMENT',
+    'id_vignette' => 'bigint(21) NOT NULL DEFAULT 0',
+    'extension' => 'varchar(10) NOT NULL DEFAULT \'\'',
+    'titre' => 'text NOT NULL DEFAULT \'\'',
+    'date' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'descriptif' => 'text NOT NULL DEFAULT \'\'',
+    'fichier' => 'text NOT NULL DEFAULT \'\'',
+    'taille' => 'bigint(20) DEFAULT NULL',
+    'largeur' => 'int(11) DEFAULT NULL',
+    'hauteur' => 'int(11) DEFAULT NULL',
+    'duree' => 'int(11) DEFAULT NULL',
+    'media' => 'varchar(10) NOT NULL DEFAULT \'file\'',
+    'mode' => 'varchar(10) NOT NULL DEFAULT \'document\'',
+    'distant' => 'varchar(3) DEFAULT \'non\'',
+    'statut' => 'varchar(10) NOT NULL DEFAULT \'0\'',
+    'credits' => 'text NOT NULL DEFAULT \'\'',
+    'date_publication' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'brise' => 'tinyint(4) DEFAULT 0',
+    'maj' => 'timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()',
+  ),
+  'key' => 
+  array (
+    'PRIMARY KEY' => 'id_document',
+    'KEY id_vignette' => 'id_vignette',
+    'KEY mode' => 'mode',
+    'KEY extension' => 'extension',
+  ),
+  'join' => 
+  array (
+    'id_document' => 'id_document',
+    'extension' => 'extension',
+  ),
+  'statut' => 
+  array (
+    0 => 
+    array (
+      'champ' => 'statut',
+      'publie' => 'publie',
+      'previsu' => 'publie,prop,prepa',
+      'post_date' => 'date_publication',
+      'exception' => 
+      array (
+        0 => 'statut',
+        1 => 'tout',
+      ),
+    ),
+  ),
+  'tables_jointures' => 
+  array (
+    0 => 'types_documents',
+    'id_auteur' => 'auteurs_liens',
+    1 => 'forums',
+    2 => 'mots_liens',
+    3 => 'mots',
+    4 => 'versions',
+    5 => 'documents_liens',
+  ),
+  'rechercher_champs' => 
+  array (
+    'titre' => 3,
+    'descriptif' => 1,
+    'fichier' => 1,
+    'credits' => 1,
+  ),
+  'champs_editables' => 
+  array (
+    0 => 'titre',
+    1 => 'descriptif',
+    2 => 'date',
+    3 => 'taille',
+    4 => 'largeur',
+    5 => 'hauteur',
+    6 => 'duree',
+    7 => 'mode',
+    8 => 'credits',
+    9 => 'fichier',
+    10 => 'distant',
+    11 => 'extension',
+    12 => 'id_vignette',
+    13 => 'media',
+  ),
+  'champs_versionnes' => 
+  array (
+    0 => 'id_vignette',
+    1 => 'titre',
+    2 => 'descriptif',
+    3 => 'taille',
+    4 => 'largeur',
+    5 => 'hauteur',
+    6 => 'duree',
+    7 => 'mode',
+    8 => 'credits',
+    9 => 'fichier',
+    10 => 'distant',
+    11 => 'jointure_mots',
+  ),
+  'modeles' => 
+  array (
+    0 => 'document',
+    1 => 'doc',
+    2 => 'img',
+    3 => 'emb',
+    4 => 'image',
+    5 => 'video',
+    6 => 'text',
+    7 => 'audio',
+    8 => 'application',
+  ),
+  'type' => 'document',
+  'table_objet' => 'documents',
+  'editable' => 'oui',
+  'icone_objet' => 'document',
+  'texte_creer' => 'document:icone_creer_document',
+  'texte_creer_associer' => 'document:texte_creer_associer_document',
+  'texte_ajouter' => 'document:texte_ajouter_document',
+  'texte_logo_objet' => 'document:titre_logo_document',
+  'texte_langue_objet' => 'document:titre_langue_document',
+  'texte_definir_comme_traduction_objet' => 'document:texte_definir_comme_traduction_document',
+  'rechercher_jointures' => 
+  array (
+    'mot' => 
+    array (
+      'titre' => 3,
+    ),
+  ),
+  'exist' => true,
+  'table_sql' => 'spip_documents',
+  'table' => 'spip_documents',
+  'connexion' => '',
+  'id_table' => 'documents',
+)
+2020-02-05 16:11:07 127.0.0.1 (pid 6717) :Pri:!INFO: creation 'spip_forum' sur serveur 'dump'
+2020-02-05 16:11:08 127.0.0.1 (pid 6717) :Pri:ERREUR: Erreur creation 'spip_forum' sur serveur 'dump'array (
+  'table_objet' => 'forums',
+  'type' => 'forum',
+  'url_voir' => 'controler_forum',
+  'url_edit' => 'controler_forum',
+  'editable' => false,
+  'principale' => 'oui',
+  'page' => '',
+  'texte_retour' => 'icone_retour',
+  'texte_objets' => 'forum:forum',
+  'texte_objet' => 'forum:forum',
+  'info_aucun_objet' => 'forum:aucun_message_forum',
+  'info_1_objet' => 'forum:info_1_message_forum',
+  'info_nb_objets' => 'forum:info_nb_messages_forum',
+  'titre' => 'titre, \'\' AS lang',
+  'date' => 'date_heure',
+  'champs_editables' => 
+  array (
+    0 => 'titre',
+    1 => 'texte',
+    2 => 'nom_site',
+    3 => 'url_site',
+  ),
+  'field' => 
+  array (
+    'id_forum' => 'bigint(21) NOT NULL AUTO_INCREMENT',
+    'id_objet' => 'bigint(21) NOT NULL DEFAULT 0',
+    'objet' => 'varchar(25) NOT NULL DEFAULT \'\'',
+    'id_parent' => 'bigint(21) NOT NULL DEFAULT 0',
+    'id_thread' => 'bigint(21) NOT NULL DEFAULT 0',
+    'date_heure' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'date_thread' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'titre' => 'text NOT NULL DEFAULT \'\'',
+    'texte' => 'mediumtext NOT NULL DEFAULT \'\'',
+    'auteur' => 'text NOT NULL DEFAULT \'\'',
+    'email_auteur' => 'text NOT NULL DEFAULT \'\'',
+    'nom_site' => 'text NOT NULL DEFAULT \'\'',
+    'url_site' => 'text NOT NULL DEFAULT \'\'',
+    'statut' => 'varchar(8) NOT NULL DEFAULT \'0\'',
+    'ip' => 'varchar(40) NOT NULL DEFAULT \'\'',
+    'maj' => 'timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()',
+    'id_auteur' => 'bigint(20) NOT NULL DEFAULT 0',
+  ),
+  'key' => 
+  array (
+    'PRIMARY KEY' => 'id_forum',
+    'KEY id_auteur' => 'id_auteur',
+    'KEY id_parent' => 'id_parent',
+    'KEY id_thread' => 'id_thread',
+    'KEY optimal' => 'statut,id_parent,id_objet,objet,date_heure',
+  ),
+  'join' => 
+  array (
+    'id_forum' => 'id_forum',
+    'id_parent' => 'id_parent',
+    'id_objet' => 'id_objet',
+    'objet' => 'objet',
+    'id_auteur' => 'id_auteur',
+  ),
+  'rechercher_champs' => 
+  array (
+    'titre' => 3,
+    'texte' => 1,
+    'auteur' => 2,
+    'email_auteur' => 2,
+    'nom_site' => 1,
+    'url_site' => 1,
+  ),
+  'type_surnoms' => 
+  array (
+  ),
+  'table_objet_surnoms' => 
+  array (
+  ),
+  'icone_objet' => 'forum',
+  'texte_modifier' => 'forum:icone_modifier_forum',
+  'texte_creer' => 'forum:icone_creer_forum',
+  'texte_creer_associer' => 'forum:texte_creer_associer_forum',
+  'texte_ajouter' => 'forum:texte_ajouter_forum',
+  'texte_logo_objet' => 'forum:titre_logo_forum',
+  'texte_langue_objet' => 'forum:titre_langue_forum',
+  'texte_definir_comme_traduction_objet' => 'forum:texte_definir_comme_traduction_forum',
+  'champs_versionnes' => 
+  array (
+    0 => 'jointure_mots',
+  ),
+  'rechercher_jointures' => 
+  array (
+    'mot' => 
+    array (
+      'titre' => 3,
+    ),
+  ),
+  'modeles' => 
+  array (
+    0 => 'forum',
+  ),
+  'tables_jointures' => 
+  array (
+    'id_auteur' => 'auteurs_liens',
+    0 => 'forums',
+    1 => 'mots_liens',
+    2 => 'mots',
+    3 => 'versions',
+    4 => 'documents_liens',
+  ),
+  'statut' => 
+  array (
+    0 => 
+    array (
+      'champ' => 'statut',
+      'publie' => 'publie',
+      'previsu' => 'publie,prop',
+      'exception' => 'statut',
+    ),
+  ),
+  'exist' => true,
+  'table_sql' => 'spip_forum',
+  'table' => 'spip_forum',
+  'connexion' => '',
+  'id_table' => 'forum',
+)
+2020-02-05 16:11:08 127.0.0.1 (pid 6717) :Pri:!INFO: creation 'spip_groupes_mots' sur serveur 'dump'
+2020-02-05 16:11:09 127.0.0.1 (pid 6717) :Pri:ERREUR: Erreur creation 'spip_groupes_mots' sur serveur 'dump'array (
+  'table_objet_surnoms' => 
+  array (
+    0 => 'groupemot',
+    1 => 'groupe_mots',
+    2 => 'groupe_mot',
+    3 => 'groupe',
+  ),
+  'type' => 'groupe_mots',
+  'type_surnoms' => 
+  array (
+    0 => 'groupes_mot',
+    1 => 'groupemot',
+    2 => 'groupe_mot',
+  ),
+  'texte_retour' => 'icone_retour',
+  'texte_objets' => 'mots:titre_groupes_mots',
+  'texte_objet' => 'mots:titre_groupe_mots',
+  'texte_modifier' => 'mots:icone_modif_groupe_mots',
+  'texte_creer' => 'mots:icone_creation_groupe_mots',
+  'texte_logo_objet' => 'mots:logo_groupe',
+  'info_aucun_objet' => 'mots:info_aucun_groupemots',
+  'info_1_objet' => 'mots:info_1_groupemots',
+  'info_nb_objets' => 'mots:info_nb_groupemots',
+  'titre' => 'titre, \'\' AS lang',
+  'date' => 'date',
+  'principale' => 'oui',
+  'page' => '',
+  'field' => 
+  array (
+    'id_groupe' => 'bigint(21) NOT NULL AUTO_INCREMENT',
+    'titre' => 'text NOT NULL DEFAULT \'\'',
+    'descriptif' => 'text NOT NULL DEFAULT \'\'',
+    'texte' => 'longtext NOT NULL DEFAULT \'\'',
+    'unseul' => 'varchar(3) NOT NULL DEFAULT \'\'',
+    'obligatoire' => 'varchar(3) NOT NULL DEFAULT \'\'',
+    'tables_liees' => 'text NOT NULL DEFAULT \'\'',
+    'minirezo' => 'varchar(3) NOT NULL DEFAULT \'\'',
+    'comite' => 'varchar(3) NOT NULL DEFAULT \'\'',
+    'forum' => 'varchar(3) NOT NULL DEFAULT \'\'',
+    'maj' => 'timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()',
+  ),
+  'key' => 
+  array (
+    'PRIMARY KEY' => 'id_groupe',
+  ),
+  'rechercher_champs' => 
+  array (
+    'titre' => 8,
+    'texte' => 1,
+    'descriptif' => 5,
+  ),
+  'tables_jointures' => 
+  array (
+    0 => 'mots',
+    'id_auteur' => 'auteurs_liens',
+    1 => 'forums',
+    2 => 'mots_liens',
+    3 => 'versions',
+    4 => 'documents_liens',
+  ),
+  'champs_versionnes' => 
+  array (
+    0 => 'titre',
+    1 => 'descriptif',
+    2 => 'texte',
+    3 => 'un_seul',
+    4 => 'obligatoire',
+    5 => 'tables_liees',
+    6 => 'minirezo',
+    7 => 'forum',
+    8 => 'comite',
+    9 => 'jointure_mots',
+  ),
+  'table_objet' => 'groupes_mots',
+  'editable' => 'oui',
+  'url_voir' => 'groupe_mots',
+  'url_edit' => 'groupe_mots_edit',
+  'icone_objet' => 'groupe_mots',
+  'texte_creer_associer' => 'groupe_mots:texte_creer_associer_groupe_mots',
+  'texte_ajouter' => 'groupe_mots:texte_ajouter_groupe_mots',
+  'texte_langue_objet' => 'groupe_mots:titre_langue_groupe_mots',
+  'texte_definir_comme_traduction_objet' => 'groupe_mots:texte_definir_comme_traduction_groupe_mots',
+  'champs_editables' => 
+  array (
+  ),
+  'rechercher_jointures' => 
+  array (
+    'mot' => 
+    array (
+      'titre' => 3,
+    ),
+  ),
+  'modeles' => 
+  array (
+    0 => 'groupe_mots',
+  ),
+  'statut' => '',
+  'exist' => true,
+  'table_sql' => 'spip_groupes_mots',
+  'table' => 'spip_groupes_mots',
+  'connexion' => '',
+  'id_table' => 'groupes_mots',
+)
+2020-02-05 16:11:09 127.0.0.1 (pid 6717) :Pri:!INFO: creation 'spip_jobs_liens' sur serveur 'dump'
+2020-02-05 16:11:10 127.0.0.1 (pid 6717) :Pri:!INFO: creation 'spip_messages' sur serveur 'dump'
+2020-02-05 16:11:11 127.0.0.1 (pid 6717) :Pri:ERREUR: Erreur creation 'spip_messages' sur serveur 'dump'array (
+  'page' => false,
+  'texte_modifier' => 'icone_modifier_message',
+  'texte_creer' => 'icone_ecrire_nouveau_message',
+  'texte_objets' => 'organiseur:messages',
+  'texte_objet' => 'organiseur:message',
+  'info_aucun_objet' => 'info_aucun_message',
+  'info_1_objet' => 'info_1_message',
+  'info_nb_objets' => 'info_nb_messages',
+  'principale' => 'oui',
+  'champs_editables' => 
+  array (
+    0 => 'titre',
+    1 => 'texte',
+    2 => 'type',
+    3 => 'date_heure',
+    4 => 'date_fin',
+    5 => 'rv',
+    6 => 'id_auteur',
+    7 => 'destinataires',
+  ),
+  'field' => 
+  array (
+    'id_message' => 'bigint(21) NOT NULL AUTO_INCREMENT',
+    'titre' => 'text NOT NULL DEFAULT \'\'',
+    'texte' => 'longtext NOT NULL DEFAULT \'\'',
+    'type' => 'varchar(6) NOT NULL DEFAULT \'\'',
+    'date_heure' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'date_fin' => 'datetime NOT NULL DEFAULT \'0000-00-00 00:00:00\'',
+    'rv' => 'varchar(3) NOT NULL DEFAULT \'\'',
+    'statut' => 'varchar(6) NOT NULL DEFAULT \'0\'',
+    'id_auteur' => 'bigint(21) NOT NULL DEFAULT 0',
+    'destinataires' => 'text NOT NULL DEFAULT \'\'',
+    'maj' => 'timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()',
+  ),
+  'key' => 
+  array (
+    'PRIMARY KEY' => 'id_message',
+    'KEY id_auteur' => 'id_auteur',
+  ),
+  'titre' => 'titre, \'\' AS lang',
+  'date' => 'date_heure',
+  'statut' => 
+  array (
+    0 => 
+    array (
+      'champ' => 'statut',
+      'publie' => 'publie',
+      'previsu' => '!',
+      'exception' => 
+      array (
+        0 => 'statut',
+        1 => 'tout',
+      ),
+    ),
+  ),
+  'rechercher_champs' => 
+  array (
+    'titre' => 8,
+    'texte' => 1,
+  ),
+  'type' => 'message',
+  'type_surnoms' => 
+  array (
+  ),
+  'table_objet' => 'messages',
+  'table_objet_surnoms' => 
+  array (
+  ),
+  'editable' => 'oui',
+  'url_voir' => 'message',
+  'url_edit' => 'message_edit',
+  'icone_objet' => 'message',
+  'texte_retour' => 'icone_retour',
+  'texte_creer_associer' => 'message:texte_creer_associer_message',
+  'texte_ajouter' => 'message:texte_ajouter_message',
+  'texte_logo_objet' => 'message:titre_logo_message',
+  'texte_langue_objet' => 'message:titre_langue_message',
+  'texte_definir_comme_traduction_objet' => 'message:texte_definir_comme_traduction_message',
+  'champs_versionnes' => 
+  array (
+    0 => 'jointure_mots',
+  ),
+  'rechercher_jointures' => 
+  array (
+    'mot' => 
+    array (
+      'titre' => 3,
+    ),
+  ),
+  'modeles' => 
+  array (
+    0 => 'message',
+  ),
+  'tables_jointures' => 
+  array (
+    'id_auteur' => 'auteurs_liens',
+    0 => 'forums',
+    1 => 'mots_liens',
+    2 => 'mots',
+    3 => 'versions',
+    4 => 'documents_liens',
+  ),
+  'exist' => true,
+  'table_sql' => 'spip_messages',
+  'table' => 'spip_messages',
+  'connexion' => '',
+  'id_table' => 'messages',
+)
+2020-02-05 16:11:11 127.0.0.1 (pid 6717) :Pri:!INFO: creation 'spip_mots' sur serveur 'dump'
+2020-02-05 16:11:12 127.0.0.1 (pid 6717) :Pri:ERREUR: Erreur creation 'spip_mots' sur serveur 'dump'array (
+  'type' => 'mot',
+  'type_surnoms' => 
+  array (
+    0 => 'mot-cle',
+  ),
+  'texte_retour' => 'icone_retour',
+  'texte_objets' => 'public:mots_clefs',
+  'texte_objet' => 'public:mots_clef',
+  'texte_modifier' => 'mots:icone_modifier_mot',
+  'texte_ajouter' => 'titre_ajouter_un_mot',
+  'texte_creer' => 'titre_ajouter_un_mot',
+  'texte_logo_objet' => 'mots:logo_mot_cle',
+  'texte_creer_associer' => 'mots:creer_et_associer_un_mot',
+  'info_aucun_objet' => 'mots:info_aucun_mot_cle',
+  'info_1_objet' => 'info_1_mot_cle',
+  'info_nb_objets' => 'info_nb_mots_cles',
+  'titre' => 'titre, \'\' AS lang',
+  'date' => 'date',
+  'principale' => 'oui',
+  'field' => 
+  array (
+    'id_mot' => 'bigint(21) NOT NULL AUTO_INCREMENT',
+    'titre' => 'text NOT NULL DEFAULT \'\'',
+    'descriptif' => 'text NOT NULL DEFAULT \'\'',
+    'texte' => 'longtext NOT NULL DEFAULT \'\'',
+    'id_groupe' => 'bigint(21) NOT NULL DEFAULT 0',
+    'type' => 'text NOT NULL DEFAULT \'\'',
+    'maj' => 'timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()',
+  ),
+  'key' => 
+  array (
+    'PRIMARY KEY' => 'id_mot',
+    'KEY id_groupe' => 'id_groupe',
+  ),
+  'rechercher_champs' => 
+  array (
+    'titre' => 8,
+    'texte' => 1,
+    'descriptif' => 5,
+  ),
+  'tables_jointures' => 
+  array (
+    0 => 'mots_liens',
+    1 => 'mots',
+    'id_auteur' => 'auteurs_liens',
+    2 => 'forums',
+    3 => 'versions',
+    4 => 'documents_liens',
+  ),
+  'champs_versionnes' => 
+  array (
+    0 => 'titre',
+    1 => 'descriptif',
+    2 => 'texte',
+    3 => 'id_groupe',
+    4 => 'jointure_mots',
+  ),
+  'table_objet' => 'mots',
+  'table_objet_surnoms' => 
+  array (
+  ),
+  'editable' => 'oui',
+  'page' => 'mot',
+  'url_voir' => 'mot',
+  'url_edit' => 'mot_edit',
+  'icone_objet' => 'mot',
+  'texte_langue_objet' => 'mot:titre_langue_mot',
+  'texte_definir_comme_traduction_objet' => 'mot:texte_definir_comme_traduction_mot',
+  'champs_editables' => 
+  array (
+  ),
+  'rechercher_jointures' => 
+  array (
+    'mot' => 
+    array (
+      'titre' => 3,
+    ),
+  ),
+  'modeles' => 
+  array (
+    0 => 'mot',
+  ),
+  'statut' => '',
+  'exist' => true,
+  'table_sql' => 'spip_mots',
+  'table' => 'spip_mots',
+  'connexion' => '',
+  'id_table' => 'mots',
+)
+2020-02-05 16:11:12 127.0.0.1 (pid 6717) :Pri:!INFO: creation 'spip_mots_liens' sur serveur 'dump'
+2020-02-05 16:11:14 127.0.0.1 (pid 6717) :Pri:!INFO: creation 'spip_paquets' sur serveur 'dump'
+2020-02-05 16:11:19 127.0.0.1 (pid 6717) :Pri:!INFO: recopie spip_paquets 110
+2020-03-22 16:40:59 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: Copier 34 tables de '' vers 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_articles' sur serveur 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_articles 24
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_auteurs_liens' sur serveur 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_auteurs_liens 26
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_breves' sur serveur 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_depots' sur serveur 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_depots 1
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_depots_plugins' sur serveur 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_depots_plugins 400
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_depots_plugins 621
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_documents' sur serveur 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_documents 3
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_documents_liens' sur serveur 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_documents_liens 2
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_evenements' sur serveur 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_evenements_participants' sur serveur 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_forum' sur serveur 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_groupes_mots' sur serveur 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_jobs' sur serveur 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_jobs 11
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_jobs_liens' sur serveur 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_messages' sur serveur 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_mots' sur serveur 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_mots_liens' sur serveur 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_paquets' sur serveur 'dump'
+2020-03-22 16:41:00 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_paquets 400
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_paquets 694
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_petitions' sur serveur 'dump'
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_plugins' sur serveur 'dump'
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_plugins 400
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_plugins 646
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_plugins_stats' sur serveur 'dump'
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_plugins_stats 400
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_plugins_stats 800
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_plugins_stats 1200
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_plugins_stats 1600
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_plugins_stats 2000
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_plugins_stats 2400
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_plugins_stats 2800
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_plugins_stats 3200
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_plugins_stats 3600
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_plugins_stats 4000
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_plugins_stats 4400
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_plugins_stats 4800
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_plugins_stats 5200
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_plugins_stats 5322
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_referers' sur serveur 'dump'
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_referers 29
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_referers_articles' sur serveur 'dump'
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_referers_articles 1
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_rubriques' sur serveur 'dump'
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_rubriques 4
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_signatures' sur serveur 'dump'
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_syndic' sur serveur 'dump'
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_syndic_articles' sur serveur 'dump'
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_types_documents' sur serveur 'dump'
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_types_documents 170
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_urls' sur serveur 'dump'
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_urls 40
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_versions' sur serveur 'dump'
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_versions 14
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_versions_fragments' sur serveur 'dump'
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_versions_fragments 61
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_visites' sur serveur 'dump'
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_visites 53
+2020-03-22 16:41:01 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_visites_articles' sur serveur 'dump'
+2020-03-22 16:41:02 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_visites_articles 65
+2020-03-22 16:41:02 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_auteurs' sur serveur 'dump'
+2020-03-22 16:41:02 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_auteurs 1
+2020-03-22 16:41:02 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: creation 'spip_meta' sur serveur 'dump'
+2020-03-22 16:41:02 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: recopie spip_meta 134
+2020-03-22 16:41:02 2a01:e0a:4d2:2970:9423:df5c:e914:627b (pid 30439) :Pri:!INFO: Pas de destruction copieur sur serveur 'dump'
+2020-03-22 17:24:53 127.0.0.1 (pid 13225) :Pri:!INFO: Copier 34 tables de 'dump' vers ''
+2020-03-22 17:24:54 127.0.0.1 (pid 13225) :Pri:!INFO: Conserver copieur dans id_auteur=1 pour le serveur ''
+2020-03-22 17:24:54 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_articles' sur serveur ''
+2020-03-22 17:24:54 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_articles' sur serveur ''
+2020-03-22 17:24:54 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_auteurs_liens' sur serveur ''
+2020-03-22 17:24:54 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_auteurs_liens' sur serveur ''
+2020-03-22 17:24:54 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_breves' sur serveur ''
+2020-03-22 17:24:54 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_breves' sur serveur ''
+2020-03-22 17:24:54 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_depots' sur serveur ''
+2020-03-22 17:24:54 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_depots' sur serveur ''
+2020-03-22 17:24:54 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_depots_plugins' sur serveur ''
+2020-03-22 17:24:54 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_depots_plugins' sur serveur ''
+2020-03-22 17:24:54 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_documents' sur serveur ''
+2020-03-22 17:24:54 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_documents' sur serveur ''
+2020-03-22 17:24:54 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_documents_liens' sur serveur ''
+2020-03-22 17:24:54 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_documents_liens' sur serveur ''
+2020-03-22 17:24:55 127.0.0.1 (pid 13225) :Pri:ERREUR: Impossible de lire la description de la table spip_evenements
+2020-03-22 17:24:55 127.0.0.1 (pid 13225) :Pri:ERREUR: Impossible de lire la description de la table spip_evenements_participants
+2020-03-22 17:24:55 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_forum' sur serveur ''
+2020-03-22 17:24:55 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_forum' sur serveur ''
+2020-03-22 17:24:56 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_groupes_mots' sur serveur ''
+2020-03-22 17:24:56 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_groupes_mots' sur serveur ''
+2020-03-22 17:24:56 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_jobs' sur serveur ''
+2020-03-22 17:24:56 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_jobs' sur serveur ''
+2020-03-22 17:24:56 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_jobs_liens' sur serveur ''
+2020-03-22 17:24:56 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_jobs_liens' sur serveur ''
+2020-03-22 17:24:56 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_messages' sur serveur ''
+2020-03-22 17:24:56 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_messages' sur serveur ''
+2020-03-22 17:24:57 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_mots' sur serveur ''
+2020-03-22 17:24:57 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_mots' sur serveur ''
+2020-03-22 17:24:59 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_mots_liens' sur serveur ''
+2020-03-22 17:24:59 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_mots_liens' sur serveur ''
+2020-03-22 17:24:59 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_paquets' sur serveur ''
+2020-03-22 17:24:59 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_paquets' sur serveur ''
+2020-03-22 17:25:00 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_petitions' sur serveur ''
+2020-03-22 17:25:00 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_petitions' sur serveur ''
+2020-03-22 17:25:00 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_plugins' sur serveur ''
+2020-03-22 17:25:00 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_plugins' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_plugins_stats' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_plugins_stats' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_referers' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_referers' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_referers_articles' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_referers_articles' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_rubriques' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_rubriques' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_signatures' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_signatures' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_syndic' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_syndic' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_syndic_articles' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_syndic_articles' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_types_documents' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_types_documents' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_urls' sur serveur ''
+2020-03-22 17:25:01 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_urls' sur serveur ''
+2020-03-22 17:25:02 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_versions' sur serveur ''
+2020-03-22 17:25:02 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_versions' sur serveur ''
+2020-03-22 17:25:02 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_versions_fragments' sur serveur ''
+2020-03-22 17:25:02 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_versions_fragments' sur serveur ''
+2020-03-22 17:25:03 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_visites' sur serveur ''
+2020-03-22 17:25:03 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_visites' sur serveur ''
+2020-03-22 17:25:04 127.0.0.1 (pid 13225) :Pri:!INFO: drop table 'spip_visites_articles' sur serveur ''
+2020-03-22 17:25:04 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_visites_articles' sur serveur ''
+2020-03-22 17:25:04 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_auteurs' sur serveur ''
+2020-03-22 17:25:04 127.0.0.1 (pid 13225) :Pri:!INFO: creation 'spip_meta' sur serveur ''
+2020-03-22 17:25:04 127.0.0.1 (pid 13225) :Pri:ERREUR: Nombre de tables copiees incorrect : 32/34
+2020-03-22 17:25:04 127.0.0.1 (pid 13225) :Pri:!INFO: Restaurer copieur id_auteur&lt;0 pour le serveur '' (aucun autre auteur en base)
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: Copier 34 tables de 'dump' vers ''
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: Conserver copieur dans id_auteur=1 pour le serveur ''
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_articles' sur serveur ''
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_articles' sur serveur ''
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_articles 24
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_auteurs_liens' sur serveur ''
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_auteurs_liens' sur serveur ''
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_auteurs_liens 26
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_breves' sur serveur ''
+2020-03-22 17:30:24 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_breves' sur serveur ''
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_depots' sur serveur ''
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_depots' sur serveur ''
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_depots 1
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_depots_plugins' sur serveur ''
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_depots_plugins' sur serveur ''
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_depots_plugins 400
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_depots_plugins 621
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_documents' sur serveur ''
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_documents' sur serveur ''
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_documents 3
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_documents_liens' sur serveur ''
+2020-03-22 17:30:25 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_documents_liens' sur serveur ''
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_documents_liens 2
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_evenements' sur serveur ''
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_evenements_participants' sur serveur ''
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_forum' sur serveur ''
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_forum' sur serveur ''
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_groupes_mots' sur serveur ''
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_groupes_mots' sur serveur ''
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_jobs' sur serveur ''
+2020-03-22 17:30:26 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_jobs' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_jobs 11
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_jobs_liens' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_jobs_liens' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_messages' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_messages' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_mots' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_mots' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_mots_liens' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_mots_liens' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_paquets' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_paquets' sur serveur ''
+2020-03-22 17:30:27 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_paquets 400
+2020-03-22 17:30:28 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_paquets 694
+2020-03-22 17:30:28 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_petitions' sur serveur ''
+2020-03-22 17:30:28 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_petitions' sur serveur ''
+2020-03-22 17:30:28 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_plugins' sur serveur ''
+2020-03-22 17:30:28 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_plugins' sur serveur ''
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins 400
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins 646
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_plugins_stats' sur serveur ''
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_plugins_stats' sur serveur ''
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 400
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 800
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 1200
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 1600
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 2000
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 2400
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 2800
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 3200
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 3600
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 4000
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 4400
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 4800
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 5200
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_plugins_stats 5322
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_referers' sur serveur ''
+2020-03-22 17:30:29 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_referers' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_referers 29
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_referers_articles' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_referers_articles' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_referers_articles 1
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_rubriques' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_rubriques' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_rubriques 4
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_signatures' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_signatures' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_syndic' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_syndic' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_syndic_articles' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_syndic_articles' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_types_documents' sur serveur ''
+2020-03-22 17:30:30 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_types_documents' sur serveur ''
+2020-03-22 17:30:31 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_types_documents 170
+2020-03-22 17:30:31 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_urls' sur serveur ''
+2020-03-22 17:30:31 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_urls' sur serveur ''
+2020-03-22 17:30:31 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_urls 40
+2020-03-22 17:30:31 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_versions' sur serveur ''
+2020-03-22 17:30:31 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_versions' sur serveur ''
+2020-03-22 17:30:31 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_versions 14
+2020-03-22 17:30:31 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_versions_fragments' sur serveur ''
+2020-03-22 17:30:31 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_versions_fragments' sur serveur ''
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_versions_fragments 61
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_visites' sur serveur ''
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_visites' sur serveur ''
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_visites 53
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:!INFO: drop table 'spip_visites_articles' sur serveur ''
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_visites_articles' sur serveur ''
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_visites_articles 65
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:!INFO: creation 'spip_auteurs' sur serveur ''
+2020-03-22 17:30:32 127.0.0.1 (pid 1523) :Pri:!INFO: recopie spip_auteurs 1

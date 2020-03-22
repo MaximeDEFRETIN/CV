@@ -1,0 +1,77 @@
+a:2:{s:9:"nom_cache";s:38:"23070f93125ba6d17daf8f9127eb0023.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_59357245710846c7d89775f7969e72c5";s:6:"source";s:16:"prive/login.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"23070f93125ba6d17daf8f9127eb0023.cache";}s:7:"entetes";a:2:{s:12:"Content-Type";s:24:"text/html; charset=utf-8";s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:2883:"
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr">
+<head>
+<title>Maxime Defretin</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="none" />
+<meta name="viewport" content="width=device-width" />
+<link rel='stylesheet' href='local/cache-css/28c09c8821cf8c579232e8963386a01a.css?1582899055' type='text/css' /><?php header('Link: <' . url_de_base() . (_DIR_RACINE ? _DIR_RESTREINT_ABS : '') . 'local/cache-css/28c09c8821cf8c579232e8963386a01a.css?1582899055>;rel="stylesheet prefetch"'); ?><?php header('Link: <' . url_de_base() . (_DIR_RACINE ? _DIR_RESTREINT_ABS : '') . 'local/cache-css/aefe4cc59cd4b9d3ba6615bb89fafaa3.css?1582899054>;rel="stylesheet prefetch"'); ?>
+
+
+
+<script type='text/javascript' src='local/cache-js/7b9f225519ee7560577ab6851c8f92f2.js?1583165800'></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">/* <![CDATA[ */
+var box_settings = {tt_img:true,sel_g:"#documents_portfolio a[type='image/jpeg'],#documents_portfolio a[type='image/png'],#documents_portfolio a[type='image/gif']",sel_c:".mediabox",trans:"elastic",speed:"200",ssSpeed:"2500",maxW:"90%",maxH:"90%",minW:"400px",minH:"",opa:"0.9",str_ssStart:"Diaporama",str_ssStop:"Arrêter",str_cur:"{current}/{total}",str_prev:"Précédent",str_next:"Suivant",str_close:"Fermer",splash_url:""};
+var box_settings_splash_width = "600px";
+var box_settings_splash_height = "90%";
+var box_settings_iframe = true;
+/* ]]> */</script>
+<!-- insert_head_css -->
+
+<!-- insert_head -->
+	
+	
+
+
+<!-- SpipProprio insert head -->
+<meta name="copyright" content="Maxime Defretin" />
+<meta name="author" content="Maxime Defretin" />
+<meta name="reply-to" content="maxime.defretin@laposte.net" /><!-- END ADX Menu insert head -->
+
+<script type='text/javascript'><!--
+jQuery(function(){ jQuery('input#var_login').focus();
+jQuery('a#spip_pass').click(function(){window.open(this.href, 'spip_pass', 'scrollbars=yes, resizable=yes, width=480, height=380'); return false;});
+});
+// --></script>
+<meta name="generator" content="SPIP 3.2.7 [24473]" />
+</head>
+<body class="page_login">
+
+<div id="minipres">
+
+	<h1>Maxime Defretin</h1>
+	
+	
+	<?php 
+include_once("./" . _DIR_RACINE . "ecrire/balise/formulaire_.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_FORMULAIRE__dyn('FORMULAIRE_LOGIN', '/benevolats/article/festival-pic-arts-association-pic-arts'), array('prive/login.html', 'html_59357245710846c7d89775f7969e72c5', '', 14, 'fr'));
+if ($lang_select) lang_select();
+?>
+	<p class="retour">
+		
+		<a href="https://w-l.fr/">retour au site public</a>
+	</p>
+	<p class="generator">
+		<a href="http://www.spip.net/" title="Site réalisé avec SPIP"><img src='prive/themes/spip/images/spip.png' alt='' width='53' height='40' /></a>
+	</p>
+	
+</div><!--#minipres-->
+
+</body>
+</html>";s:5:"notes";s:0:"";s:8:"contexte";a:7:{s:4:"page";s:5:"login";s:3:"url";s:58:"/benevolats/article/festival-pic-arts-association-pic-arts";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-18 12:15:00";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:15:00";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584530100;s:2:"gz";b:0;s:3:"sig";i:955827783;}}

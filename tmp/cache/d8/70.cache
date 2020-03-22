@@ -1,0 +1,207 @@
+a:2:{s:9:"nom_cache";s:38:"d870268ecab34f7cedcda552b98474af.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_329930aa80c8a45dac874d6cf3f4e0da";s:6:"source";s:71:"plugins/auto/spip_proprio/v1.70.5/public/contenu/test_proprietaire.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"d870268ecab34f7cedcda552b98474af.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:9893:"    <p class="arbo"><a href="https://w-l.fr/">Accueil</a> &gt; <strong class="on">Test de la configuration propriétaire</strong></p>
+
+    <div class="cartouche">
+			<h1 class="entry-title">Test de la configuration propriétaire</h1>
+		</div>
+		<div class="chapo"><p>Cette page vous permet de visualiser les différents agencements d’informations proposés par le plugin. Pour chaque entrée est indiqué le code d’appel (<i>balise ou modèles</i>) à indiquer dans vos squelettes.</p>
+<p>Nous vous conseillons également de jeter un oeil au squelette <a href="spip.php?page=mentions_legales">mentions légales</a>.</p></div>
+
+        <div class="cartouche">
+        	<h2>1_ Bloc d’informations</h2>
+            <p><small>Code : 
+            <code>
+            &#035;PROPRIETAIRE
+            </code>
+            <br />Modèle : 
+            <code>
+            'noisette_proprietaire.html'
+            </code>
+            </small></p>
+        </div>
+		<div class="texte entry-content"><?php 
+include_once("./" . _DIR_RACINE . "plugins/auto/spip_proprio/v1.70.5/balise/proprietaire.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_PROPRIETAIRE_dyn(), array('plugins/auto/spip_proprio/v1.70.5/public/contenu/test_proprietaire.html', 'html_329930aa80c8a45dac874d6cf3f4e0da', '', 20, 'fr'));
+if ($lang_select) lang_select();
+?></div>
+		<br class="nettoyeur" />
+
+        <div class="cartouche">
+        	<h2>2_ Googlemap</h2>
+            <p><small>Code : 
+            <code>
+            &#035;PROPRIETAIRE{googlemap}
+            </code>
+            <br />Modèle : 
+            <code>
+            'noisette_googlemap.html'
+            </code>
+            </small></p>
+        </div>
+		<div class="entry-content"><?php 
+include_once("./" . _DIR_RACINE . "plugins/auto/spip_proprio/v1.70.5/balise/proprietaire.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_PROPRIETAIRE_dyn('googlemap'), array('plugins/auto/spip_proprio/v1.70.5/public/contenu/test_proprietaire.html', 'html_329930aa80c8a45dac874d6cf3f4e0da', '', 35, 'fr'));
+if ($lang_select) lang_select();
+?></div>
+		<br class="nettoyeur" />
+
+        <div class="cartouche">
+        	<h2>3_ Cartes de visite (<i>en développement</i>)</h2>
+            <p><small>Modèle : <code>
+            'carte_visite.html'
+            </code></small></p>
+        </div>
+        <div class="cartouche">
+        	<h3>3_a Carte de visite "classique" (<i>défaut</i>)</h3>
+            <p><small>Code : <code>
+            &#035;PROPRIETAIRE{carte_visite}
+            </code></small></p>
+        </div>
+		<div class="texte entry-content"><?php 
+include_once("./" . _DIR_RACINE . "plugins/auto/spip_proprio/v1.70.5/balise/proprietaire.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_PROPRIETAIRE_dyn('carte_visite'), array('plugins/auto/spip_proprio/v1.70.5/public/contenu/test_proprietaire.html', 'html_329930aa80c8a45dac874d6cf3f4e0da', '', 50, 'fr'));
+if ($lang_select) lang_select();
+?></div>
+		<br class="nettoyeur" />
+        <div class="cartouche">
+        	<h3>3_b Carte de visite du responsable</h3>
+            <p><small>Code : <code>
+            &#035;PROPRIETAIRE{carte_visite,chef}
+            </code></small></p>
+        </div>
+		<div class="texte entry-content"><?php 
+include_once("./" . _DIR_RACINE . "plugins/auto/spip_proprio/v1.70.5/balise/proprietaire.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_PROPRIETAIRE_dyn('carte_visite', 'chef'), array('plugins/auto/spip_proprio/v1.70.5/public/contenu/test_proprietaire.html', 'html_329930aa80c8a45dac874d6cf3f4e0da', '', 58, 'fr'));
+if ($lang_select) lang_select();
+?></div>
+		<br class="nettoyeur" />
+        <div class="cartouche">
+        	<h3>3_c Carte de visite du webmestre</h3>
+            <p><small>Code : <code>
+            &#035;PROPRIETAIRE{carte_visite,webmaster}
+            </code></small></p>
+        </div>
+		<div class="texte entry-content"><?php 
+include_once("./" . _DIR_RACINE . "plugins/auto/spip_proprio/v1.70.5/balise/proprietaire.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_PROPRIETAIRE_dyn('carte_visite', 'webmaster'), array('plugins/auto/spip_proprio/v1.70.5/public/contenu/test_proprietaire.html', 'html_329930aa80c8a45dac874d6cf3f4e0da', '', 66, 'fr'));
+if ($lang_select) lang_select();
+?></div>
+		<br class="nettoyeur" />
+        <div class="cartouche">
+        	<h3>3_d Carte de visite adminitrateur</h3>
+            <p><small>Code : <code>
+            &#035;PROPRIETAIRE{carte_visite,admin}
+            </code></small></p>
+        </div>
+		<div class="texte entry-content"><?php 
+include_once("./" . _DIR_RACINE . "plugins/auto/spip_proprio/v1.70.5/balise/proprietaire.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_PROPRIETAIRE_dyn('carte_visite', 'admin'), array('plugins/auto/spip_proprio/v1.70.5/public/contenu/test_proprietaire.html', 'html_329930aa80c8a45dac874d6cf3f4e0da', '', 74, 'fr'));
+if ($lang_select) lang_select();
+?></div>
+		<br class="nettoyeur" />
+        <div class="cartouche">
+        	<h3>3_e Carte de visite complète du site (<i>liens web</i>)</h3>
+            <p><small>Code : <code>
+            &#035;PROPRIETAIRE{carte_visite,site}
+            </code></small></p>
+        </div>
+		<div class="texte entry-content"><?php 
+include_once("./" . _DIR_RACINE . "plugins/auto/spip_proprio/v1.70.5/balise/proprietaire.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_PROPRIETAIRE_dyn('carte_visite', 'site'), array('plugins/auto/spip_proprio/v1.70.5/public/contenu/test_proprietaire.html', 'html_329930aa80c8a45dac874d6cf3f4e0da', '', 82, 'fr'));
+if ($lang_select) lang_select();
+?></div>
+		<br class="nettoyeur" />
+
+        <div class="cartouche">
+        	<h2>4_ Business Cards (<i>v-card et cartes de visite</i>)</h2>
+        </div>
+        <div class="cartouche">
+        	<h3>4_ Information et lien vers la "vCard"</h3>
+            <p><small>Code : 
+            <code>
+            &#035;PROPRIETAIRE{vcard}
+            </code>
+            <br />Modèle : 
+            <code>
+            '?page=vcard'
+            </code>
+            </small></p>
+        </div>
+		<div class="texte entry-content"><?php 
+include_once("./" . _DIR_RACINE . "plugins/auto/spip_proprio/v1.70.5/balise/proprietaire.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_PROPRIETAIRE_dyn('vcard'), array('plugins/auto/spip_proprio/v1.70.5/public/contenu/test_proprietaire.html', 'html_329930aa80c8a45dac874d6cf3f4e0da', '', 100, 'fr'));
+if ($lang_select) lang_select();
+?></div>
+		<br class="nettoyeur" />
+        <div class="cartouche">
+        	<h3>4b_ Information et lien vers les cartes de visite</h3>
+            <p><small>Code : 
+            <code>
+            &#035;PROPRIETAIRE{cartes_visite}
+            </code>
+            </small></p>
+        </div>
+		<div class="texte entry-content"><?php 
+include_once("./" . _DIR_RACINE . "plugins/auto/spip_proprio/v1.70.5/balise/proprietaire.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_PROPRIETAIRE_dyn('cartes_visite'), array('plugins/auto/spip_proprio/v1.70.5/public/contenu/test_proprietaire.html', 'html_329930aa80c8a45dac874d6cf3f4e0da', '', 110, 'fr'));
+if ($lang_select) lang_select();
+?></div>
+		<br class="nettoyeur" />
+        <div class="cartouche">
+        	<h3>4c_ Textes "business cards" complet</h3>
+            <p><small>Code : 
+            <code>
+            &#035;PROPRIETAIRE{business_cards}
+            </code>
+            </small></p>
+        </div>
+		<div class="texte entry-content"><?php 
+include_once("./" . _DIR_RACINE . "plugins/auto/spip_proprio/v1.70.5/balise/proprietaire.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_PROPRIETAIRE_dyn('business_cards'), array('plugins/auto/spip_proprio/v1.70.5/public/contenu/test_proprietaire.html', 'html_329930aa80c8a45dac874d6cf3f4e0da', '', 120, 'fr'));
+if ($lang_select) lang_select();
+?></div>
+		<br class="nettoyeur" />
+
+        <div class="cartouche">
+        	<h2>5_ Informations de copyright</h2>
+            <p><small>Code : <code>
+            &#035;PROPRIETAIRE{copyright}
+            </code></small></p>
+        </div>
+		<div class="texte entry-content"><?php 
+include_once("./" . _DIR_RACINE . "plugins/auto/spip_proprio/v1.70.5/balise/proprietaire.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_PROPRIETAIRE_dyn('copyright'), array('plugins/auto/spip_proprio/v1.70.5/public/contenu/test_proprietaire.html', 'html_329930aa80c8a45dac874d6cf3f4e0da', '', 129, 'fr'));
+if ($lang_select) lang_select();
+?></div>
+		<br class="nettoyeur" />
+
+        <div class="cartouche">
+        	<h2>6_ Utilisation des textes propriétaires</h2>
+            <p><small>Code : 
+            <code>
+            &#035;TEXTES_PROPRIETAIRE{chaine}
+            </code>
+            ou 
+            <code>
+            &lt;:proprietaire:chaine|propre:&gt;
+            </code>
+            </small></p>
+        </div>
+		<div class="texte entry-content"><?php 
+include_once("./" . _DIR_RACINE . "plugins/auto/spip_proprio/v1.70.5/balise/textes_proprietaire.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_TEXTES_PROPRIETAIRE_dyn('exemple'), array('plugins/auto/spip_proprio/v1.70.5/public/contenu/test_proprietaire.html', 'html_329930aa80c8a45dac874d6cf3f4e0da', '', 144, 'fr'));
+if ($lang_select) lang_select();
+?></div>
+		<br class="nettoyeur" />
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:4:"page";s:17:"test_proprietaire";s:4:"date";s:19:"2020-02-05 18:17:19";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-02-05 18:17:19";s:18:"date_redac_default";b:1;s:4:"lang";s:2:"fr";}s:12:"lastmodified";i:1580923039;s:2:"gz";b:0;s:3:"sig";i:3941333571;}}

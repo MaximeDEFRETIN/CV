@@ -1,0 +1,33 @@
+a:2:{s:9:"nom_cache";s:38:"444602805ee2b212435152b02929b422.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_1776ba38c3fc41bd7d9c1c4e5c752a0a";s:6:"source";s:28:"squelettes/inc-rss-item.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"444602805ee2b212435152b02929b422.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:1385:"
+	<item xml:lang="fr">
+		<title>Restos du Coeur - Centre de Chauny</title>
+		<link>http://w-l.fr/benevolats/article/restos-du-coeur-centre-de-chauny</link>
+		<guid isPermaLink="true">http://w-l.fr/benevolats/article/restos-du-coeur-centre-de-chauny</guid>
+		<dc:date>2020-03-08T10:14:42Z</dc:date>
+		<dc:format>text/html</dc:format>
+		<dc:language>fr</dc:language>
+		<dc:creator>Maxime</dc:creator>
+
+
+
+		<description>&lt;p&gt;Dans cette article, j'y d&#233;cris bri&#232;vement ce que je fais au sein des Restos du Coeur, &#224; Chauny, depuis le 30 d&#233;cembre 2019.&lt;/p&gt;
+
+-
+&lt;a href="http://w-l.fr/benevolats/" rel="directory"&gt;B&#233;n&#233;volats&lt;/a&gt;
+
+
+		</description>
+
+
+ <content:encoded>&lt;div class='rss_chapo'&gt;&lt;p&gt;Les Restos du Coeur permettent aux plus d&#233;munis de profiter de quelques produits alimentaire. Ces produits sont distribu&#233;s gr&#226;ce aux b&#233;n&#233;voles de l'association.&lt;/p&gt;&lt;/div&gt;
+		&lt;div class='rss_texte'&gt;&lt;p&gt;Avec d'autres b&#233;n&#233;voles, je r&#233;ceptionne les denr&#233;es alimentaires re&#231;us. Ensuite on les stocke dans l'entrep&#244;t.&lt;br class='autobr' /&gt;
+Et je remplis les diff&#233;rents rayons du magasin pour que les b&#233;n&#233;ficiaires puissent choisir les produits dont ils veulent b&#233;n&#233;ficier.&lt;/p&gt;&lt;/div&gt;
+		
+		</content:encoded>
+
+
+		
+
+	</item>
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:10:"id_article";s:2:"25";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-15 02:07:18";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-15 02:07:18";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584234438;s:2:"gz";b:0;s:3:"sig";i:-990862143;}}

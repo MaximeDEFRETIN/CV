@@ -1,0 +1,15 @@
+a:2:{s:9:"nom_cache";s:38:"a1562a816f593dea4c1f142df1ee5149.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_2b86667419653cd84b50e539bba36c01";s:6:"source";s:53:"plugins/auto/metasplus_v2/inclure/metasplus/dist.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:2:{s:5:"cache";s:38:"1dc0bf5153d1a2515a62265515f2921f.cache";s:7:"session";s:0:"";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:775:"<?php echo recuperer_fond( 'inclure/metasplus/inc-dist', array('titre' => 'Compétences – Maxime Defretin',
+	'desc' => '&lt;p&gt;Je maîtrise plusieurs langages, outils et frameworks me permettant la création d&#8217;un site web.&lt;br class=&#039;autobr&#039; /&gt;
+Je maîtrise également 2 os.&lt;/p&gt;',
+	'url' => 'competences/article/competences',
+	'date' => '2020-03-18 12:12:10',
+	'maj' => '2020-02-19 15:43:38',
+	'langue' => 'fr',
+	'territoire' => '',
+	'og-type' => 'article',
+	'dc-type' => 'Text',
+	'logos' => '',
+	'auteurs' => array('0'=>'Maxime'),
+	'mots' => array(),
+	'lang' => 'fr'), array("compil"=>array('plugins/auto/metasplus_v2/inclure/metasplus/dist.html','html_2b86667419653cd84b50e539bba36c01','',177,$GLOBALS['spip_lang'])), _request("connect"));
+?>";s:5:"notes";s:0:"";s:8:"contexte";a:10:{s:9:"type-page";s:7:"article";s:6:"erreur";b:0;s:5:"objet";s:7:"article";s:8:"id_objet";s:2:"10";s:10:"id_article";s:2:"10";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-18 12:12:10";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:12:10";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584529930;s:2:"gz";b:0;s:3:"sig";i:1656146377;}}

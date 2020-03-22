@@ -1,0 +1,19 @@
+a:2:{s:9:"nom_cache";s:38:"a9d33ec659a519b3d6d9f80d51335929.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_7ed79361d903088c34ecb5cef79b48d9";s:6:"source";s:33:"squelettes/inclure/documents.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"a9d33ec659a519b3d6d9f80d51335929.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:19:"
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:7:{s:11:"id_rubrique";s:0:"";s:10:"id_article";s:1:"9";s:4:"date";s:19:"2020-03-18 12:12:09";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:12:09";s:18:"date_redac_default";b:1;s:4:"lang";s:2:"fr";}s:12:"lastmodified";i:1584529929;s:2:"gz";b:0;s:3:"sig";i:548217718;}}

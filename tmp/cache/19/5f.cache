@@ -1,0 +1,123 @@
+a:2:{s:9:"nom_cache";s:38:"195f3dc8832d816738d68cc400817b38.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_ce97d1249b67fffb20134bd49b8a9e29";s:6:"source";s:22:"squelettes/auteur.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"195f3dc8832d816738d68cc400817b38.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:6921:"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie7"> <![endif]-->
+<!--[if IE 8 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie8"> <![endif]-->
+<!--[if IE 9 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js"> <!--<![endif]-->
+<head>
+    <script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);/*]]>*/</script>
+    <title>Maxime - Maxime Defretin</title>
+    <?php echo recuperer_fond( 'inclure/head', array('robots' => 'none',
+	'lang' => 'fr'), array("compil"=>array('squelettes/auteur.html','html_ce97d1249b67fffb20134bd49b8a9e29','',11,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+    <link rel="alternate" type="application/rss+xml" title="Maxime" href="spip.php?page=backend&amp;id_auteur=1" />
+</head>
+<body class="pas_surlignable page_auteur">
+    <div class="page">
+        <?php echo recuperer_fond( 'inclure/header', array('lang' => 'fr'), array("compil"=>array('squelettes/auteur.html','html_ce97d1249b67fffb20134bd49b8a9e29','',16,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+        <?php echo recuperer_fond( 'inclure/nav', array_merge(array (
+  'id_auteur' => '1',
+  'date' => '2020-03-18 12:12:33',
+  'date_default' => true,
+  'date_redac' => '2020-03-18 12:12:33',
+  'date_redac_default' => true,
+),array('lang' => 'fr')), array("compil"=>array('squelettes/auteur.html','html_ce97d1249b67fffb20134bd49b8a9e29','',17,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+        <div class="main">
+            
+            <div class="wrapper">
+                <div class="content" id="content">
+                    <p class="arbo"><a href="https://w-l.fr/">Accueil</a> &gt; Les auteurs &gt; <strong class="on">Maxime</strong></p>
+                    <div class="vcard">
+                    <div class="cartouche">
+                        
+                        <h1 class="fn">Maxime</h1>
+                    </div>
+
+                    
+                    
+                    </div>
+
+                    
+                    
+                        <div class="menu">
+                            <a name='pagination_articles' id='pagination_articles'></a>
+                            <h2>Articles de cet auteur (24)</h2>
+                            <ul class="spip">
+                                
+                                <ol><a href="experiences/article/hote-de-caisse-intermarche">Hôte de caisse, Intermarché</a></ol>
+                                
+                                <ol><a href="experiences/article/preparateur-de-commande-atlantysse">Préparateur de commande, Atlantysse</a></ol>
+                                
+                                <ol><a href="experiences/article/hour-of-code-e2n">Hour of Code, E2N</a></ol>
+                                
+                                <ol><a href="experiences/article/preparateur-de-commande-atlantysse-17">Préparateur de commande, Atlantysse</a></ol>
+                                
+                                <ol><a href="experiences/article/inventoriste-adecco">Inventoriste, Adecco</a></ol>
+                                
+                                <ol><a href="experiences/article/assistant-en-comptabilite-cineode">Assistant en comptabilité, Cinéode</a></ol>
+                                
+                                <ol><a href="experiences/article/integrateur-web-hsk-digital">Intégrateur web, HSK Digital</a></ol>
+                                
+                                <ol><a href="diplomes-et-formations/article/baccalaureat-economique-et-sociale-specialite-mathematiques">Baccalauréat Économique et Sociale, spécialité Mathématiques</a></ol>
+                                
+                                <ol><a href="experiences/article/assistant-film-a-production">Assistant, Film AA Production</a></ol>
+                                
+                                <ol><a href="benevolats/article/croix-rouge-francaise-unite-locale-chauny-tergnier-la-fere">Croix rouge française - Unité locale Chauny-Tergnier-La Fère</a></ol>
+                                
+                            </ul>
+                            <p class="pagination"><span
+	class="pages"><strong class='on'>0</strong><span
+		class='sep'> | </span
+		><a href='/auteur/maxime?debut_articles=10#pagination_articles' class='lien_pagination' rel='nofollow'>10</a><span
+		class='sep'> | </span
+		><a href='/auteur/maxime?debut_articles=20#pagination_articles' class='lien_pagination' rel='nofollow'>20</a></span></p>
+                        </div>
+                    
+
+                    <?php 
+include_once("./" . _DIR_RACINE . "ecrire/balise/formulaire_.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_FORMULAIRE__dyn('FORMULAIRE_ECRIRE_AUTEUR', '1', '', 'maxime.defretin@laposte.net'), array('squelettes/auteur.html', 'html_ce97d1249b67fffb20134bd49b8a9e29', '_principale', 48, 'fr'));
+if ($lang_select) lang_select();
+?>
+
+                    
+
+                </div><!--.content-->
+            </div><!--.wrapper-->
+            <div class="aside">
+                <?php echo recuperer_fond( 'inclure/navsub', array('lang' => 'fr'), array("compil"=>array('squelettes/auteur.html','html_ce97d1249b67fffb20134bd49b8a9e29','',55,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+                
+
+                
+                
+                <div class="menu">
+                    <a name='pagination_auteurs' id='pagination_auteurs'></a>
+                    <h2>Les auteurs</h2>
+                    <ul>
+                        
+                        <li><a href="auteur/maxime" class="on">Maxime</a></li>
+                        
+                    </ul>
+                    
+                </div>
+                
+            </div><!--.aside-->
+        </div><!--.main-->
+        <?php echo recuperer_fond( 'inclure/footer', array_merge(array (
+  'id_auteur' => '1',
+  'date' => '2020-03-18 12:12:33',
+  'date_default' => true,
+  'date_redac' => '2020-03-18 12:12:33',
+  'date_redac_default' => true,
+),array('self' => '/auteur/maxime',
+	'lang' => 'fr')), array("compil"=>array('squelettes/auteur.html','html_ce97d1249b67fffb20134bd49b8a9e29','',73,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+    </div><!--.page-->
+</body>
+</html>
+";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:9:"id_auteur";s:1:"1";s:4:"date";s:19:"2020-03-18 12:12:33";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:12:33";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584529953;s:2:"gz";b:0;s:3:"sig";i:-435414401;}}

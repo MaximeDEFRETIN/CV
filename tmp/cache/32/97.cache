@@ -1,0 +1,101 @@
+a:2:{s:9:"nom_cache";s:38:"3297a9f200b757811920d6349cd59e28.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_acfb689da8b7f0df9e71fabce85f186f";s:6:"source";s:23:"squelettes/article.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"3297a9f200b757811920d6349cd59e28.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:7273:"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie7"> <![endif]-->
+<!--[if IE 8 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie8"> <![endif]-->
+<!--[if IE 9 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js"> <!--<![endif]-->
+<head>
+    <script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);/*]]>*/</script>
+    <title>Titre Professionnel « Développeur web et web mobile » - Maxime Defretin</title>
+    <meta name="description" content="Par l&#039;interm&#233;diaire de E2N, j&#039;ai pu suivre une formation de d&#233;veloppeur web. Suite &#224; cette formation, j&#039;ai pu acqu&#233;rir des comp&#233;tences pour exercer le m&#233;tier de d&#233;veloppeur web et obtenir un titre professionnel &#171; D&#233;veloppeur web et web mobile &#187;." />
+    <link rel="canonical" href="http://www.w-l.fr/diplomes-et-formations/article/titre-professionnel-developpeur-web-et-web-mobile" />
+    <?php echo recuperer_fond( 'inclure/head', array('lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',13,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+</head>
+<body class="pas_surlignable page_article">
+    <div class="page">
+        <?php echo recuperer_fond( 'inclure/header', array('lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',17,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+        <?php echo recuperer_fond( 'inclure/nav', array_merge(array (
+  'id_rubrique' => '2',
+  'id_article' => '11',
+  'date' => '2020-03-18 12:12:12',
+  'date_default' => true,
+  'date_redac' => '2020-03-18 12:12:12',
+  'date_redac_default' => true,
+),array('lang' => 'fr')), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',18,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+        <div class="main">
+            
+            <div class="wrapper hfeed">
+                <div class="content hentry" id="content">
+                    <p class="arbo"><a href="https://w-l.fr/">Accueil</a> &gt; <a href="diplomes-et-formations/">Diplômes et formations</a> &gt; <strong class="on">Titre Professionnel « Développeur web et web mobile »</strong></p>
+                    <div class="cartouche clearfix">
+                        <p class="surtitre">23/10/2017 - 06/04/2018</p>
+                        <h1 class="surlignable entry-title">Titre Professionnel &#171;&nbsp;Développeur web et web mobile&nbsp;&#187;</h1>
+                        <p class="soustitre">à Noyon (60400)</p>
+                        <p class="info-publi"><abbr class="published" title="2019-12-04T14:58:00Z">mercredi 4 décembre 2019</abbr><span class="sep">, </span><span class="auteurs">par  <span class="vcard author"><a class="url fn spip_in" href="auteur/maxime">Maxime</a></span></span></p>
+                        
+                        </div>
+                    <div class="chapo surlignable"><p>Par l&#8217;intermédiaire de E2N, j&#8217;ai pu suivre une formation de développeur web. Suite à cette formation, j&#8217;ai pu acquérir des compétences pour exercer le métier de développeur web et obtenir un titre professionnel &#171;&nbsp;Développeur web et web mobile&nbsp;&#187;.</p></div>
+                    <div class="texte surlignable clearfix"><p>J&#8217;acquis la maîtrise de plusieurs langages (javascript, PHP, HTML,CSS, SQL), de plusieurs frameworks (BoostrapRetour, jQuery, AngularJS) et de plusieurs outils (Apache, Ligne de commande, Git/Github, Atom, Netbeans, Nano, Bower, Grunt).</p></div>
+                    
+                    
+                    
+                    <div class="menu documents_joints" id="documents_joints">
+        <h2>Documents joints</h2>
+        <ul class="spip">
+            
+                <li>
+                    <a href="IMG/pdf/titreprodeveloppeurweb.pdf" type="application/pdf" class="spip_doc pdf"><strong class="titre">Tirte Professionnel - Développeur Web</strong>
+                            <small class="info_document">(<abbr title="info document PDF" class="ext">PDF</abbr> - <span>1.1 Mo</span>)</small></a>
+                    <div class="descriptif"><p>C&#8217;est le fichier PDF de mon Titre Professionnel de développeur web.</p></div>
+                    
+                    
+                </li>
+            
+        </ul>
+    </div><!--#documents_joints-->
+                </div><!--.content-->
+            </div><!--.wrapper-->
+            <div class="under">
+                <?php echo recuperer_fond( 'inclure/navsub', array('id_rubrique' => '2',
+	'lang' => 'fr'), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',42,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+                 
+                
+                    <div class="menu">
+                        <h2>Dans la même rubrique</h2>
+                        <ul>
+                            
+                                <li><a href="diplomes-et-formations/article/titre-professionnel-developpeur-web-et-web-mobile" class="on">Titre Professionnel &#171;&nbsp;Développeur web et web mobile&nbsp;&#187;</a></li>
+                            
+                                <li><a href="diplomes-et-formations/article/opquast">Opquast</a></li>
+                            
+                                <li><a href="diplomes-et-formations/article/licence-en-sociologie-niveau-l1">Licence en Sociologie, niveau L1</a></li>
+                            
+                                <li><a href="diplomes-et-formations/article/licence-en-psychologie-niveau-l2">Licence en psychologie, niveau L2</a></li>
+                            
+                                <li><a href="diplomes-et-formations/article/baccalaureat-economique-et-sociale-specialite-mathematiques">Baccalauréat Économique et Sociale, spécialité Mathématiques</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                
+                </div><!--.aside-->
+        </div><!--.main-->
+        <?php echo recuperer_fond( 'inclure/footer', array_merge(array (
+  'id_rubrique' => '2',
+  'id_article' => '11',
+  'date' => '2020-03-18 12:12:12',
+  'date_default' => true,
+  'date_redac' => '2020-03-18 12:12:12',
+  'date_redac_default' => true,
+),array('self' => '/diplomes-et-formations/article/titre-professionnel-developpeur-web-et-web-mobile',
+	'lang' => 'fr')), array("compil"=>array('squelettes/article.html','html_acfb689da8b7f0df9e71fabce85f186f','',58,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+    </div><!--.page-->
+</body>
+</html>
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:11:"id_rubrique";s:1:"2";s:10:"id_article";s:2:"11";s:4:"date";s:19:"2020-03-18 12:12:12";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:12:12";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584529932;s:2:"gz";b:0;s:3:"sig";i:-33920574;}}

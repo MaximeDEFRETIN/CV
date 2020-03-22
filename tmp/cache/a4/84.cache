@@ -1,0 +1,14 @@
+a:2:{s:9:"nom_cache";s:38:"a4845e0e8e78623f676be68160f4e23d.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_2b86667419653cd84b50e539bba36c01";s:6:"source";s:53:"plugins/auto/metasplus_v2/inclure/metasplus/dist.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:2:{s:5:"cache";s:38:"ba1e97a73b30c8905327f0adc1ca2388.cache";s:7:"session";s:0:"";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:715:"<?php echo recuperer_fond( 'inclure/metasplus/inc-dist', array('titre' => 'Hôte de caisse, Intermarché – Maxime Defretin',
+	'desc' => '&lt;p&gt;Je décris mon expérience en tant qu&#8217;hôte de caisse, à Intermarché&lt;/p&gt;',
+	'url' => 'experiences/article/hote-de-caisse-intermarche',
+	'date' => '2020-03-18 12:14:28',
+	'maj' => '2019-12-12 09:14:26',
+	'langue' => 'fr',
+	'territoire' => '',
+	'og-type' => 'article',
+	'dc-type' => 'Text',
+	'logos' => '',
+	'auteurs' => array('0'=>'Maxime'),
+	'mots' => array(),
+	'lang' => 'fr'), array("compil"=>array('plugins/auto/metasplus_v2/inclure/metasplus/dist.html','html_2b86667419653cd84b50e539bba36c01','',177,$GLOBALS['spip_lang'])), _request("connect"));
+?>";s:5:"notes";s:0:"";s:8:"contexte";a:10:{s:9:"type-page";s:7:"article";s:6:"erreur";b:0;s:5:"objet";s:7:"article";s:8:"id_objet";s:2:"24";s:10:"id_article";s:2:"24";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-18 12:14:28";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:14:28";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584530068;s:2:"gz";b:0;s:3:"sig";i:1845515768;}}

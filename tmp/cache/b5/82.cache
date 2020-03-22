@@ -1,0 +1,167 @@
+a:2:{s:9:"nom_cache";s:38:"b582c6bad6c8aba821dd7f273ba03e57.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_7b757a9211fae3c1871c26ec4415f046";s:6:"source";s:20:"squelettes/plan.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"b582c6bad6c8aba821dd7f273ba03e57.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:6324:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie7"> <![endif]-->
+<!--[if IE 8 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie8"> <![endif]-->
+<!--[if IE 9 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js"> <!--<![endif]-->
+<head>
+    <script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);/*]]>*/</script>
+    <title>Plan du site - Maxime Defretin</title>
+    <meta name="description" content="Bienvenue !" />
+    <?php echo recuperer_fond( 'inclure/head', array('robots' => 'none',
+	'lang' => 'fr'), array("compil"=>array('squelettes/plan.html','html_7b757a9211fae3c1871c26ec4415f046','',11,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+</head>
+<body class="pas_surlignable page_plan">
+<div class="page">
+    <?php echo recuperer_fond( 'inclure/header', array('lang' => 'fr'), array("compil"=>array('squelettes/plan.html','html_7b757a9211fae3c1871c26ec4415f046','',15,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+    <?php echo recuperer_fond( 'inclure/nav', array_merge(array (
+  'page' => 'plan',
+  'date' => '2020-03-18 12:13:02',
+  'date_default' => true,
+  'date_redac' => '2020-03-18 12:13:02',
+  'date_redac_default' => true,
+),array('lang' => 'fr')), array("compil"=>array('squelettes/plan.html','html_7b757a9211fae3c1871c26ec4415f046','',16,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+    <div class="main">
+        <div class="wrapper">
+            <div class="content" id="content">
+                <p class="arbo"><a href="https://w-l.fr/">Accueil</a> &gt; <strong class="on">Plan du site</strong></p>
+                <div class="cartouche">
+                    <h1>Plan du site</h1>
+                </div>
+                <h2>Bénévolats</h2>
+
+
+
+<h3>Articles</h3>
+<ul class="spip">
+	
+	<li><a href="benevolats/article/restos-du-coeur-centre-de-chauny">Restos du Coeur - Centre de Chauny</a></li>
+	
+	<li><a href="benevolats/article/croix-rouge-francaise-unite-locale-chauny-tergnier-la-fere">Croix rouge française - Unité locale Chauny-Tergnier-La Fère</a></li>
+	
+	<li><a href="benevolats/article/bibliotheque-des-malades">Association Bibliothèque des Malades</a></li>
+	
+	<li><a href="benevolats/article/l-association-gaia-sensibilise-les-personne-a">Festival des Vers Solidaires, Association Gaïa</a></li>
+	
+	<li><a href="benevolats/article/festival-pic-arts-association-gaia">Festival Pic&#8217;Arts, Association Gaïa</a></li>
+	
+	<li><a href="benevolats/article/au-sein-de-l-association-bibliotheque-des">Association Bibliothèque des Malades</a></li>
+	
+	<li><a href="benevolats/article/festival-pic-arts-association-pic-arts">Festival Pic&#8217;Arts, Association Pic&#8217;Arts</a></li>
+	
+	<li><a href="benevolats/article/bibliotheque-des-malades-7">Association Bibliothèque des Malades</a></li>
+	
+	<li><a href="benevolats/article/l-association-gaia-sensibilise-les-personne-a-9">Festival des Vers Solidaires, Association Gaïa</a></li>
+	
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>Diplômes et formations</h2>
+
+
+
+<h3>Articles</h3>
+<ul class="spip">
+	
+	<li><a href="diplomes-et-formations/article/titre-professionnel-developpeur-web-et-web-mobile">Titre Professionnel &#171;&nbsp;Développeur web et web mobile&nbsp;&#187;</a></li>
+	
+	<li><a href="diplomes-et-formations/article/opquast">Opquast</a></li>
+	
+	<li><a href="diplomes-et-formations/article/licence-en-sociologie-niveau-l1">Licence en Sociologie, niveau L1</a></li>
+	
+	<li><a href="diplomes-et-formations/article/licence-en-psychologie-niveau-l2">Licence en psychologie, niveau L2</a></li>
+	
+	<li><a href="diplomes-et-formations/article/baccalaureat-economique-et-sociale-specialite-mathematiques">Baccalauréat Économique et Sociale, spécialité Mathématiques</a></li>
+	
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>Expériences</h2>
+
+
+
+<h3>Articles</h3>
+<ul class="spip">
+	
+	<li><a href="experiences/article/assistant-film-a-production">Assistant, Film AA Production</a></li>
+	
+	<li><a href="experiences/article/hote-de-caisse-intermarche">Hôte de caisse, Intermarché</a></li>
+	
+	<li><a href="experiences/article/hour-of-code-e2n">Hour of Code, E2N</a></li>
+	
+	<li><a href="experiences/article/integrateur-web-hsk-digital">Intégrateur web, HSK Digital</a></li>
+	
+	<li><a href="experiences/article/assistant-en-comptabilite-cineode">Assistant en comptabilité, Cinéode</a></li>
+	
+	<li><a href="experiences/article/inventoriste-adecco">Inventoriste, Adecco</a></li>
+	
+	<li><a href="experiences/article/preparateur-de-commande-atlantysse-18">Préparateur de commande, Atlantysse</a></li>
+	
+	<li><a href="experiences/article/preparateur-de-commande-atlantysse-17">Préparateur de commande, Atlantysse</a></li>
+	
+	<li><a href="experiences/article/preparateur-de-commande-atlantysse">Préparateur de commande, Atlantysse</a></li>
+	
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>Compétences</h2>
+
+
+
+<h3>Article</h3>
+<ul class="spip">
+	
+	<li><a href="competences/article/competences">Compétences</a></li>
+	
+</ul></div><!--.content-->
+        </div><!--.wrapper-->
+        <div class="aside">
+            <?php echo recuperer_fond( 'inclure/navsub', array('lang' => 'fr'), array("compil"=>array('squelettes/plan.html','html_7b757a9211fae3c1871c26ec4415f046','',28,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+        </div><!--.aside-->
+    </div><!--.main-->
+    <?php echo recuperer_fond( 'inclure/footer', array_merge(array (
+  'page' => 'plan',
+  'date' => '2020-03-18 12:13:02',
+  'date_default' => true,
+  'date_redac' => '2020-03-18 12:13:02',
+  'date_redac_default' => true,
+),array('self' => 'spip.php?page=plan',
+	'lang' => 'fr')), array("compil"=>array('squelettes/plan.html','html_7b757a9211fae3c1871c26ec4415f046','',31,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+</div><!--.page-->
+</body>
+</html>";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:4:"page";s:4:"plan";s:4:"date";s:19:"2020-03-18 12:13:02";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:13:02";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584529981;s:2:"gz";b:0;s:3:"sig";i:153345042;}}

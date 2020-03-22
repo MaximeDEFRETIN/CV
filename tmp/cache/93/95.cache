@@ -1,0 +1,41 @@
+a:2:{s:9:"nom_cache";s:38:"9395652f4421acad5d7c1fa2586dca0c.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_7ecb170505bba13505effb8ef97a498b";s:6:"source";s:57:"plugins/auto/metasplus_v2/inclure/metasplus/inc-dist.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"9395652f4421acad5d7c1fa2586dca0c.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:1072:"<!-- Dublin Core -->
+<link rel="schema.DC" href="https://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="https://purl.org/dc/terms/" />
+<meta name="DC.Format" content="text/html" />
+<meta name="DC.Type" content="Text" />
+<meta name="DC.Language" scheme="rfc1766" content="fr" />
+
+
+<meta name="DC.Date" scheme="DCTERMS.W3CDTF" content="2020-02-29" />
+
+<meta name="DC.Identifier" scheme="URI" content="http://w-l.fr/spip.php?page=contact" />
+<meta name="DC.Publisher" content="Maxime Defretin" />
+<meta name="DC.Source" scheme="URI" content="https://w-l.fr" />
+
+<meta name="DC.Creator" content="Maxime Defretin" />
+
+
+
+
+
+<!-- Open Graph -->
+
+<meta property="og:site_name" content="Maxime Defretin" />
+<meta property="og:type" content="website" />
+
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:url" content="http://w-l.fr/spip.php?page=contact" />
+
+
+
+
+
+
+
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary" />
+
+
+<meta name="twitter:dnt" content="on" />
+<meta name="twitter:url" content="http://w-l.fr/spip.php?page=contact" />";s:5:"notes";s:0:"";s:8:"contexte";a:15:{s:5:"titre";s:0:"";s:4:"desc";s:0:"";s:3:"url";s:21:"spip.php?page=contact";s:4:"date";s:19:"2020-02-29 22:48:57";s:3:"maj";s:0:"";s:6:"langue";s:2:"fr";s:10:"territoire";s:0:"";s:7:"og-type";s:7:"website";s:7:"dc-type";s:4:"Text";s:5:"logos";s:0:"";s:7:"auteurs";s:15:"Maxime Defretin";s:4:"mots";s:0:"";s:4:"lang";s:2:"fr";s:10:"date_redac";s:19:"2020-02-29 22:48:57";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1583012936;s:2:"gz";b:0;s:3:"sig";i:-1782570822;}}

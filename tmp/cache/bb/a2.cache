@@ -1,0 +1,48 @@
+a:2:{s:9:"nom_cache";s:38:"bba2db10bc86b335bcf7813b4ea6e499.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_7ecb170505bba13505effb8ef97a498b";s:6:"source";s:57:"plugins/auto/metasplus_v2/inclure/metasplus/inc-dist.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"bba2db10bc86b335bcf7813b4ea6e499.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:1994:"<!-- Dublin Core -->
+<link rel="schema.DC" href="https://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="https://purl.org/dc/terms/" />
+<meta name="DC.Format" content="text/html" />
+<meta name="DC.Type" content="Text" />
+<meta name="DC.Language" scheme="rfc1766" content="fr" />
+<meta name="DC.Title" lang="fr" content="Dipl&#244;mes et formations &#8211; Maxime Defretin" />
+<meta name="DC.Description.Abstract" lang="fr" content="Cette rubrique liste les dipl&#244;mes obtenus et les formations suivies" />
+<meta name="DC.Date" scheme="DCTERMS.W3CDTF" content="2020-03-08" />
+<meta name="DC.Date.Modified" scheme="DCTERMS.W3CDTF" content="2020-02-10" />
+<meta name="DC.Identifier" scheme="URI" content="https://w-l.fr/diplomes-et-formations/" />
+<meta name="DC.Publisher" content="Maxime Defretin" />
+<meta name="DC.Source" scheme="URI" content="https://w-l.fr" />
+
+<meta name="DC.Creator" content="Maxime Defretin" />
+
+
+
+
+
+<!-- Open Graph -->
+
+<meta property="og:site_name" content="Maxime Defretin" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Dipl&#244;mes et formations &#8211; Maxime Defretin" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:url" content="https://w-l.fr/diplomes-et-formations/" />
+<meta property="og:description" content="Cette rubrique liste les dipl&#244;mes obtenus et les formations suivies" />
+
+
+<meta property="article:published_time" content="2020-03-08" />
+<meta property="article:modified_time" content="2020-02-10" />
+
+<meta property="article:author" content="Maxime Defretin" />
+
+
+
+
+
+
+
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Dipl&#244;mes et formations &#8211; Maxime Defretin" />
+<meta name="twitter:description" content="Cette rubrique liste les dipl&#244;mes obtenus et les formations suivies" />
+<meta name="twitter:dnt" content="on" />
+<meta name="twitter:url" content="https://w-l.fr/diplomes-et-formations/" />";s:5:"notes";s:0:"";s:8:"contexte";a:15:{s:5:"titre";s:43:"Diplômes et formations – Maxime Defretin";s:4:"desc";s:87:"&lt;p&gt;Cette rubrique liste les diplômes obtenus et les formations suivies&lt;/p&gt;";s:3:"url";s:23:"diplomes-et-formations/";s:4:"date";s:19:"2020-03-08 11:26:05";s:3:"maj";s:19:"2020-02-10 17:51:20";s:6:"langue";s:2:"fr";s:10:"territoire";s:0:"";s:7:"og-type";s:7:"article";s:7:"dc-type";s:4:"Text";s:5:"logos";s:0:"";s:7:"auteurs";s:15:"Maxime Defretin";s:4:"mots";a:0:{}s:4:"lang";s:2:"fr";s:10:"date_redac";s:19:"2020-03-08 11:26:06";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1583663165;s:2:"gz";b:0;s:3:"sig";i:1227556043;}}

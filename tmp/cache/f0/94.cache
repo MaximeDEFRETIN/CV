@@ -1,0 +1,38 @@
+a:2:{s:9:"nom_cache";s:38:"f0946fba975cda81886e8ebb50945193.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_1776ba38c3fc41bd7d9c1c4e5c752a0a";s:6:"source";s:28:"squelettes/inc-rss-item.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"f0946fba975cda81886e8ebb50945193.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:1924:"
+	<item xml:lang="fr">
+		<title>Int&#233;grateur web, HSK Digital</title>
+		<link>http://w-l.fr/experiences/article/integrateur-web-hsk-digital</link>
+		<guid isPermaLink="true">http://w-l.fr/experiences/article/integrateur-web-hsk-digital</guid>
+		<dc:date>2019-12-09T15:27:35Z</dc:date>
+		<dc:format>text/html</dc:format>
+		<dc:language>fr</dc:language>
+		<dc:creator>Maxime</dc:creator>
+
+
+
+		<description>&lt;p&gt;J'y d&#233;cris un stage d'int&#233;grateur web que j'ai effectu&#233; en vue d'une reconversion professionnelle.&lt;/p&gt;
+
+-
+&lt;a href="http://w-l.fr/experiences/" rel="directory"&gt;Exp&#233;riences&lt;/a&gt;
+
+
+		</description>
+
+
+ <content:encoded>&lt;div class='rss_chapo'&gt;&lt;p&gt;HSK Digital est une entreprise fournissant des sites web sur mesure, et bas&#233; &#224; Cr&#233;cy-sur-Serre (02270).&lt;/p&gt;
+&lt;p&gt;J'avais effectu&#233; un stage en tant qu'int&#233;grateur web au chez HSK Digital pour confirmer un projet professionnel.&lt;br class='autobr' /&gt;
+J'avais d&#233;j&#224; acquis la ma&#238;trise du HTML, du CSS et de javascript en autodidacte.&lt;/p&gt;&lt;/div&gt;
+		&lt;div class='rss_texte'&gt;&lt;p&gt;Je modifiais l'apparence d'un site web existent d'apr&#232;s une maquette.&lt;br class='autobr' /&gt;
+Je me servais de PSPad et des comp&#233;tences en programmation web que j'avais d&#233;j&#224; acquis en autodidacte.&lt;br class='autobr' /&gt;
+J'ai aussi report&#233; les bugs d'un autre site, que les d&#233;veloppeurs web de l'entreprise concevaient.&lt;/p&gt;
+&lt;p&gt;Chaque lundi matin on faisait le point sur qui avait &#233;t&#233; fait, ce qui &#233;tait en cours et sur ce qu'il restait &#224; faire.&lt;br class='autobr' /&gt;
+On se servait aussi d'un fichier pour indiquer quelles t&#226;ches ont &#233;t&#233; effectu&#233;, celle qui &#233;taient en cours et celle qui devront &#234;tre fait.&lt;/p&gt;&lt;/div&gt;
+		
+		</content:encoded>
+
+
+		
+
+	</item>
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:10:"id_article";s:2:"21";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-15 02:07:18";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-15 02:07:18";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584234438;s:2:"gz";b:0;s:3:"sig";i:1004909492;}}

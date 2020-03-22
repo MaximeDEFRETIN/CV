@@ -1,0 +1,15 @@
+a:2:{s:9:"nom_cache";s:38:"2a136534799b0b5461d95fa533334be3.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_2b86667419653cd84b50e539bba36c01";s:6:"source";s:53:"plugins/auto/metasplus_v2/inclure/metasplus/dist.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:2:{s:5:"cache";s:38:"61c97540a2f7d8fc52f979882788de6e.cache";s:7:"session";s:0:"";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:829:"<?php echo recuperer_fond( 'inclure/metasplus/inc-dist', array('titre' => 'Opquast – Maxime Defretin',
+	'desc' => '&lt;p&gt;Opquast est une certification montrant qu&#8217;un professionnel du web prend en compte les bonnes pratiques du web.&lt;br class=&#039;autobr&#039; /&gt;
+La certification a une durée de 5 ans à partir de son obtention.&lt;/p&gt;',
+	'url' => 'diplomes-et-formations/article/opquast',
+	'date' => '2020-03-18 12:12:14',
+	'maj' => '2019-12-09 11:12:26',
+	'langue' => 'fr',
+	'territoire' => '',
+	'og-type' => 'article',
+	'dc-type' => 'Text',
+	'logos' => '',
+	'auteurs' => array('0'=>'Maxime'),
+	'mots' => array(),
+	'lang' => 'fr'), array("compil"=>array('plugins/auto/metasplus_v2/inclure/metasplus/dist.html','html_2b86667419653cd84b50e539bba36c01','',177,$GLOBALS['spip_lang'])), _request("connect"));
+?>";s:5:"notes";s:0:"";s:8:"contexte";a:10:{s:9:"type-page";s:7:"article";s:6:"erreur";b:0;s:5:"objet";s:7:"article";s:8:"id_objet";s:2:"12";s:10:"id_article";s:2:"12";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-18 12:12:14";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:12:14";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584529933;s:2:"gz";b:0;s:3:"sig";i:-1427853991;}}

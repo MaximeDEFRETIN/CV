@@ -1,0 +1,48 @@
+a:2:{s:9:"nom_cache";s:38:"ea576161de9976f765926e787a2f529f.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_7ecb170505bba13505effb8ef97a498b";s:6:"source";s:57:"plugins/auto/metasplus_v2/inclure/metasplus/inc-dist.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"ea576161de9976f765926e787a2f529f.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:2453:"<!-- Dublin Core -->
+<link rel="schema.DC" href="https://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="https://purl.org/dc/terms/" />
+<meta name="DC.Format" content="text/html" />
+<meta name="DC.Type" content="Text" />
+<meta name="DC.Language" scheme="rfc1766" content="fr" />
+<meta name="DC.Title" lang="fr" content="Association Biblioth&#232;que des Malades &#8211; Maxime Defretin" />
+<meta name="DC.Description.Abstract" lang="fr" content="Au sein de l&#039;association Biblioth&#232;que des Malades, j&#039;ai pr&#234;t&#233; BD, magasines et livres aux patients et au personnel qui le souhaitais dans diff&#233;rents services de&#8230;" />
+<meta name="DC.Date" scheme="DCTERMS.W3CDTF" content="2020-03-18" />
+<meta name="DC.Date.Modified" scheme="DCTERMS.W3CDTF" content="2019-12-09" />
+<meta name="DC.Identifier" scheme="URI" content="https://w-l.fr/benevolats/article/bibliotheque-des-malades" />
+<meta name="DC.Publisher" content="Maxime Defretin" />
+<meta name="DC.Source" scheme="URI" content="https://w-l.fr" />
+
+<meta name="DC.Creator" content="Maxime" />
+
+
+
+
+
+<!-- Open Graph -->
+
+<meta property="og:site_name" content="Maxime Defretin" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Association Biblioth&#232;que des Malades &#8211; Maxime Defretin" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:url" content="https://w-l.fr/benevolats/article/bibliotheque-des-malades" />
+<meta property="og:description" content="Au sein de l&#039;association Biblioth&#232;que des Malades, j&#039;ai pr&#234;t&#233; BD, magasines et livres aux patients et au personnel qui le souhaitais dans diff&#233;rents services de&#8230;" />
+
+
+<meta property="article:published_time" content="2020-03-18" />
+<meta property="article:modified_time" content="2019-12-09" />
+
+<meta property="article:author" content="Maxime" />
+
+
+
+
+
+
+
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Association Biblioth&#232;que des Malades &#8211; Maxime Defretin" />
+<meta name="twitter:description" content="Au sein de l&#039;association Biblioth&#232;que des Malades, j&#039;ai pr&#234;t&#233; BD, magasines et livres aux patients et au personnel qui le souhaitais dans diff&#233;rents services de&#8230;" />
+<meta name="twitter:dnt" content="on" />
+<meta name="twitter:url" content="https://w-l.fr/benevolats/article/bibliotheque-des-malades" />";s:5:"notes";s:0:"";s:8:"contexte";a:15:{s:5:"titre";s:57:"Association Bibliothèque des Malades – Maxime Defretin";s:4:"desc";s:213:"&lt;p&gt;Au sein de l&#8217;association Bibliothèque des Malades, j&#8217;ai prêté BD, magasines et livres aux patients et au personnel qui le souhaitais dans différents services de l&#8217;hôpital.&lt;/p&gt;";s:3:"url";s:43:"benevolats/article/bibliotheque-des-malades";s:4:"date";s:19:"2020-03-18 12:13:58";s:3:"maj";s:19:"2019-12-09 11:21:33";s:6:"langue";s:2:"fr";s:10:"territoire";s:0:"";s:7:"og-type";s:7:"article";s:7:"dc-type";s:4:"Text";s:5:"logos";s:0:"";s:7:"auteurs";a:1:{i:0;s:6:"Maxime";}s:4:"mots";a:0:{}s:4:"lang";s:2:"fr";s:10:"date_redac";s:19:"2020-03-18 12:13:58";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584530038;s:2:"gz";b:0;s:3:"sig";i:951512118;}}

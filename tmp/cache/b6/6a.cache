@@ -1,0 +1,33 @@
+a:2:{s:9:"nom_cache";s:38:"b66a863c0adb53015cfe6790051864da.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_1776ba38c3fc41bd7d9c1c4e5c752a0a";s:6:"source";s:28:"squelettes/inc-rss-item.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"b66a863c0adb53015cfe6790051864da.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:1237:"
+	<item xml:lang="fr">
+		<title>Inventoriste, Adecco</title>
+		<link>https://www.w-l.fr/experiences/article/inventoriste-adecco</link>
+		<guid isPermaLink="true">https://www.w-l.fr/experiences/article/inventoriste-adecco</guid>
+		<dc:date>2019-12-09T14:10:17Z</dc:date>
+		<dc:format>text/html</dc:format>
+		<dc:language>fr</dc:language>
+		<dc:creator>Maxime</dc:creator>
+
+
+
+		<description>&lt;p&gt;J'ai effectu&#233; un inventaire dans un supermarch&#233; pour un client d'Adecco.&lt;/p&gt;
+
+-
+&lt;a href="https://www.w-l.fr/experiences/" rel="directory"&gt;Exp&#233;riences&lt;/a&gt;
+
+
+		</description>
+
+
+ <content:encoded>&lt;div class='rss_chapo'&gt;&lt;p&gt;J'ai effectu&#233; une mission d'int&#233;rim de 4 heures, en 2016, pour un des clients d'Adecco. Dans le cadre de cette mission, je devais travailler en tant qu'inventoriste un sein de magasin Auchan situ&#233; &#224; Viry-Noureuil (02300).&lt;/p&gt;&lt;/div&gt;
+		&lt;div class='rss_texte'&gt;&lt;p&gt;Ma mission consistais &#224; remplir les rayons des produits qu'ils contiennent, dans la partie &#233;picerie du magasin.&lt;br class='autobr' /&gt;
+Je remettais en place les produits qui ne l'&#233;tais pas.&lt;/p&gt;&lt;/div&gt;
+		
+		</content:encoded>
+
+
+		
+
+	</item>
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:10:"id_article";s:2:"19";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-14 04:47:23";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-14 04:47:23";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584157642;s:2:"gz";b:0;s:3:"sig";i:1635487480;}}

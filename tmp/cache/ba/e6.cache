@@ -1,0 +1,142 @@
+a:2:{s:9:"nom_cache";s:38:"bae6d1fc72010d9d62515573d90b4769.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_fa6a2be6cee09489e678dca95ace9c24";s:6:"source";s:73:"../plugins/auto/info_spip/v0.11.1/prive/style_prive_plugin_info_spip.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"bae6d1fc72010d9d62515573d90b4769.cache";}s:7:"entetes";a:5:{s:12:"X-Spip-Cache";s:6:"360000";s:13:"Cache-Control";s:14:"max-age=360000";s:15:"X-Spip-Statique";s:3:"oui";s:12:"Content-Type";s:29:"text/css; charset=iso-8859-15";s:4:"Vary";s:15:"Accept-Encoding";}s:5:"duree";i:360000;s:5:"texte";s:3652:"/*
+Valeurs par defaut :
+claire: #C4C4DD;
+foncee: #8F8FBD;
+left: left;
+right: right;
+
+dir: ltr;
+
+font-size: 0.8125em;
+line-height: 1.385em;
+margin-bottom: 1.385em;
+text-indent: 50px;
+font-family: Helvetica, Arial, sans-serif;
+background-color : #F8F7F3;
+color: #000000;
+*/
+body.info_config #contenu table {
+	width: 100%;
+}
+body.info_config #contenu .fiche_objet #wysiwyg .champ {
+	margin-bottom: 1em;
+	overflow: hidden;
+	padding-top: 0.5em;
+	border-top: 1px solid #C4C4DD;
+}
+body.info_config #contenu .fiche_objet #wysiwyg .champ .label.visible {
+	display: block;
+	width: 30%;
+	margin-top:0;
+	float: left;
+	font-weight: bold;
+	color: #000000;
+}
+body.info_config #contenu .fiche_objet #wysiwyg .champ .span {
+	display:block;
+	width: 69%;
+	float: right;
+}
+body.info_config #contenu .fiche_objet #wysiwyg .fieldset {
+	margin-top: 2em;
+}
+body.info_config #contenu .fiche_objet #wysiwyg .fieldset + .liste-objets {
+	margin-top: 1em;
+}
+body.info_config #contenu .fiche_objet #wysiwyg .fieldset .titrem {
+	display: block;
+	font-weight: bold;
+	padding: 7px 5px 7px 10px;
+	border-top: 1px solid #000000;
+	background-color: #F8F7F3;
+	color: #8F8FBD;
+}
+
+
+body.accueil #navigation .box.type_site .inner {
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+}
+body.accueil #navigation .box.type_site.type_site_07prod .inner,
+body.accueil #navigation .box.type_site.type_site_06prep .inner {
+	background-color: #8cb000;
+	color: #ffffff;
+}
+body.accueil #navigation .box.type_site.type_site_05rec .inner,
+body.accueil #navigation .box.type_site.type_site_04test .inner {
+	background-color: #ffcb00;
+	color: #ffffff;
+}
+body.accueil #navigation .box.type_site.type_site_03inte .inner,
+body.accueil #navigation .box.type_site.type_site_02dev .inner {
+	background-color: #d3000d;
+	color: #000000;
+}
+body.accueil #navigation .box.type_site.type_site_01local .inner {
+	background-color: #bde000;
+	color: #ffffff;
+}
+.box.type_site .inner .bd {
+	display: none;
+}
+
+
+body.accueil #navigation .box.info.type_site {
+	margin: 2em 0;
+}
+body.accueil #navigation .box.info.type_site .inner {
+	background: none repeat scroll 0 0 #fcfcfc;
+	position: relative;
+	border: 2px solid #C4C4DD;
+	color: #000000;
+}
+body.accueil #navigation .box.info.type_site .inner .hd {
+	padding: 0.7em 10px;
+}
+body.accueil #navigation .box.info.type_site .inner .hd h3 {
+	margin-bottom: 0;
+	padding: 0;
+}
+
+body.accueil #navigation .box.info.type_site .cadre-icone {
+	left: 10px;
+	position: absolute;
+	top: -16px;
+	z-index: 1;
+	border:0 none;
+	margin: 0;
+	padding: 0;
+}
+
+
+ 
+.navigation_avec_icones .bando2_apache_modules {
+	background-image: url(../plugins/auto/info_spip/v0.11.1/prive/themes/spip/images/apache_modules-16.png);
+}
+ 
+.navigation_avec_icones .bando2_applicatif {
+	background-image: url(../plugins/auto/info_spip/v0.11.1/prive/themes/spip/images/applicatif-16.png);
+}
+ 
+.navigation_avec_icones .bando2_extensions_php {
+	background-image: url(../plugins/auto/info_spip/v0.11.1/prive/themes/spip/images/extensions_php-16.png);
+}
+ 
+.navigation_avec_icones .bando2_liste_auteurs_administrateurs {
+	background-image: url(../plugins/auto/info_spip/v0.11.1/prive/themes/spip/images/liste_auteurs_administrateurs-16.png);
+}
+ 
+.navigation_avec_icones .bando2_liste_auteurs_webmestre {
+	background-image: url(../plugins/auto/info_spip/v0.11.1/prive/themes/spip/images/liste_auteurs_webmestre-16.png);
+}
+ 
+.navigation_avec_icones .bando2_liste_plugins {
+	background-image: url(../plugins/auto/info_spip/v0.11.1/prive/themes/spip/images/liste_plugins-16.png);
+}
+ 
+.navigation_avec_icones .bando2_sgbd {
+	background-image: url(../plugins/auto/info_spip/v0.11.1/prive/themes/spip/images/sgbd-16.png);
+}
+
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:25:{s:1:"v";s:5:"22653";s:1:"p";s:4:"f981";s:6:"themes";s:4:"spip";s:3:"ltr";s:4:"left";s:4:"md5b";s:32:"53774ede752d185553f2931381f2325e";s:14:"couleur_claire";s:6:"C4C4DD";s:14:"couleur_foncee";s:6:"8F8FBD";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-02-27 09:49:16";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-02-27 09:49:16";s:18:"date_redac_default";b:1;s:6:"claire";s:7:"#C4C4DD";s:6:"foncee";s:7:"#8F8FBD";s:4:"left";s:4:"left";s:5:"right";s:5:"right";s:3:"rtl";s:0:"";s:3:"dir";s:3:"ltr";s:9:"font-size";s:8:"0.8125em";s:11:"line-height";s:7:"1.385em";s:13:"margin-bottom";s:7:"1.385em";s:11:"text-indent";s:4:"50px";s:11:"font-family";s:28:"Helvetica, Arial, sans-serif";s:16:"background-color";s:7:"#F8F7F3";s:5:"color";s:7:"#000000";}s:12:"lastmodified";i:1582793356;s:2:"gz";b:0;s:3:"sig";i:584067655;}}

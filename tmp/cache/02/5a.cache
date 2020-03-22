@@ -1,0 +1,48 @@
+a:2:{s:9:"nom_cache";s:38:"025aa798263fba35f8efc257f1e6cec4.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_7ecb170505bba13505effb8ef97a498b";s:6:"source";s:57:"plugins/auto/metasplus_v2/inclure/metasplus/inc-dist.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"025aa798263fba35f8efc257f1e6cec4.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:2300:"<!-- Dublin Core -->
+<link rel="schema.DC" href="https://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="https://purl.org/dc/terms/" />
+<meta name="DC.Format" content="text/html" />
+<meta name="DC.Type" content="Text" />
+<meta name="DC.Language" scheme="rfc1766" content="fr" />
+<meta name="DC.Title" lang="fr" content="Assistant, Film AA Production &#8211; Maxime Defretin" />
+<meta name="DC.Description.Abstract" lang="fr" content="Dans cette article j&#039;&#233;voque d&#039;un stage d&#039;assistant que j&#039;ai effectu&#233; pour effectu&#233; une reconversion professionnelle." />
+<meta name="DC.Date" scheme="DCTERMS.W3CDTF" content="2020-03-18" />
+<meta name="DC.Date.Modified" scheme="DCTERMS.W3CDTF" content="2020-02-10" />
+<meta name="DC.Identifier" scheme="URI" content="http://www.w-l.fr/experiences/article/assistant-film-a-production" />
+<meta name="DC.Publisher" content="Maxime Defretin" />
+<meta name="DC.Source" scheme="URI" content="https://w-l.fr" />
+
+<meta name="DC.Creator" content="Maxime" />
+
+
+
+
+
+<!-- Open Graph -->
+
+<meta property="og:site_name" content="Maxime Defretin" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Assistant, Film AA Production &#8211; Maxime Defretin" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:url" content="http://www.w-l.fr/experiences/article/assistant-film-a-production" />
+<meta property="og:description" content="Dans cette article j&#039;&#233;voque d&#039;un stage d&#039;assistant que j&#039;ai effectu&#233; pour effectu&#233; une reconversion professionnelle." />
+
+
+<meta property="article:published_time" content="2020-03-18" />
+<meta property="article:modified_time" content="2020-02-10" />
+
+<meta property="article:author" content="Maxime" />
+
+
+
+
+
+
+
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Assistant, Film AA Production &#8211; Maxime Defretin" />
+<meta name="twitter:description" content="Dans cette article j&#039;&#233;voque d&#039;un stage d&#039;assistant que j&#039;ai effectu&#233; pour effectu&#233; une reconversion professionnelle." />
+<meta name="twitter:dnt" content="on" />
+<meta name="twitter:url" content="http://www.w-l.fr/experiences/article/assistant-film-a-production" />";s:5:"notes";s:0:"";s:8:"contexte";a:15:{s:5:"titre";s:49:"Assistant, Film AA Production – Maxime Defretin";s:4:"desc";s:162:"&lt;p&gt;Dans cette article j&#8217;évoque d&#8217;un stage d&#8217;assistant que j&#8217;ai effectué pour effectué une reconversion professionnelle.&lt;/p&gt;";s:3:"url";s:47:"experiences/article/assistant-film-a-production";s:4:"date";s:19:"2020-03-18 12:12:21";s:3:"maj";s:19:"2020-02-10 15:37:09";s:6:"langue";s:2:"fr";s:10:"territoire";s:0:"";s:7:"og-type";s:7:"article";s:7:"dc-type";s:4:"Text";s:5:"logos";s:0:"";s:7:"auteurs";a:1:{i:0;s:6:"Maxime";}s:4:"mots";a:0:{}s:4:"lang";s:2:"fr";s:10:"date_redac";s:19:"2020-03-18 12:12:21";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584529941;s:2:"gz";b:0;s:3:"sig";i:-806429369;}}

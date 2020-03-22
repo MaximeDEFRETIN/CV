@@ -1,0 +1,51 @@
+a:2:{s:9:"nom_cache";s:38:"6bd1f18e42ea938d9174af6cbd3badd3.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_20bad19474852c2c1a99d7289d969071";s:6:"source";s:24:"squelettes/sommaire.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"6bd1f18e42ea938d9174af6cbd3badd3.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:4034:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie7"> <![endif]-->
+<!--[if IE 8 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie8"> <![endif]-->
+<!--[if IE 9 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js"> <!--<![endif]-->
+<head>
+    <script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);/*]]>*/</script>
+    <title>Maxime Defretin - C.V. numérique</title>
+    <meta name="description" content="Bienvenue !" />
+    <?php echo recuperer_fond( 'inclure/head', array('lang' => 'fr'), array("compil"=>array('squelettes/sommaire.html','html_20bad19474852c2c1a99d7289d969071','',11,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+</head>
+<body class="pas_surlignable page_sommaire">
+    <div class="page">
+        <?php echo recuperer_fond( 'inclure/header', array('home' => 'oui',
+	'lang' => 'fr'), array("compil"=>array('squelettes/sommaire.html','html_20bad19474852c2c1a99d7289d969071','',15,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+        <div class="main">
+            <div class="wrapper hfeed">
+                <div class="content" id="content">
+                    <div class="chapo"><p>Bienvenue&nbsp;!</p></div>
+                    <p><span class="tabulation"></span>Voici mon site web. Il me sert de C.V. Numérique. Vous y retrouverez donc les formations suivies, les compétences acquises, mes expériences professionnelles et le bénévolat que j'ai effectué.</p>
+                    <p><span class="tabulation"></span>Je suis autonome et curieux. Étant à la recherche d'un emploi, je suis ouvert à tous types d'opportunités professionnelles. Apprendre un nouveau métier n'est pas un problème pour moi car je saurai m'adapter.</p>
+                    <p><span class="tabulation"></span>Voici mon <a HREFLANG="fr" target="_blank" rel="prefetch nofollow noreferrer tag" href="/squelettes/css/pdf/C.V.-FR.pdf" title="C.V. - format pdf"> C.V.</a> que vous pouvez télécharger. Mon C.V. est réggulièrement mis à jour. De même que mon <a HREFLANG="fr" target="_blank" rel="prefetch noreferrer nofollow tag" href="https://www.linkedin.com/in/maximedefretin/" title="LinkedIn">profil LinkedIn</a> est consultable et mis à jour. </p>
+                </div><!--.content-->
+            </div><!--.wrapper-->
+            <?php echo recuperer_fond( 'inclure/nav', array_merge(array (
+  'date' => '2020-03-22 13:29:05',
+  'date_default' => true,
+  'date_redac' => '2020-03-22 13:29:05',
+  'date_redac_default' => true,
+),array('lang' => 'fr')), array("compil"=>array('squelettes/sommaire.html','html_20bad19474852c2c1a99d7289d969071','',25,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+            <div class="aside">
+                <?php echo recuperer_fond( 'inclure/navsub', array('lang' => 'fr'), array("compil"=>array('squelettes/sommaire.html','html_20bad19474852c2c1a99d7289d969071','',27,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+            </div><!--.aside-->
+        </div><!--.main-->
+        <?php echo recuperer_fond( 'inclure/footer', array_merge(array (
+  'date' => '2020-03-22 13:29:05',
+  'date_default' => true,
+  'date_redac' => '2020-03-22 13:29:05',
+  'date_redac_default' => true,
+),array('self' => './',
+	'lang' => 'fr')), array("compil"=>array('squelettes/sommaire.html','html_20bad19474852c2c1a99d7289d969071','',30,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+    </div><!--.page-->
+</body>
+</html>
+";s:5:"notes";s:0:"";s:8:"contexte";a:4:{s:4:"date";s:19:"2020-03-22 13:29:05";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-22 13:29:05";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584880144;s:2:"gz";b:0;s:3:"sig";i:-770450459;}}

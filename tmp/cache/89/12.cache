@@ -1,0 +1,64 @@
+a:2:{s:9:"nom_cache";s:38:"89129c02f69d475a8ad9bde4ee55fcab.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_1eb5a1f50f156b2537ba810598af7be8";s:6:"source";s:23:"squelettes/backend.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"89129c02f69d475a8ad9bde4ee55fcab.cache";}s:7:"entetes";a:2:{s:12:"Content-Type";s:23:"text/xml; charset=utf-8";s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:2727:"<?xml 
+version="1.0" encoding="utf-8"?>
+<rss version="2.0" 
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+>
+
+<channel xml:lang="fr">
+	<title>Maxime Defretin</title>
+	<link>https://w-l.fr/</link>
+	<description>Bienvenue !</description>
+	<language>fr</language>
+	<generator>SPIP - www.spip.net</generator>
+
+
+
+
+<?php echo recuperer_fond( 'inc-rss-item', array('id_article' => '25',
+	'lang' => 'fr'), array("compil"=>array('squelettes/backend.html','html_1eb5a1f50f156b2537ba810598af7be8','',25,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+<?php echo recuperer_fond( 'inc-rss-item', array('id_article' => '22',
+	'lang' => 'fr'), array("compil"=>array('squelettes/backend.html','html_1eb5a1f50f156b2537ba810598af7be8','',25,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+<?php echo recuperer_fond( 'inc-rss-item', array('id_article' => '24',
+	'lang' => 'fr'), array("compil"=>array('squelettes/backend.html','html_1eb5a1f50f156b2537ba810598af7be8','',25,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+<?php echo recuperer_fond( 'inc-rss-item', array('id_article' => '23',
+	'lang' => 'fr'), array("compil"=>array('squelettes/backend.html','html_1eb5a1f50f156b2537ba810598af7be8','',25,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+<?php echo recuperer_fond( 'inc-rss-item', array('id_article' => '21',
+	'lang' => 'fr'), array("compil"=>array('squelettes/backend.html','html_1eb5a1f50f156b2537ba810598af7be8','',25,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+<?php echo recuperer_fond( 'inc-rss-item', array('id_article' => '20',
+	'lang' => 'fr'), array("compil"=>array('squelettes/backend.html','html_1eb5a1f50f156b2537ba810598af7be8','',25,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+<?php echo recuperer_fond( 'inc-rss-item', array('id_article' => '19',
+	'lang' => 'fr'), array("compil"=>array('squelettes/backend.html','html_1eb5a1f50f156b2537ba810598af7be8','',25,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+<?php echo recuperer_fond( 'inc-rss-item', array('id_article' => '18',
+	'lang' => 'fr'), array("compil"=>array('squelettes/backend.html','html_1eb5a1f50f156b2537ba810598af7be8','',25,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+<?php echo recuperer_fond( 'inc-rss-item', array('id_article' => '17',
+	'lang' => 'fr'), array("compil"=>array('squelettes/backend.html','html_1eb5a1f50f156b2537ba810598af7be8','',25,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+<?php echo recuperer_fond( 'inc-rss-item', array('id_article' => '16',
+	'lang' => 'fr'), array("compil"=>array('squelettes/backend.html','html_1eb5a1f50f156b2537ba810598af7be8','',25,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+
+
+
+</channel>
+
+</rss>
+";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:4:"page";s:7:"backend";s:4:"date";s:19:"2020-03-15 02:07:18";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-15 02:07:18";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584234438;s:2:"gz";b:0;s:3:"sig";i:-959773231;}}

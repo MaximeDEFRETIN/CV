@@ -1,0 +1,14 @@
+a:2:{s:9:"nom_cache";s:38:"df6719d7ac2e4a418617f0f9514e7b1f.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_2b86667419653cd84b50e539bba36c01";s:6:"source";s:53:"plugins/auto/metasplus_v2/inclure/metasplus/dist.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"df6719d7ac2e4a418617f0f9514e7b1f.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:521:"<?php echo recuperer_fond( 'inclure/metasplus/inc-dist', array('titre' => '',
+	'desc' => '',
+	'url' => 'spip.php?page=spip_pass',
+	'date' => '2020-03-18 12:12:32',
+	'maj' => '',
+	'langue' => 'fr',
+	'territoire' => '',
+	'og-type' => 'website',
+	'dc-type' => 'Text',
+	'logos' => '',
+	'auteurs' => 'Maxime Defretin',
+	'mots' => '',
+	'lang' => 'fr'), array("compil"=>array('plugins/auto/metasplus_v2/inclure/metasplus/dist.html','html_2b86667419653cd84b50e539bba36c01','',177,$GLOBALS['spip_lang'])), _request("connect"));
+?>";s:5:"notes";s:0:"";s:8:"contexte";a:7:{s:9:"type-page";s:9:"spip_pass";s:6:"erreur";b:0;s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-18 12:12:32";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:12:32";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584529951;s:2:"gz";b:0;s:3:"sig";i:296038649;}}

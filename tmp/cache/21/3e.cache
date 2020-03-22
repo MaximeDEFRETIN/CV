@@ -1,0 +1,34 @@
+a:2:{s:9:"nom_cache";s:38:"213ed2b3490dac569b2fc9cd33e0f6b9.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_7ed79361d903088c34ecb5cef79b48d9";s:6:"source";s:33:"squelettes/inclure/documents.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"213ed2b3490dac569b2fc9cd33e0f6b9.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:762:"
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="menu documents_joints" id="documents_joints">
+        <h2>Documents joints</h2>
+        <ul class="spip">
+            
+                <li>
+                    <a href="IMG/pdf/titreprodeveloppeurweb.pdf" type="application/pdf" class="spip_doc pdf"><strong class="titre">Tirte Professionnel - Développeur Web</strong>
+                            <small class="info_document">(<abbr title="info document PDF" class="ext">PDF</abbr> - <span>1.1 Mo</span>)</small></a>
+                    <div class="descriptif"><p>C&#8217;est le fichier PDF de mon Titre Professionnel de développeur web.</p></div>
+                    
+                    
+                </li>
+            
+        </ul>
+    </div><!--#documents_joints-->
+
+
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:7:{s:11:"id_rubrique";s:0:"";s:10:"id_article";s:2:"11";s:4:"date";s:19:"2020-02-28 15:11:24";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-02-28 15:11:24";s:18:"date_redac_default";b:1;s:4:"lang";s:2:"fr";}s:12:"lastmodified";i:1582899084;s:2:"gz";b:0;s:3:"sig";i:2115556787;}}

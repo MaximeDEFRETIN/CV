@@ -1,0 +1,49 @@
+a:2:{s:9:"nom_cache";s:38:"88af50eba31e5e4c9cd3497451d60ca8.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_7ecb170505bba13505effb8ef97a498b";s:6:"source";s:57:"plugins/auto/metasplus_v2/inclure/metasplus/inc-dist.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"88af50eba31e5e4c9cd3497451d60ca8.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:2198:"<!-- Dublin Core -->
+<link rel="schema.DC" href="https://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="https://purl.org/dc/terms/" />
+<meta name="DC.Format" content="text/html" />
+<meta name="DC.Type" content="Text" />
+<meta name="DC.Language" scheme="rfc1766" content="fr" />
+<meta name="DC.Title" lang="fr" content="Comp&#233;tences &#8211; Maxime Defretin" />
+<meta name="DC.Description.Abstract" lang="fr" content="Je ma&#238;trise plusieurs langages, outils et frameworks me permettant la cr&#233;ation d&#039;un site web. Je ma&#238;trise &#233;galement 2 os." />
+<meta name="DC.Date" scheme="DCTERMS.W3CDTF" content="2020-03-18" />
+<meta name="DC.Date.Modified" scheme="DCTERMS.W3CDTF" content="2020-02-19" />
+<meta name="DC.Identifier" scheme="URI" content="http://www.w-l.fr/competences/article/competences" />
+<meta name="DC.Publisher" content="Maxime Defretin" />
+<meta name="DC.Source" scheme="URI" content="https://w-l.fr" />
+
+<meta name="DC.Creator" content="Maxime" />
+
+
+
+
+
+<!-- Open Graph -->
+
+<meta property="og:site_name" content="Maxime Defretin" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Comp&#233;tences &#8211; Maxime Defretin" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:url" content="http://www.w-l.fr/competences/article/competences" />
+<meta property="og:description" content="Je ma&#238;trise plusieurs langages, outils et frameworks me permettant la cr&#233;ation d&#039;un site web. Je ma&#238;trise &#233;galement 2 os." />
+
+
+<meta property="article:published_time" content="2020-03-18" />
+<meta property="article:modified_time" content="2020-02-19" />
+
+<meta property="article:author" content="Maxime" />
+
+
+
+
+
+
+
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Comp&#233;tences &#8211; Maxime Defretin" />
+<meta name="twitter:description" content="Je ma&#238;trise plusieurs langages, outils et frameworks me permettant la cr&#233;ation d&#039;un site web. Je ma&#238;trise &#233;galement 2 os." />
+<meta name="twitter:dnt" content="on" />
+<meta name="twitter:url" content="http://www.w-l.fr/competences/article/competences" />";s:5:"notes";s:0:"";s:8:"contexte";a:15:{s:5:"titre";s:32:"Compétences – Maxime Defretin";s:4:"desc";s:187:"&lt;p&gt;Je maîtrise plusieurs langages, outils et frameworks me permettant la création d&#8217;un site web.&lt;br class=&#039;autobr&#039; /&gt;
+Je maîtrise également 2 os.&lt;/p&gt;";s:3:"url";s:31:"competences/article/competences";s:4:"date";s:19:"2020-03-18 12:12:10";s:3:"maj";s:19:"2020-02-19 15:43:38";s:6:"langue";s:2:"fr";s:10:"territoire";s:0:"";s:7:"og-type";s:7:"article";s:7:"dc-type";s:4:"Text";s:5:"logos";s:0:"";s:7:"auteurs";a:1:{i:0;s:6:"Maxime";}s:4:"mots";a:0:{}s:4:"lang";s:2:"fr";s:10:"date_redac";s:19:"2020-03-18 12:12:10";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1584529930;s:2:"gz";b:0;s:3:"sig";i:577690476;}}

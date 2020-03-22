@@ -1,0 +1,50 @@
+a:2:{s:9:"nom_cache";s:38:"e64f8599f483955b7595a22defcba7d0.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_da98afea5eb59779bf36cb6c21b5addc";s:6:"source";s:69:"../plugins/auto/saisies/v3.34.0/prive/style_prive_plugin_saisies.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"e64f8599f483955b7595a22defcba7d0.cache";}s:7:"entetes";a:5:{s:12:"X-Spip-Cache";s:6:"360000";s:13:"Cache-Control";s:14:"max-age=360000";s:15:"X-Spip-Statique";s:3:"oui";s:12:"Content-Type";s:29:"text/css; charset=iso-8859-15";s:4:"Vary";s:15:"Accept-Encoding";}s:5:"duree";i:360000;s:5:"texte";s:3012:"#wysiwyg .saisie_fieldset .champ {font-size: 1em;}
+
+body.saisies_doc {
+	background-color: #efefef;
+}
+
+
+.navigation_avec_icones .bando2_saisie_auteurs { background-image: url(../local/cache-vignettes/L16xH16/saisies_auteurs-f416e.png?1583407029); }
+
+.navigation_avec_icones .bando2_saisie_case { background-image: url(../local/cache-vignettes/L16xH16/saisies_case-63b30.png?1583407029); }
+
+.navigation_avec_icones .bando2_saisie_checkbox { background-image: url(../local/cache-vignettes/L16xH16/saisies_checkbox-2f85a.png?1583407029); }
+
+.navigation_avec_icones .bando2_saisie_choix_grille {  }
+
+.navigation_avec_icones .bando2_saisie_date { background-image: url(../local/cache-vignettes/L16xH16/saisies_date-774c7.png?1583407029); }
+
+.navigation_avec_icones .bando2_saisie_destinataires {  }
+
+.navigation_avec_icones .bando2_saisie_email { background-image: url(../local/cache-vignettes/L16xH16/saisies_email-18b7b.png?1583407029); }
+
+.navigation_avec_icones .bando2_saisie_explication { background-image: url(../local/cache-vignettes/L16xH16/saisies_explication-99918.png?1583407029); }
+
+.navigation_avec_icones .bando2_saisie_fieldset { background-image: url(../local/cache-vignettes/L16xH16/saisies_fieldset-8722f.png?1583407029); }
+
+.navigation_avec_icones .bando2_saisie_hidden { background-image: url(../local/cache-vignettes/L16xH16/saisies_hidden-1b410.png?1583407029); }
+
+.navigation_avec_icones .bando2_saisie_input { background-image: url(../local/cache-vignettes/L16xH16/saisies_input-140e0.png?1583407029); }
+
+.navigation_avec_icones .bando2_saisie_mot {  }
+
+.navigation_avec_icones .bando2_saisie_oui_non { background-image: url(../local/cache-vignettes/L16xH16/saisies_oui_non-1565e.png?1583407029); }
+
+.navigation_avec_icones .bando2_saisie_radio { background-image: url(../local/cache-vignettes/L16xH16/saisies_radio-76e39.png?1583407029); }
+
+.navigation_avec_icones .bando2_saisie_selecteur_article { background-image: url(../local/cache-vignettes/L16xH16/saisies_selecteur_article-75272.png?1583407029); }
+
+.navigation_avec_icones .bando2_saisie_selecteur_document { background-image: url(../local/cache-vignettes/L16xH16/saisies_selecteur_article-75272.png?1583407029); }
+
+.navigation_avec_icones .bando2_saisie_selecteur_rubrique { background-image: url(../local/cache-vignettes/L16xH16/saisies_selecteur_rubrique-217b0.png?1583407029); }
+
+.navigation_avec_icones .bando2_saisie_selecteur_rubrique_article { background-image: url(../local/cache-vignettes/L16xH16/saisies_selecteur_rubrique_article-51fb9.png?1583407029); }
+
+.navigation_avec_icones .bando2_saisie_selection { background-image: url(../local/cache-vignettes/L16xH16/saisies_selection-bd38f.png?1583407029); }
+
+.navigation_avec_icones .bando2_saisie_selection_multiple { background-image: url(../local/cache-vignettes/L16xH16/saisies_selection_multiple-c4947.png?1583407029); }
+
+.navigation_avec_icones .bando2_saisie_textarea { background-image: url(../local/cache-vignettes/L16xH16/saisies_textarea-707ab.png?1583407029); }
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:25:{s:1:"v";s:5:"22653";s:1:"p";s:4:"139e";s:6:"themes";s:4:"spip";s:3:"ltr";s:4:"left";s:4:"md5b";s:32:"53774ede752d185553f2931381f2325e";s:14:"couleur_claire";s:6:"FFDDAA";s:14:"couleur_foncee";s:6:"CDA261";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2020-03-05 12:17:07";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-05 12:17:07";s:18:"date_redac_default";b:1;s:6:"claire";s:7:"#FFDDAA";s:6:"foncee";s:7:"#CDA261";s:4:"left";s:4:"left";s:5:"right";s:5:"right";s:3:"rtl";s:0:"";s:3:"dir";s:3:"ltr";s:9:"font-size";s:8:"0.8125em";s:11:"line-height";s:7:"1.385em";s:13:"margin-bottom";s:7:"1.385em";s:11:"text-indent";s:4:"50px";s:11:"font-family";s:28:"Helvetica, Arial, sans-serif";s:16:"background-color";s:7:"#F8F7F3";s:5:"color";s:7:"#000000";}s:12:"lastmodified";i:1583407026;s:2:"gz";b:0;s:3:"sig";i:-853699332;}}

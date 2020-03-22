@@ -1,0 +1,15 @@
+a:2:{s:9:"nom_cache";s:38:"7186cd1c65e63bd44f23dd5985fbd546.cache";s:6:"valeur";a:12:{s:9:"squelette";s:37:"html_47156dc73730c617d81a0b8ae3044399";s:6:"source";s:27:"squelettes/inclure/nav.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:38:"7186cd1c65e63bd44f23dd5985fbd546.cache";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:509:"
+    <div class="nav clearfix" id="nav">
+        <ul>
+            
+                <li class="nav-item  first"><a href="benevolats/">Bénévolats</a></li>
+            
+                <li class="nav-item"><a href="competences/">Compétences</a></li>
+            
+                <li class="nav-item on"><a href="diplomes-et-formations/">Diplômes et formations</a></li>
+            
+                <li class="nav-item  last"><a href="experiences/">Expériences</a></li>
+            
+        </ul>
+    </div>
+";s:5:"notes";s:0:"";s:8:"contexte";a:7:{s:11:"id_rubrique";s:1:"2";s:10:"id_article";s:2:"11";s:4:"date";s:19:"2020-03-18 12:14:14";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2020-03-18 12:14:14";s:18:"date_redac_default";b:1;s:4:"lang";s:2:"fr";}s:12:"lastmodified";i:1584530054;s:2:"gz";b:0;s:3:"sig";i:50977118;}}
